@@ -3,7 +3,7 @@ from PIL import Image
 import glob
 
 def generate_thumbnail(pdf_file):
-  images = convert_from_path(pdf_file, dpi=25, first_page=1, last_page=2)
+  images = convert_from_path(pdf_file, dpi=32, first_page=1, last_page=2)
 
   widths, heights = zip(*(i.size for i in images))
 

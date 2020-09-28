@@ -37,7 +37,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "data",
-        path: `${__dirname}/data/`
+        path: `${__dirname}/${config.useDummyData ? 'dummy_data' : 'data'}/`
       }
     },
 
