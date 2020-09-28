@@ -1,0 +1,188 @@
+import React from 'react'
+import Helmet from 'react-helmet'
+import { graphql, Link  } from 'gatsby'
+import Layout from '../../layout'
+import config from '../../../site-config'
+import { Pane, Heading, Text, Button } from 'evergreen-ui'
+import CardList from '../../components/CardList'
+import moment from 'moment';
+import LinkIcon from '../../components/LinkIcon'
+
+export default ({ data, pageContext, location }) => {
+  
+  const paper = {
+    ...data.markdownRemark.frontmatter,
+    tasks: pageContext.tasks,
+    methods: pageContext.methods,
+    content: data.markdownRemark.html,
+  }
+
+  return (
+    <Layout 
+      location={location} 
+      header_bg="/header_bg_papers.svg"
+      header={(
+        <Pane
+          maxWidth={1024}
+          className="sub-header"
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          marginLeft="auto"
+          marginRight="auto"
+        >
+          <Heading color="white" size={900}>Paper</Heading>
+        </Pane>
+      )}
+    >
+      <Pane
+        is="main"
+        marginTop={45}
+        marginBottom={45}
+        maxWidth={1024}
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        marginLeft="auto"
+        marginRight="auto"
+      >
+        <Helmet
+          title={`${config.siteTitle}`}
+        />
+
+        <Pane 
+          marginRight={15}
+          marginLeft={15}
+          display="flex" 
+          flexDirection="column"
+        >
+          <Pane
+            display="flex" 
+            flexDirection="column"
+            marginBottom={25}
+          >
+            <Heading size={800}>{paper.title}</Heading>
+            <Pane>
+              <Text>{moment(paper.date).format('D MMM YYYY')}</Text>
+              {paper.authors.map(author => (
+                <>
+                  <Text> &bull; </Text>
+                  <Text>{author}</Text>
+                </>
+              ))}
+            </Pane>
+          </Pane>
+          
+          <Pane
+            display="flex"
+          >
+            <Pane
+              flex={1}
+              marginRight={25}
+            >
+              <Pane width={250} marginLeft={20} marginBottom={20} float="right">
+                <img src={paper.thumbnail.publicURL} style={{width:"100%"}} alt="thumbnail" />
+              </Pane>
+              <Heading>Abstract</Heading>
+              <Pane>
+                <p>{paper.abstract}</p>
+              </Pane>
+
+              { paper.content.trim().length > 0 && (
+                <>
+                  <Heading marginTop={15}>Discussion</Heading>
+                  <Pane dangerouslySetInnerHTML={{ __html: paper.content }} />
+                </>
+              )}
+
+
+            </Pane>
+
+          </Pane>
+
+          <Pane
+            display="flex"
+            flexDirection="column"
+            marginBottom={35}
+          >
+
+
+            <Heading size={700} marginBottom={30}>Links</Heading>
+
+            <Pane 
+              display="flex"
+              flexDirection="column"
+            >
+              {paper.links.map((link, index) => (
+                <Link to={link.url}>
+                  <Button 
+                    padding={10}
+                    marginLeft={-10}
+                    height={56}
+                    appearance="minimal"
+                    key={index}
+                    display="flex"
+                    justifyContent="center"
+                    alignItems="center"
+                  >
+                    <Pane width="32px" height="32px" marginRight={16} display="flex">
+                      <LinkIcon icon={link.type} style={{width:"100%", height: "100%", objectFit: "contain"}} />
+                    </Pane>
+                    <Pane flex={1} display="flex" justifyContent="flexStart" flexDirection="column">
+                      <Heading textAlign="left" size={400}>{link.title}</Heading>
+                      <Text textAlign="left" size={300}>{link.url}</Text>
+                    </Pane>
+                  </Button>
+                </Link>
+              ))}
+            </Pane>
+          </Pane>
+
+          <Pane
+            display="flex"
+            flexDirection="column"
+            marginBottom={35}
+          >
+            <Heading size={700} marginBottom={30}>Tasks</Heading>
+            <CardList tasks={paper.tasks} url_callback={task=>`/task/${task.name}`}/>
+          </Pane>
+
+          <Pane
+            display="flex"
+            flexDirection="column"
+            marginBottom={35}
+          >
+            <Heading size={700} marginBottom={30}>Methods</Heading>
+            <CardList tasks={paper.methods} url_callback={method=>`/method/${method.name}`}/>
+          </Pane>
+
+        </Pane>
+
+      </Pane>
+    </Layout>
+  )
+}
+
+export const query = graphql`
+  query PaperQuery($name: String!) {
+    markdownRemark(fields: {type: {eq: "paper"}, name: {eq: $name }}) {
+      frontmatter {
+        title
+        abstract
+        date
+        authors
+        links {
+          title
+          type
+          url
+        }
+        thumbnail {
+          publicURL
+        }
+        tasks
+        methods
+      }
+      html
+    }
+  }
+`

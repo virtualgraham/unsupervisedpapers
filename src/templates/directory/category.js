@@ -1,0 +1,93 @@
+import React from 'react'
+import Helmet from 'react-helmet'
+import { graphql, Link } from 'gatsby'
+import Layout from '../../layout'
+import config from '../../../site-config'
+import { Pane, Heading, Button, CaretRightIcon } from 'evergreen-ui'
+import CardList from '../../components/CardList'
+import utils from '../../util/util'
+
+export default ({ data, pageContext, location }) => {
+  
+  const category = {
+    ...data.markdownRemark.frontmatter,
+    methods: pageContext.methods,
+    content: data.markdownRemark.html,
+  }
+
+  return (
+    <Layout 
+      location={location} 
+      header_bg="/header_bg_methods.svg"
+      header={(
+        <Pane
+          maxWidth={1024}
+          className="sub-header"
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          marginLeft="auto"
+          marginRight="auto"
+        >
+          <Heading color="white" size={900}>Category</Heading>
+        </Pane>
+      )}
+    >
+      <Pane
+        is="main"
+        marginTop={15}
+        marginBottom={45}
+        maxWidth={1024}
+        display="flex"
+        flexDirection="column"
+        marginLeft="auto"
+        marginRight="auto"
+      >
+        <Helmet
+          title={`${config.siteTitle}`}
+        />
+        <Pane 
+          marginRight={15}
+          marginLeft={15}
+          display="flex" 
+          flexDirection="column"
+        >
+          <Pane 
+            marginLeft={-7}
+            marginBottom={25} 
+            display="flex"
+            alignItems="center"
+          >
+            <Link to="/methods/"><Button appearance="minimal" paddingLeft={7} paddingRight={7}>Methods</Button></Link>
+            <CaretRightIcon color="muted" marginLeft={-3} marginRight={-3} />
+            <Link to={`/methods/area/${category.area}`}><Button appearance="minimal" paddingLeft={7} paddingRight={7}>{utils.decodeKebobCase(category.area)}</Button></Link>
+            <CaretRightIcon color="muted" marginLeft={-3} marginRight={-3} />
+            <Heading paddingLeft={7} paddingRight={7} size={200}>{category.title}</Heading>
+          </Pane>
+
+          <Heading size={800}>{category.title}</Heading>
+          <Pane marginBottom={50} dangerouslySetInnerHTML={{ __html: category.content }} />
+
+          <Heading size={700} marginBottom={30}>Methods</Heading>
+          <CardList tasks={category.methods} url_callback={method=>`/method/${method.name}`}/>
+
+        </Pane>
+      </Pane>
+    </Layout>
+  )
+}
+
+export const query = graphql`
+  query CategoryQuery($name: String!) {
+    markdownRemark(fields: {type: {eq: "category"}, name: {eq: $name}}) {
+      frontmatter {
+        area
+        title
+        thumbnail {
+          name
+        }
+      }
+      html
+    }
+  }
+`
