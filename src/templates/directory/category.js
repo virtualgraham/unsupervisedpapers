@@ -6,12 +6,14 @@ import config from '../../../site-config'
 import { Pane, Heading, Button, CaretRightIcon } from 'evergreen-ui'
 import CardList from '../../components/CardList'
 import utils from '../../util/util'
+import LinkList from '../../components/LinkList'
 
 export default ({ data, pageContext, location }) => {
   
   const category = {
     area: data.markdownRemark.frontmatter.area,
     title: data.markdownRemark.frontmatter.title,
+    links: data.markdownRemark.frontmatter.links,
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     methods: pageContext.methods,
     content: data.markdownRemark.html,
@@ -70,6 +72,17 @@ export default ({ data, pageContext, location }) => {
           <Heading size={800}>{category.title}</Heading>
           <Pane marginBottom={50} dangerouslySetInnerHTML={{ __html: category.content }} />
 
+          { category.links && category.links.length && (
+            <Pane
+              display="flex"
+              flexDirection="column"
+              marginBottom={35}
+            >
+              <Heading size={700} marginBottom={30}>Links</Heading>
+              <LinkList links={category.links} />
+            </Pane>
+          )}
+
           <Heading size={700} marginBottom={30}>Methods</Heading>
           <CardList tasks={category.methods} url_callback={method=>`/method/${method.name}`} />
 
@@ -85,6 +98,11 @@ export const query = graphql`
       frontmatter {
         area
         title
+        links {
+          title
+          type
+          url
+        }
         thumbnail {
           publicURL
         }

@@ -2,7 +2,7 @@
 {
   "area": "computer-vision",
   "title": "Object Cosegmentation",
-  "parent-task": "image-segmentation",
+  "parent-task": "semantic-segmentation",
   "thumbnail": null,
   "links": [
     {
