@@ -47,8 +47,7 @@ export default ({ data, pageContext, location }) => {
         marginBottom={45}
         maxWidth={1024}
         display="flex"
-        alignItems="center"
-        justifyContent="center"
+        flexDirection="column"
         marginLeft="auto"
         marginRight="auto"
       >

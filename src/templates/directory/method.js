@@ -13,7 +13,10 @@ import moment from 'moment';
 export default ({ data, pageContext, location }) => {
 
   const method = {
-    ...data.markdownRemark.frontmatter,
+    area: data.markdownRemark.frontmatter.area,
+    title: data.markdownRemark.frontmatter.title,
+    year: data.markdownRemark.frontmatter.title,
+    thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     papers: pageContext.papers,
     tasks: pageContext.tasks,
     introduced_by: pageContext.introduced_by,
@@ -82,18 +85,22 @@ export default ({ data, pageContext, location }) => {
           >
             <Pane flex={1} marginRight={25} dangerouslySetInnerHTML={{ __html: method.content }} />
             <Pane width={250}>
-              <img src={method.thumbnail.publicURL} style={{width:"100%"}} alt="thumbnail" />
+              <img src={method.thumbnail} style={{width:"100%"}} alt="thumbnail" />
             </Pane>
           </Pane>
 
-          <Pane
-            display="flex"
-            flexDirection="column"
-            marginBottom={35}
-          >
-            <Heading size={700} marginBottom={30}>Introduced By</Heading>
-            <PaperCard paper={method.introduced_by} compact />
-          </Pane>    
+          { method.introduced_by &&
+            (
+              <Pane
+                display="flex"
+                flexDirection="column"
+                marginBottom={35}
+              >
+                <Heading size={700} marginBottom={30}>Introduced By</Heading>
+                <PaperCard paper={method.introduced_by} compact />
+              </Pane>  
+            ) 
+          }
 
           <Pane
             display="flex"
@@ -158,7 +165,6 @@ export const query = graphql`
         area
         title
         year
-        introduced_by
         thumbnail {
           publicURL
         }

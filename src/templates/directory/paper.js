@@ -11,7 +11,12 @@ import LinkIcon from '../../components/LinkIcon'
 export default ({ data, pageContext, location }) => {
   
   const paper = {
-    ...data.markdownRemark.frontmatter,
+    title: data.markdownRemark.frontmatter.title,
+    abstract: data.markdownRemark.frontmatter.abstract,
+    date: data.markdownRemark.frontmatter.date,
+    authors: data.markdownRemark.frontmatter.authors,
+    links: data.markdownRemark.frontmatter.links,
+    thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     tasks: pageContext.tasks,
     methods: pageContext.methods,
     content: data.markdownRemark.html,
@@ -81,7 +86,7 @@ export default ({ data, pageContext, location }) => {
               marginRight={25}
             >
               <Pane width={250} marginLeft={20} marginBottom={20} float="right">
-                <img src={paper.thumbnail.publicURL} style={{width:"100%"}} alt="thumbnail" />
+                <img src={paper.thumbnail} style={{width:"100%"}} alt="thumbnail" />
               </Pane>
               <Heading>Abstract</Heading>
               <Pane>

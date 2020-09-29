@@ -1,5 +1,6 @@
 const config = {
-  useDummyData: true,
+  defaultThumbnail: "/thumbnail.svg",
+  useDummyData: false,
   siteTitle: 'Unsupervised Papers', // Site title.
   siteTitleShort: 'Unsupervised Papers', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: 'Unsupervised Papers', // Alternative site title for SEO.

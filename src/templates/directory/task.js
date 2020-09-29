@@ -11,7 +11,9 @@ import utils from '../../util/util'
 export default ({ data, pageContext, location }) => {
   
   const task = {
-    ...data.markdownRemark.frontmatter,
+    area: data.markdownRemark.frontmatter.area,
+    title: data.markdownRemark.frontmatter.title,
+    thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     papers: pageContext.papers,
     filtered_papers: pageContext.papers,
     sub_tasks: pageContext.sub_tasks,
@@ -80,7 +82,7 @@ export default ({ data, pageContext, location }) => {
           >
             <Pane flex={1} marginRight={25} dangerouslySetInnerHTML={{ __html: task.content }} />
             <Pane width={250} marginTop={16}>
-              <img src={task.thumbnail.publicURL} style={{width:"100%"}} alt="thumbnail" />
+              <img src={task.thumbnail} style={{width:"100%"}} alt="thumbnail" />
             </Pane>
           </Pane>
 

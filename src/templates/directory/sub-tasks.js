@@ -11,7 +11,9 @@ import utils from '../../util/util'
 export default ({ data, pageContext, location  }) => {
   
   const task = {
-    ...data.markdownRemark.frontmatter,
+    area: data.markdownRemark.frontmatter.area,
+    title: data.markdownRemark.frontmatter.title,
+    thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     name: data.markdownRemark.fields.name,
     sub_tasks: pageContext.sub_tasks,
   }
@@ -84,7 +86,7 @@ export const query = graphql`
         title
         parent_task
         thumbnail {
-          name
+          publicURL
         }
       }
       fields {

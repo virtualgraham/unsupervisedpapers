@@ -5,6 +5,7 @@ import { Pane, Heading } from 'evergreen-ui'
 import Layout from '../layout'
 import Search from '../components/Search'
 import SearchInputUrlQuery from '../components/SearchInputUrlQuery'
+import config from '../../site-config'
 
 export default ({ data, location  }) => {
 
@@ -15,7 +16,7 @@ export default ({ data, location  }) => {
     date: paper_node.frontmatter.date,
     authors: paper_node.frontmatter.authors,
     abstract: paper_node.frontmatter.abstract,
-    thumbnail: paper_node.frontmatter.thumbnail.publicURL,
+    thumbnail: paper_node.frontmatter.thumbnail ? paper_node.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     links: paper_node.frontmatter.links,
     tasks: paper_node.frontmatter.tasks,
     methods: paper_node.frontmatter.methods,

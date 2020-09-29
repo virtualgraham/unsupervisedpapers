@@ -2,7 +2,6 @@ const path = require("path");
 const moment = require("moment");
 const siteConfig = require("./site-config");
 
-
 function encodeKebobCase(str) {
   return str.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/\s+/g, '-').toLowerCase()
 }
@@ -491,14 +490,14 @@ async function createDirectoryPages(graphql, actions) {
       return ({
         name: category.fields.name,
         title: category.frontmatter.title,
-        thumbnail: category.frontmatter.thumbnail.publicURL,
+        thumbnail: category.frontmatter.thumbnail ? category.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
         methods: category.methods.map(method => {
           paper_count += method.paper_count
           return ({
             name: method.fields.name,
             title: method.frontmatter.title,
             year: method.frontmatter.year,
-            thumbnail: method.frontmatter.thumbnail.publicURL,
+            thumbnail: method.frontmatter.thumbnail ? method.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
             paper_count: method.paper_count
           })
         })
@@ -538,14 +537,14 @@ async function createDirectoryPages(graphql, actions) {
       return ({
         name: task.fields.name,
         title: task.frontmatter.title,
-        thumbnail: task.frontmatter.thumbnail.publicURL,
+        thumbnail: task.frontmatter.thumbnail ? task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
         paper_count: task.paper_count,
         sub_tasks: task.sub_tasks.map(sub_task => {
           paper_count += sub_task.paper_count
           return ({
             name: sub_task.fields.name,
             title: sub_task.frontmatter.title,
-            thumbnail: sub_task.frontmatter.thumbnail.publicURL,
+            thumbnail: sub_task.frontmatter.thumbnail ? sub_task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
             paper_count: sub_task.paper_count,
           })
         })
@@ -574,13 +573,13 @@ async function createDirectoryPages(graphql, actions) {
     const ctx_tasks = paper.tasks.map(task => ({
       name: task.fields.name,
       title: task.frontmatter.title,
-      thumbnail: task.frontmatter.thumbnail.publicURL,
+      thumbnail: task.frontmatter.thumbnail ? task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
     }))
 
     const ctx_methods = paper.methods.map(method => ({
       name: method.fields.name,
       title: method.frontmatter.title,
-      thumbnail: method.frontmatter.thumbnail.publicURL,
+      thumbnail: method.frontmatter.thumbnail ? method.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
     }))
     
     createPage({
@@ -602,16 +601,16 @@ async function createDirectoryPages(graphql, actions) {
 
   methods.forEach((method, method_name) => {
 
-    const ctx_introduced_by = {
+    const ctx_introduced_by = method.introduced_by ? {
       name: method.introduced_by.fields.name,
       slug: method.introduced_by.fields.slug,
       title: method.introduced_by.frontmatter.title,
       date: method.introduced_by.frontmatter.date,
       authors: method.introduced_by.frontmatter.authors,
       abstract: method.introduced_by.frontmatter.abstract,
-      thumbnail: method.introduced_by.frontmatter.thumbnail.publicURL,
+      thumbnail: introduced_by.frontmatter.thumbnail ? method.introduced_by.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       links: method.introduced_by.frontmatter.links,
-    }
+    } : null
 
     const ctx_papers = method.papers.map(paper => ({
       name: paper.fields.name,
@@ -619,7 +618,7 @@ async function createDirectoryPages(graphql, actions) {
       date: paper.frontmatter.date,
       authors: paper.frontmatter.authors,
       abstract: paper.frontmatter.abstract,
-      thumbnail: paper.frontmatter.thumbnail.publicURL,
+      thumbnail: paper.frontmatter.thumbnail ? paper.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       links: paper.frontmatter.links
     }))
 
@@ -627,7 +626,7 @@ async function createDirectoryPages(graphql, actions) {
       name: task.fields.name,
       title: task.frontmatter.title,
       area: task.frontmatter.area,
-      thumbnail: task.frontmatter.thumbnail.publicURL,
+      thumbnail: task.frontmatter.thumbnail ? task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       paper_count: task.paper_count
     }))
 
@@ -635,14 +634,14 @@ async function createDirectoryPages(graphql, actions) {
       name: component.fields.name,
       title: component.frontmatter.title,
       year: component.frontmatter.year,
-      thumbnail: component.frontmatter.thumbnail.publicURL,
+      thumbnail: component.frontmatter.thumbnail ? component.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       paper_count: method.paper_count
     }))
 
     const ctx_categories = method.categories.map(category => ({
       name: category.fields.name,
       title: category.frontmatter.title,
-      thumbnail: category.frontmatter.thumbnail.publicURL,
+      thumbnail: category.frontmatter.thumbnail ? category.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
     }))
 
     createPage({
@@ -671,7 +670,7 @@ async function createDirectoryPages(graphql, actions) {
       name: method.fields.name,
       title: method.frontmatter.title,
       year: method.frontmatter.year,
-      thumbnail: method.frontmatter.thumbnail.publicURL,
+      thumbnail: method.frontmatter.thumbnail ? method.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       paper_count: method.paper_count
     }))
 
@@ -699,14 +698,14 @@ async function createDirectoryPages(graphql, actions) {
       date: paper.frontmatter.date,
       authors: paper.frontmatter.authors,
       abstract: paper.frontmatter.abstract,
-      thumbnail: paper.frontmatter.thumbnail.publicURL,
+      thumbnail: paper.frontmatter.thumbnail ? paper.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       links: paper.frontmatter.links
     }))
 
     const ctx_sub_tasks = task.sub_tasks.map(sub_task => ({
       name: sub_task.fields.name,
       title: sub_task.frontmatter.title,
-      thumbnail: sub_task.frontmatter.thumbnail.publicURL,
+      thumbnail: sub_task.frontmatter.thumbnail ? sub_task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       paper_count: sub_task.paper_count
     }))
 
@@ -731,7 +730,7 @@ async function createDirectoryPages(graphql, actions) {
     const ctx_sub_tasks = task.sub_tasks.map(sub_task => ({
       name: sub_task.fields.name,
       title: sub_task.frontmatter.title,
-      thumbnail: sub_task.frontmatter.thumbnail.publicURL,
+      thumbnail: sub_task.frontmatter.thumbnail ? sub_task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       paper_count: sub_task.paper_count
     }))
 
@@ -757,7 +756,7 @@ async function createDirectoryPages(graphql, actions) {
     ctx_area_categories[area] = area_categories.map(area_category => ({
       name: area_category.fields.name,
       title: area_category.frontmatter.title,
-      thumbnail: area_category.frontmatter.thumbnail.publicURL,
+      thumbnail: area_category.frontmatter.thumbnail ? area_category.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       paper_count: area_category.paper_count,
       method_count: area_category.method_count,
     }))
@@ -782,7 +781,7 @@ async function createDirectoryPages(graphql, actions) {
     ctx_area_tasks[area] = area_tasks.map(area_task => ({
       name: area_task.fields.name,
       title: area_task.frontmatter.title,
-      thumbnail: area_task.frontmatter.thumbnail.publicURL,
+      thumbnail: area_task.frontmatter.thumbnail ? area_task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       paper_count: area_task.paper_count
     }))
   })
@@ -944,3 +943,64 @@ exports.createPages = async ({ graphql, actions }) => {
   await createDirectoryPages(graphql, actions) 
 
 };
+
+
+exports.createSchemaCustomization = ({ actions, schema }) => {
+  const { createTypes } = actions
+  const typeDefs = [
+    schema.buildObjectType({
+      name: 'MarkdownRemark',
+      fields: {
+        frontmatter: 'MarkdownRemarkFrontmatter!'
+      },
+      interfaces: ['Node'],
+      extensions: {
+        infer: true,
+      },
+    }),
+    schema.buildObjectType({
+      name: 'MarkdownRemarkFrontmatter',
+      fields: {
+        year: {
+          type: 'Int',
+        },
+        introduced_by: {
+          type: 'String',
+        },
+        parent_task: {
+          type: 'String',
+        },
+        components: {
+          type: "[String!]",
+        },
+        // thumbnail: {
+        //   type: 'Thumbnail!',
+        //   resolve(source) {
+        //     console.log('Thumbnail', source)
+        //     const { thumbnail } = source
+        //     if (source.thumbnail == null || !thumbnail.publicURL) {
+        //       return {
+        //         publicURL: "/unsupervisedpapers.svg"
+        //       }
+        //     }
+        //     return thumbnail
+        //   },
+          
+        // }
+      }
+    }),
+    // schema.buildObjectType({
+    //   name: 'Thumbnail',
+    //   interfaces: ['Node'],
+    //   fields: {
+    //     publicURL: {
+    //       type: 'String',
+    //     },
+    //   },
+    //   extensions: {
+    //     infer: true,
+    //   },
+    // }),
+  ]
+  createTypes(typeDefs)
+}

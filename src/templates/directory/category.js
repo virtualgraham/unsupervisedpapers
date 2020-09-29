@@ -10,7 +10,9 @@ import utils from '../../util/util'
 export default ({ data, pageContext, location }) => {
   
   const category = {
-    ...data.markdownRemark.frontmatter,
+    area: data.markdownRemark.frontmatter.area,
+    title: data.markdownRemark.frontmatter.title,
+    thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     methods: pageContext.methods,
     content: data.markdownRemark.html,
   }
@@ -69,7 +71,7 @@ export default ({ data, pageContext, location }) => {
           <Pane marginBottom={50} dangerouslySetInnerHTML={{ __html: category.content }} />
 
           <Heading size={700} marginBottom={30}>Methods</Heading>
-          <CardList tasks={category.methods} url_callback={method=>`/method/${method.name}`}/>
+          <CardList tasks={category.methods} url_callback={method=>`/method/${method.name}`} />
 
         </Pane>
       </Pane>
@@ -84,7 +86,7 @@ export const query = graphql`
         area
         title
         thumbnail {
-          name
+          publicURL
         }
       }
       html
