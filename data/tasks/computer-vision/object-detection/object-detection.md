@@ -1,7 +1,7 @@
 ---
 {
   "area": "computer-vision",
-  "title": "Object Discovery",
+  "title": "Object Detection",
   "parent-task": null,
   "thumbnail": null
 }

@@ -4,7 +4,7 @@
   "title": "Parts Based Region Matching",
   "year": null,
   "categories": [
-    "parts-based-discovery",
+    "parts-based-models",
   ],
   "components": [],
   "thumbnail": null,
