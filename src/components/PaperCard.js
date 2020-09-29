@@ -64,6 +64,9 @@ export default ({ paper, compact=false, searchWords=[] }) => {
         </Pane>
         { !compact && (
           <Pane marginBottom={5} marginLeft={-3}>
+            {paper.supervision.map((supervision, index) => (
+              <Button height={24} marginTop={-5} marginLeft={-8} appearance="minimal" wordSpacing={0.125} key={index}>{util.decodeKebobCase(supervision)}</Button>
+            ))}
             {paper.tasks.map((task, idx) => (
               <Link key={idx} to={`/task/${task}`} onClick={e => e.stopPropagation()}><Button height={24} marginTop={-5} marginLeft={-8} appearance="minimal" wordSpacing={0.125}>{util.decodeKebobCase(task)}</Button></Link>
             ))}

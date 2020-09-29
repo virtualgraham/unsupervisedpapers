@@ -16,6 +16,7 @@ export default ({ data, location  }) => {
       authors: paper_node.frontmatter.authors,
       abstract: paper_node.frontmatter.abstract,
       thumbnail: paper_node.frontmatter.thumbnail ? paper_node.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
+      supervision: paper_node.frontmatter.supervision,
       links: paper_node.frontmatter.links,
       tasks: paper_node.frontmatter.tasks,
       methods: paper_node.frontmatter.methods,
@@ -73,6 +74,7 @@ export const query = graphql`
             type
             title
           }
+          supervision
           tasks
           methods
         }

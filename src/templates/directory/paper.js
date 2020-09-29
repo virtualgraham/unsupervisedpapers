@@ -7,6 +7,7 @@ import { Pane, Heading, Text, Button } from 'evergreen-ui'
 import CardList from '../../components/CardList'
 import moment from 'moment';
 import LinkList from '../../components/LinkList'
+import utils from '../../util/util'
 
 export default ({ data, pageContext, location }) => {
   
@@ -17,6 +18,7 @@ export default ({ data, pageContext, location }) => {
     authors: data.markdownRemark.frontmatter.authors,
     links: data.markdownRemark.frontmatter.links,
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
+    supervision: data.markdownRemark.frontmatter.supervision,
     tasks: pageContext.tasks,
     methods: pageContext.methods,
     content: data.markdownRemark.html,
@@ -76,6 +78,7 @@ export default ({ data, pageContext, location }) => {
                 </>
               ))}
             </Pane>
+
           </Pane>
           
           <Pane
@@ -91,6 +94,17 @@ export default ({ data, pageContext, location }) => {
               <Heading>Abstract</Heading>
               <Pane>
                 <p>{paper.abstract}</p>
+              </Pane>
+
+              <Heading>Supervision</Heading>
+              <Pane 
+                display="flex"
+                marginLeft={-15}
+                marginBottom={25}
+              >
+                {paper.supervision.map((supervision, index) => (
+                  <Button appearance="minimal" key={index}>{utils.decodeKebobCase(supervision)}</Button>
+                ))}
               </Pane>
 
               { paper.content.trim().length > 0 && (
@@ -110,10 +124,7 @@ export default ({ data, pageContext, location }) => {
             flexDirection="column"
             marginBottom={35}
           >
-
-
-            <Heading size={700} marginBottom={30}>Links</Heading>
-
+            <Heading size={700} marginBottom={15}>Links</Heading>
             <LinkList links={paper.links} />
           </Pane>
 
@@ -137,6 +148,8 @@ export default ({ data, pageContext, location }) => {
 
         </Pane>
 
+
+
       </Pane>
     </Layout>
   )
@@ -158,6 +171,7 @@ export const query = graphql`
         thumbnail {
           publicURL
         }
+        supervision
         tasks
         methods
       }

@@ -8,7 +8,7 @@ import PapersTable from '../../components/PapersTable'
 import CardList from '../../components/CardList'
 import PaperCard from '../../components/PaperCard'
 import utils from '../../util/util'
-import moment from 'moment';
+import LinkList from '../../components/LinkList'
 
 export default ({ data, pageContext, location }) => {
 
@@ -16,6 +16,7 @@ export default ({ data, pageContext, location }) => {
     area: data.markdownRemark.frontmatter.area,
     title: data.markdownRemark.frontmatter.title,
     year: data.markdownRemark.frontmatter.title,
+    links: data.markdownRemark.frontmatter.links,
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     papers: pageContext.papers,
     tasks: pageContext.tasks,
@@ -102,6 +103,17 @@ export default ({ data, pageContext, location }) => {
             ) 
           }
 
+          { method.links && method.links.length && (
+            <Pane
+              display="flex"
+              flexDirection="column"
+              marginBottom={35}
+            >
+              <Heading size={700} marginBottom={30}>Links</Heading>
+              <LinkList links={method.links} />
+            </Pane>
+          )}
+
           <Pane
             display="flex"
             flexDirection="column"
@@ -165,6 +177,11 @@ export const query = graphql`
         area
         title
         year
+        links {
+          title
+          type
+          url
+        }
         thumbnail {
           publicURL
         }

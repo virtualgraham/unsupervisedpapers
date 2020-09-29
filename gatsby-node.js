@@ -46,6 +46,7 @@ async function createDirectoryPages(graphql, actions) {
               type
               url
             }
+            supervision
             tasks
             methods
           }

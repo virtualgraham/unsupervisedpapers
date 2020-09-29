@@ -7,12 +7,14 @@ import { Pane, Heading, Text, Strong, Button, CaretRightIcon } from 'evergreen-u
 import CardList from '../../components/CardList'
 import PapersTable from '../../components/PapersTable'
 import utils from '../../util/util'
+import LinkList from '../../components/LinkList'
 
 export default ({ data, pageContext, location }) => {
   
   const task = {
     area: data.markdownRemark.frontmatter.area,
     title: data.markdownRemark.frontmatter.title,
+    links: data.markdownRemark.frontmatter.links,
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     papers: pageContext.papers,
     filtered_papers: pageContext.papers,
@@ -86,6 +88,17 @@ export default ({ data, pageContext, location }) => {
             </Pane>
           </Pane>
 
+          { task.links && task.links.length && (
+            <Pane
+              display="flex"
+              flexDirection="column"
+              marginBottom={35}
+            >
+              <Heading size={700} marginBottom={30}>Links</Heading>
+              <LinkList links={task.links} />
+            </Pane>
+          )}
+
           { task.sub_tasks.length > 0 && (
             <Pane
               display="flex"
@@ -125,6 +138,11 @@ export const query = graphql`
         area
         title
         parent_task
+        links {
+          title
+          type
+          url
+        }
         thumbnail {
           publicURL
         }
