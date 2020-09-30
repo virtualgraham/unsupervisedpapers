@@ -1,8 +1,8 @@
 ---
 {
-  "area": "parts-based-models",
+  "area": "computer-vision",
   "title": "Parts Based Models",
-  "thumbnail": null,
+  "thumbnail": "parts-based-models.png",
   "links": [
     {
       "title": "Wikipedia",
@@ -12,3 +12,5 @@
   ]
 }
 ---
+
+Image Source: [Supporting Information Appendix:Brain-Inspired Automated Visual ObjectDiscovery and Detection](https://www.pnas.org/highwire/filestream/840726/field_highwire_adjunct_files/0/pnas.1802103115.sapp.pdf)

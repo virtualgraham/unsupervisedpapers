@@ -39,12 +39,13 @@
     }
   ],
   "supervision": [
-      "semi-supervised"
+      "unsupervised"
   ],
   "tasks": [
-      "object-discovery", "object-detection"
+      "object-detection", "object-localization", "one-class-classification"
   ],
   "methods": [
+    "spring-network-model", "histogram-of-oriented-gradients", "k-means-clustering", "principal-component-analysis", "markov-random-field"
   ],
   "thumbnail": "brain-inspired-automated-visual-object-discovery-and-detection.jpg"
 }

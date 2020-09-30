@@ -3,7 +3,7 @@
   "area": "computer-vision",
   "title": "Object Detection",
   "parent-task": null,
-  "thumbnail": null,
+  "thumbnail": "object-detection.jpg",
   "links": [
     {
       "title": "Papers With Code",
@@ -13,3 +13,5 @@
   ]
 }
 ---
+
+Image Source [Wikipedia](https://en.wikipedia.org/wiki/Object_detection#/media/File:Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg)

@@ -191,7 +191,7 @@ async function createDirectoryPages(graphql, actions) {
       console.assert(tasks.has(task_name), "ID ERROR: list of tasks in paper \"" + paper.fields.name + "\" has invalid task id \"" + task_name + "\"")
     })
     paper.frontmatter.methods.forEach(method_name => {
-      console.assert(methods.has(method_name), "ID ERROR: list of methods in paper \"" + paper.fields.name + "\" has invalid method id \"" + method_name + "\"")
+      console.assert(methods.has(method_name), "ID ERROR: list of methods has invalid method id \"" + method_name + "\" in paper \"" + paper.fields.name + "\"")
     })
   })
 

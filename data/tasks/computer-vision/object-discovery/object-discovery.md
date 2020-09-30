@@ -3,7 +3,7 @@
   "area": "computer-vision",
   "title": "Object Discovery",
   "parent-task": null,
-  "thumbnail": null,
+  "thumbnail": "object-discovery.png",
   "links": [
     {
       "title": "Papers With Code",
@@ -13,3 +13,5 @@
   ]
 }
 ---
+
+Image Source [Unsupervised object discovery for instance recognition](https://arxiv.org/pdf/1709.04725)
