@@ -4,8 +4,12 @@ import { SearchInput } from 'evergreen-ui'
 import queryString from 'query-string';
 
 function getQuery() {
-  const parsed = queryString.parse(location.search);
-  return parsed.q ? parsed.q : ''
+  if (typeof location !== `undefined`) {
+    const parsed = queryString.parse(location.search);
+    return parsed.q ? parsed.q : ''
+  } else {
+    return ''
+  }
 }
 
 function runSearchQuery(query) {

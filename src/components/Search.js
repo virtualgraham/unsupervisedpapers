@@ -68,8 +68,12 @@ function getPaper(paper, searchWords=[]) {
 
 
 function getQuery() {
-  const parsed = queryString.parse(location.search);
-  return parsed.q ? parsed.q : ''
+  if (typeof location !== `undefined`) {
+    const parsed = queryString.parse(location.search);
+    return parsed.q ? parsed.q : ''
+  } else {
+    return ''
+  }
 }
 
 class Search extends React.Component {

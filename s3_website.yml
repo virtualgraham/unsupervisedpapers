@@ -3,7 +3,7 @@
 # ~/.aws/credentials.
 s3_bucket: unsupervisedpapers.com
 
-ignore_on_server: data
+ignore_on_server: archive
 
 # set session_token if using temporary credentials with a session token (eg: when assuming a role)
 # session_token: YOUR_AWS_S3_SESSION_TOKEN
@@ -11,7 +11,7 @@ ignore_on_server: data
 # Below are examples of all the available configurations.
 # See README for more detailed info on each of them.
 
-site: site-dist
+site: public
 
 # index_document: index.html
 # error_document: error.html
@@ -49,7 +49,7 @@ s3_endpoint: us-west-2
 
 # cloudfront_invalidate_root: true
 
-cloudfront_wildcard_invalidation: true
+# cloudfront_wildcard_invalidation: true
 
 # concurrency_level: 5
 

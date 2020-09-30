@@ -50,7 +50,7 @@ export default ({ data, location  }) => {
         marginRight="auto"
       >
 
-        <Helmet title={config.siteTitle} />
+        <Helmet title={`Blog | ${config.siteTitle}`} />
         <SEO />
 
         <BlogListing posts={posts} tags={tags} />
