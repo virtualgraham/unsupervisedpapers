@@ -1,8 +1,8 @@
 ---
 {
   "area": "computer-vision",
-  "title": "Object Colocalization",
-  "parent-task": "object-localization",
+  "title": "Object Co-localization",
+  "parent_task": "object-localization",
   "thumbnail": "object-colocalization.png"
 }
 ---

@@ -8,6 +8,6 @@
   ],
   "components": [],
   "thumbnail": null,
-  "introduced-by": null
+  "introduced_by": null
 }
 ---

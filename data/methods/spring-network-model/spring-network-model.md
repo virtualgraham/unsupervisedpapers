@@ -8,7 +8,7 @@
   ],
   "components": [],
   "thumbnail": "spring-network-model.png",
-  "introduced-by": null
+  "introduced_by": null
 }
 ---
 

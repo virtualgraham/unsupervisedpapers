@@ -122,7 +122,7 @@ Content contains editor notes, possibly with diagrams, embedded youtube videos
 {
   "area": "Computer Vision",  **
   "title": "Real-Time Semantic Segmentation",    
-  "parent-task": "another-task",  **
+  "parent_task": "another-task",  **
   "thumbnail": "foobar.png",
 }
 ---
@@ -156,7 +156,7 @@ Content contains description
   "title": "Blogging",  
   "year" 1980,
   "area": "area",
-  "introduced-by": "paper-name",
+  "introduced_by": "paper-name",
   "categories": ["category-one"],
   "components": ["another-method"], **
   "thumbnail": "foobar.png",

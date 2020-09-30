@@ -6,7 +6,7 @@
     "categories": [],
     "components": [],
     "thumbnail": "markov-random-field.png",
-    "introduced-by": null,
+    "introduced_by": null,
     "links": [
         {
             "title": "Wikipedia",

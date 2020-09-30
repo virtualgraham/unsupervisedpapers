@@ -8,7 +8,7 @@
   ],
   "components": [],
   "thumbnail": "principal-component-analysis.png",
-  "introduced-by": null,
+  "introduced_by": null,
   "links": [
     {
       "title": "Papers With Code",

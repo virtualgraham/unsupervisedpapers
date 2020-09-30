@@ -2,7 +2,7 @@
 {
   "area": "computer-vision",
   "title": "Semantic Segmentation",
-  "parent-task": null,
+  "parent_task": null,
   "thumbnail": "semantic-segmentation.jpg",
   "links": [
     {

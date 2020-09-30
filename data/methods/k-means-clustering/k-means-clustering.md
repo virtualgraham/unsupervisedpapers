@@ -8,7 +8,7 @@
   ],
   "components": [],
   "thumbnail": "k-means-clustering.png",
-  "introduced-by": null,
+  "introduced_by": null,
   "links": [
     {
       "title": "Wikipedia",

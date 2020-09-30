@@ -8,7 +8,7 @@
   ],
   "components": [],
   "thumbnail": "histogram-of-oriented-gradients.jpg",
-  "introduced-by": null,
+  "introduced_by": null,
   "links": [
     {
       "title": "Learn OpenCV",

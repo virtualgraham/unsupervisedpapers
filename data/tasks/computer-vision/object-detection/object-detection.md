@@ -2,7 +2,7 @@
 {
   "area": "computer-vision",
   "title": "Object Detection",
-  "parent-task": null,
+  "parent_task": null,
   "thumbnail": "object-detection.jpg",
   "links": [
     {

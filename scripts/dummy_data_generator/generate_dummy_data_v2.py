@@ -54,7 +54,7 @@ def generate_task(area, task_ids):
         {
             "area": area,
             "title": title,
-            "parent-task": parent_task,
+            "parent_task": parent_task,
             "thumbnail": "thumbnail.png"
         },
         gen.paragraph()
@@ -185,7 +185,7 @@ def test():
     for method in methods:
         mp = method_papers[method[0]]
         if len(mp) > 0:
-            method[1]["introduced-by"] = random.choice(mp)
+            method[1]["introduced_by"] = random.choice(mp)
 
 
     os.mkdir("./_dummy_directory")
