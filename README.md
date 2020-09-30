@@ -4,7 +4,7 @@ UnsupervisedPapers.com is an open-source directory of papers on unsupervised and
 
 # Contributing
 
-Submissions of papers, methods, categories and tasks are welcome. Contributions are made through GitHub pull requests. All the data for the directory are contained in the `/data` folder hierarchy in markdown and image files. You can simply fork this repository, add or revise the markdown files in the `/data` directory, then submit a pull request.
+Submissions of new entries and corrections to existing entries are welcome. Contributions are made through GitHub pull requests. All the data for the directory are contained in the `/data` folder hierarchy in markdown and image files. You can simply fork this repository, add or revise the markdown files in the `/data` directory, then submit a pull request.
 
 ## Data Organization
 
