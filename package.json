@@ -1,6 +1,6 @@
 {
-  "name": "unsupervised-papers-website",
-  "description": "Unsupervised Papers Website.",
+  "name": "unsupervised-papers",
+  "description": "Unsupervised Papers",
   "version": "0.1.0",
   "author": "Graham Shapiro <virtualgraham@gmail.com>",
   "browsers": "Last 2 versions",

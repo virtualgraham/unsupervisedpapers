@@ -1,6 +1,6 @@
 # Unsupervised Papers
 
-UnsupervisedPapers.com is an open-source directory of papers on unsupervised and adjacent machine learning topics with links to resources such as demos, talks and code.
+UnsupervisedPapers.com is an open-source directory of papers on unsupervised machine learning and related topics with links to resources such as code, websites and videos. 
 
 # Contributing
 

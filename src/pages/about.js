@@ -42,7 +42,7 @@ export default ({location}) => (
         flexDirection="column"
       >
           <Heading size={900}>What is UnsupervisedPapers.com</Heading>
-          <Paragraph size={500} marginTop="1em">UnsupervisedPapers.com is an open-source directory of unsupervised, semi-supervised and self-supervised machine learning papers with links to resources such as demos, talks and code.</Paragraph>
+          <Paragraph size={500} marginTop="1em">UnsupervisedPapers.com is an open-source directory of papers on unsupervised machine learning and related topics with links to resources such as code, websites and videos.</Paragraph>
       </Pane>
     </Pane>
   </Layout>
