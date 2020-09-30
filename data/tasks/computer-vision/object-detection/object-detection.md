@@ -9,6 +9,11 @@
       "title": "Papers With Code",
       "type": "paperswithcode",
       "url": "https://paperswithcode.com/task/object-detection"
+    },
+    {
+      "title": "Wikipedia",
+      "type": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Object_detection"
     }
   ]
 }

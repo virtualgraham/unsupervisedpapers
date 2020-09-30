@@ -528,8 +528,6 @@ async function createDirectoryPages(graphql, actions) {
 
     const top_level_tasks = tasks.filter(task => !task.frontmatter.parent_task)
 
-    console.log("top_level_tasks", top_level_tasks)
-
     // These counts are not recursive, only top level and sub one level
     let task_count = top_level_tasks.length
     let paper_count = 0
@@ -783,7 +781,8 @@ async function createDirectoryPages(graphql, actions) {
   const ctx_area_tasks = {}
 
   areaTasks.forEach((area_tasks, area) => {
-    ctx_area_tasks[area] = area_tasks.map(area_task => ({
+    const area_top_level_tasks = area_tasks.filter(area_task => !area_task.frontmatter.parent_task)
+    ctx_area_tasks[area] = area_top_level_tasks.map(area_task => ({
       name: area_task.fields.name,
       title: area_task.frontmatter.title,
       thumbnail: area_task.frontmatter.thumbnail ? area_task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,

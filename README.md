@@ -1,26 +1,136 @@
-# Unsupervised Papers Website
+# Unsupervised Papers
 
-Uses the [s3_website](https://github.com/laurilehmijoki/s3_website) deployment tool
+UnsupervisedPapers.com is an open-source directory of papers on unsupervised and adjacent machine learning topics with links to resources such as demos, talks and code.
 
-geopattern
+# Contributing
 
-http://unsupervisedpapers.com.s3-website-us-west-2.amazonaws.com
+Submissions of papers, methods, categories and tasks are welcome. Contributions are made through GitHub pull requests. All the data for the directory are contained in the `/data` folder hierarchy in markdown and image files. You can simply fork this repository, add or revise the markdown files in the `/data` directory, then submit a pull request.
 
-TODO
+## Data Organization
+
+Markdown Frontmatter Schema 
 ```
-performance
-	- build speed at approx 1000 papers per min, 2000 pages per min
-	- page queries can be removed because all that data was already queried in createPages
+##########
+# papers #
+##########
+
+# paper_id is the file name, should be title or abbreviated title in kebab case
+
+---
+{
+	"title": "Title of Paper",
+	"date": "2020-09-10",
+	"authors": ["First Last", "First Last],
+	"abstract": "Full paper abstract goes here ...",
+	"thumbnail": "thumbnail.png",
+	"links": [
+		{
+			"title": "PDF"
+			"type": "pdf|website|wikipeida|youtube|github|paperswithcode"
+			"url": "http://url"
+		}
+	],
+	"supervision": ["unsupervised", "semi-supervised", "weakly-supervised"]
+	"tasks": [
+		"task_id", 
+		"task_id"
+	],
+	"methods": [
+		"method_id",
+		"method_id"
+	]
+}
+---
+
+Content contains discussion
+
+
+#########
+# tasks #
+#########
+
+# task_id is the file name, should be title in kebab case
+
+---
+{
+	"area": "area-id",
+	"title": "Task Title",    
+	"parent_task": "parent-task-id",
+	"thumbnail": "thumbnail.png",
+    "links": [
+		{
+			"title": "PDF"
+			"type": "pdf|website|wikipeida|youtube|github|paperswithcode"
+			"url": "http://url"
+		}
+  	]
+}
+---
+
+Content contains description and 
+Image Source: [Source Name](Source URL)
+
+
+##############
+# categories #
+##############
+
+# category_id is the file name, should be title in kebab case
+
+---
+{
+	"area": "area_id",
+	"title": "Category Title",  
+	"thumbnail": "thumbnail.png",
+	"links": [
+		{
+			"title": "PDF"
+			"type": "pdf|website|wikipeida|youtube|github|paperswithcode"
+			"url": "http://url"
+		}
+  	]
+}
+---
+
+Content contains description and 
+Image Source: [Source Name](Source URL)
+
+
+###########
+# methods #
+###########
+
+# method_id is the file name, should be title in kebab case
+
+---
+{
+	"area": "area_id",
+	"title": "Method Title",  
+	"year" 2020,
+	"categories": ["category-id"],
+	"components": ["component-id"],
+	"thumbnail": "thumbnail.png",
+	"introduced_by": "paper-id",
+	"links": [
+		{
+			"title": "PDF"
+			"type": "pdf|website|wikipeida|youtube|github|paperswithcode"
+			"url": "http://url"
+		}
+  	]
+}
+---
+
+Content contains description and 
+Image Source: [Source Name](Source URL)
+
 ```
 
-Useful Commands
-
-```
-s3_website push
-```
 
 
-Sitemap
+
+## Sitemap
+
 ```
 /
 	+ list of recent papers
@@ -62,7 +172,6 @@ Sitemap
 /methods/area/{area-id} # CategoryArea
 	+ list of categories each with top few methods
 	
-
 /blog
 	- list of tags
 	- list of posts (all posts in a virtual list?)
@@ -76,95 +185,6 @@ Sitemap
 
 /about
 	- a few paragraphs about the site
-
-
-
-```
-
-Schema
-```
-# papers 
-(id is the file name, should be title or abbreviated title in kebab case)
-
----
-{
-  "title": "Blogging Like a Hacker",
-  "date": "2020-09-10",
-  "authors": ["Joe Smith"],
-  "abstract": "Attempts to train a comprehensive ...",
-  "thumbnail": "foobar.png", **
-  "links": [
-  	{
-  		"title": "PDF"
-  		"type": "PDF|Abstract|Website|Wikipeida|Youtube|Repository"
-  		"url": "http://url"
-  	}
-  ],
-  "tasks": [
-  	"instance_segmentation", 
-  	"kennetheagem"
-  ],
-  "methods": [
-  	"1x1-convolution"
-  ]
-}
----
-
-Content contains editor notes, possibly with diagrams, embedded youtube videos
-
-
-
-
-# tasks
-(id is the file name, should be title in kebab case)
-
----
-{
-  "area": "Computer Vision",  **
-  "title": "Real-Time Semantic Segmentation",    
-  "parent_task": "another-task",  **
-  "thumbnail": "foobar.png",
-}
----
-
-Content contains description
-
-
-
-
-# categories
-(id is the file name, should be title in kebab case)
-
----
-{
-  "area": "Computer Vision",  **
-  "title": "Image Models",  
-  "thumbnail": "foobar.png",
-}
----
-
-Content contains description
-
-
-
-
-# methods
-(id is the file name, should be title in kebab case)
-
----
-{
-  "title": "Blogging",  
-  "year" 1980,
-  "area": "area",
-  "introduced_by": "paper-name",
-  "categories": ["category-one"],
-  "components": ["another-method"], **
-  "thumbnail": "foobar.png",
-}
----
-
-
-Content contains description
 ```
 
 

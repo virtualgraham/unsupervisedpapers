@@ -29,7 +29,7 @@ export default ({ more_url, more_msg, url_callback, tasks, max }) => {
         >
           <Link style={{ display: "contents" }} to={url_callback(task)} key={task.name}>
             <Pane
-              height={120}
+              height={135}
               background="rgb(240,240,240)"
             >
               <img src={task.thumbnail} style={{ objectFit: "contain", height: "100%", width: "100%" }} />
@@ -41,7 +41,7 @@ export default ({ more_url, more_msg, url_callback, tasks, max }) => {
               flexDirection="column"
             >
               <Pane flex={1}>
-                <Heading size={400}>{task.title}</Heading>
+                <Heading size={500}>{task.title}</Heading>
               </Pane>
               <Text>
                 {task.paper_count} papers
