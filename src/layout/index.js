@@ -58,19 +58,12 @@ export default ({ header, search_input, header_bg: headerBG, children, location 
                     <div>Blog</div>
                   </Button>
                 </Link>
-                <Link to="/about/">
-                  <Button className="header-button" appearance="minimal" height={40} isActive={location.pathname.startsWith('/about/')}>
+                <Link to="/about/" >
+                  <Button className="header-button" appearance="minimal" height={40} isActive={location.pathname.startsWith('/about/')} marginRight={20}>
                     <div>About</div>
                   </Button>
                 </Link>
-                <a href="https://github.com/virtualgraham/unsupervisedpapers" target="_blank" rel="noreferrer" style={{marginRight: "20px"}}>
-                  <Button className="header-button" appearance="minimal" height={40}>
-                    <Pane display="flex" alignItems="center">
-                      <img src="/link_icons/github.svg" style={{height: "16px", marginRight: "5px"}} />
-                      <div>Contribute</div>
-                    </Pane>
-                  </Button>
-                </a>
+
                 { search_input ? search_input :
                   (
                     <SearchInput 
@@ -84,11 +77,40 @@ export default ({ header, search_input, header_bg: headerBG, children, location 
                     />
                   )
                 }
+
+                <a href="https://github.com/virtualgraham/unsupervisedpapers" target="_blank" rel="noreferrer" style={{marginLeft: "10px"}}>
+                  <Button paddingLeft={10} paddingRight={10} appearance="minimal" height={40}>
+                    <Pane display="flex" alignItems="center">
+                      <img src="/link_icons/github.svg" style={{height: "18px"}} />
+                      {/* <div>Contribute</div> */}
+                    </Pane>
+                  </Button>
+                </a>
+                
+                <a href="https://twitter.com/unsuperpapers" target="_blank" rel="noreferrer">
+                  <Button paddingLeft={10} paddingRight={10} appearance="minimal" height={40}>
+                    <Pane display="flex" alignItems="center">
+                      <img src="/twitter.svg" style={{height: "18px"}} />
+                    </Pane>
+                  </Button>
+                </a>
+
               </Pane>
             </div>
 
             <div className="narrow-screen">
-              <Pane>
+              <Pane display="flex">
+
+                {/* <a href="https://github.com/virtualgraham/unsupervisedpapers" target="_blank" rel="noreferrer">
+                  <Button paddingLeft={8} paddingRight={8} appearance="minimal" height={40}>
+                    <Pane display="flex" alignItems="center">
+                      <img src="/link_icons/github.svg" style={{height: "18px"}} />
+                    </Pane>
+                  </Button>
+                </a> */}
+
+
+
                 <Popover
                   position={Position.BOTTOM_RIGHT}
                   content={(
@@ -100,8 +122,16 @@ export default ({ header, search_input, header_bg: headerBG, children, location 
                       <a href="https://github.com/virtualgraham/unsupervisedpapers" className="no-underline" target="_blank" rel="noreferrer">
                         <Menu.Item height={35}>
                           <Pane display="flex" alignItems="center">
-                            <img src="/link_icons/github.svg" style={{height: "16px", marginRight: "5px"}} />
-                            <Heading>Contribute</Heading>
+                            <img src="/link_icons/github.svg" style={{height: "18px"}} />
+                            <Heading marginLeft={12}>GitHub</Heading>
+                          </Pane>
+                        </Menu.Item>
+                      </a>
+                      <a href="https://twitter.com/unsuperpapers" target="_blank" rel="noreferrer">
+                        <Menu.Item height={35}>
+                          <Pane display="flex" alignItems="center">
+                            <img src="/twitter.svg" style={{height: "18px"}} />
+                            <Heading marginLeft={8}>Twitter</Heading>
                           </Pane>
                         </Menu.Item>
                       </a>

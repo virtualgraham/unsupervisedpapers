@@ -142,6 +142,8 @@
     text-transform: uppercase !important; 
     line-height: 16px !important;
     font-size: 12px !important;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header-button[data-active] {
@@ -237,7 +239,7 @@
     }
 
     .search-input {
-        width: 200px !important;
+        width: 220px !important;
     }
 
     .paper-card-img-pane-full {
