@@ -574,12 +574,14 @@ async function createDirectoryPages(graphql, actions) {
     const ctx_tasks = paper.tasks.map(task => ({
       name: task.fields.name,
       title: task.frontmatter.title,
+      paper_count: task.paper_count,
       thumbnail: task.frontmatter.thumbnail ? task.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
     }))
 
     const ctx_methods = paper.methods.map(method => ({
       name: method.fields.name,
       title: method.frontmatter.title,
+      paper_count: method.paper_count,
       thumbnail: method.frontmatter.thumbnail ? method.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
     }))
     

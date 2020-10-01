@@ -141,7 +141,7 @@ export default ({ data, pageContext, location }) => {
             marginBottom={35}
           >
             <Heading size={700} marginBottom={30}>Tasks</Heading>
-            <CardList tasks={paper.tasks} url_callback={task=>`/task/${task.name}`}/>
+            <CardList tasks={paper.tasks} url_callback={task=>`/task/${task.name}`} />
           </Pane>
 
           <Pane
@@ -150,7 +150,7 @@ export default ({ data, pageContext, location }) => {
             marginBottom={35}
           >
             <Heading size={700} marginBottom={30}>Methods</Heading>
-            <CardList tasks={paper.methods} url_callback={method=>`/method/${method.name}`}/>
+            <CardList tasks={paper.methods} url_callback={method=>`/method/${method.name}`} />
           </Pane>
 
         </Pane>

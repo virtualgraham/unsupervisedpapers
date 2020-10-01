@@ -45,7 +45,7 @@ export default ({ more_url, more_msg, url_callback, tasks, max }) => {
               </Pane>
               <Text>
                 {task.paper_count} papers
-                          </Text>
+              </Text>
             </Pane>
           </Link>
         </Pane>

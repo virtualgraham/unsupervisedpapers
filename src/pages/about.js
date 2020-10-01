@@ -41,8 +41,16 @@ export default ({location}) => (
         display="flex" 
         flexDirection="column"
       >
-          <Heading size={900}>What is UnsupervisedPapers.com</Heading>
-          <Paragraph size={500} marginTop="1em">UnsupervisedPapers.com is an open-source directory of papers on unsupervised machine learning and related topics with links to resources such as code, websites and videos.</Paragraph>
+          <Heading size={700}>What is Unsupervised Papers?</Heading>
+          <Paragraph size={500} marginTop="1em" marginBottom="2em">Unsupervised Papers is an open-source directory of papers on unsupervised machine learning and related topics with links to resources such as code, websites and videos. Bringing together the papers that document our current understanding of these tools in one directory is the goal of this site.</Paragraph>
+
+          <Heading size={700}>Who is Unsupervised Papers for?</Heading>
+          <Paragraph size={500} marginTop="1em" marginBottom="2em">It is intended to serve a few audiences in particular. First the machine learning researcher or practitioner who would like a quick reference to the state of the art in unsupervised methods will find this site useful. Also, this will be an invaluable tool for students and educators to assist with in-depth research into the field. And lastly, it will be a great resource for hackers and ameture artificial intelligence enthusiasts to dip their toe into what promises to be a field with a very exciting future.</Paragraph>
+
+          <Heading size={700}>How can I contribute?</Heading>
+          <Paragraph size={500} marginTop="1em" marginBottom="2em">The entire directory is free and open-source. This is a collaborative project and contributions are welcome via our GitHub page <a href="https://github.com/virtualgraham/unsupervisedpapers">https://github.com/virtualgraham/unsupervisedpapers</a>. All the entries from the site are encoded as markdown and image files in the repository. This enables the free and open, but moderated system of changes that Git was built for.</Paragraph>
+
+          <Paragraph size={500} marginTop="1em" marginBottom="2em">Have questions or feedback? Contact me at <a href="mailto:virtualgraham@unsupervisedpapers.com">virtualgraham@unsupervisedpapers.com</a>.</Paragraph>
       </Pane>
     </Pane>
   </Layout>
