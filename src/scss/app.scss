@@ -50,87 +50,87 @@
 
 @media (max-width:975px){
     .paper-thumbnail {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 25px;
-        background: #F9F9FB;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-bottom: 25px !important;
+        background: #F9F9FB !important;
     }
 
     .paper-thumbnail img {
-        max-width: 300px;
+        max-width: 300px !important;
     }
 
     .blog-columns {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .post-column {
-        margin-right: 0;
+        margin-right: 0 !important;
     }
 
     .tags-column {
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 15px !important;
+        margin-left: 15px !important;
     }
 
     .entry-columns {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
     }
 
     .entry-left-column {
-        margin-right: 0;
+        margin-right: 0 !important;
     }
 
     .entry-right-column {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 25px;
-        background: #F9F9FB;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-bottom: 25px !important;
+        background: #F9F9FB !important;
     }
 
     .entry-right-column img {
-        max-width: 300px;
+        max-width: 300px !important;
     }
 }
   
 @media (min-width:975px){
     .paper-thumbnail {
-        width: 300px;
-        margin-top: 25px;
-        margin-left: 25px;
-        margin-bottom: 25px;
-        float: right;
+        width: 300px !important;
+        margin-top: 25px !important;
+        margin-left: 25px !important;
+        margin-bottom: 25px !important;
+        float: right !important;
     }
 
     .blog-columns {
-        flex-direction: row;
+        flex-direction: row !important;
     }
 
     .post-column {
-        margin-right: 25px;
+        margin-right: 25px !important;
     }
 
     .tags-column {
-        width: 150px;
-        margin-right: 15px;
-        margin-left: 0;
+        width: 150px !important;
+        margin-right: 15px !important;
+        margin-left: 0 !important;
     }
 
     .entry-columns {
-        flex-direction: row;
+        flex-direction: row !important;
     }
 
     .entry-left-column {
-        margin-right: 25px;
+        margin-right: 25px !important;
     }
 
     .entry-right-column {
-        width: 300px;
-        margin-left: 0;
-        display: flex;
-        align-items: flex-start;
+        width: 300px !important;
+        margin-left: 0 !important;
+        display: flex !important;
+        align-items: flex-start !important;
     }
 }
 
