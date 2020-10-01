@@ -5,6 +5,7 @@ import { Pane, Heading, Button, ArrowLeftIcon, ArrowRightIcon, Badge, Text } fro
 import Layout from '../../layout'
 import config from '../../../site-config'
 import util from "../../util/util"
+import moment from 'moment';
 
 export default ({ data, pageContext, location }) => {
  
@@ -65,7 +66,7 @@ export default ({ data, pageContext, location }) => {
           <Heading size={800} marginBottom={25}>{post.title}</Heading>
 
           <Pane>
-            <Text>{post.date} &mdash; {post.timeToRead} Min Read{' '}</Text>
+            <Text>{moment(post.date).format('D MMM YYYY')} &mdash; {post.timeToRead} Min Read{' '}</Text>
           </Pane>
 
           <Pane>

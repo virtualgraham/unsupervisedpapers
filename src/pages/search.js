@@ -45,6 +45,7 @@ export default ({ data, location  }) => {
       )}
     >
       <Helmet>
+        <title>{`Search | ${config.siteTitle}`}</title>
         <html className="search" lang="en" />
       </Helmet>
 

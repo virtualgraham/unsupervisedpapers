@@ -52,7 +52,7 @@ export default ({ data, pageContext, location }) => {
         marginRight="auto"
       >
 
-        <Helmet title={config.siteTitle} />
+        <Helmet title={`Tasks | ${config.siteTitle}`} />
         <SEO />
 
         <Pane

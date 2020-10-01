@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Pane, Text, Paragraph, Heading, Badge } from 'evergreen-ui'
-
+import moment from 'moment';
 
 export default ({ posts }) => {
 
@@ -27,7 +27,7 @@ export default ({ posts }) => {
                 <Heading size={600}>{post.title}</Heading>
               </Pane>
               <Pane marginBottom={10}>
-                <Text>{post.date} &#8226; {post.timeToRead} Min Read</Text>
+                <Text>{moment(post.date).format('D MMM YYYY')} &#8226; {post.timeToRead} Min Read</Text>
               </Pane>
 
               <Pane marginBottom={10}>

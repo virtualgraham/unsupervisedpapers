@@ -50,7 +50,7 @@ export default ({ data, pageContext, location }) => {
         marginRight="auto"
       >
         <Helmet
-          title={`${config.siteTitle}`}
+          title={`${task.title} | ${config.siteTitle}`}
         />
 
 

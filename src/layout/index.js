@@ -5,12 +5,14 @@ import { SearchInput, Pane, Heading, Strong, Button,Popover, Menu, MenuIcon, Pos
 import config from '../../site-config'
 import '../scss/app.scss'
 
+
 export default ({ header, search_input, header_bg: headerBG, children, location  }) => {
 
   return (
     <Pane className="dont-break-out">
       <Helmet>
         <meta name="description" content={config.siteDescription} />
+        <link rel="icon" href="/favicon.png" />
       </Helmet>
       <Pane
         is="header"

@@ -54,7 +54,7 @@ export default ({ data, pageContext, location }) => {
         marginRight="auto"
       >
         <Helmet
-          title={`${config.siteTitle}`}
+          title={`${paper.title} | ${config.siteTitle}`}
         />
 
         <Pane 
