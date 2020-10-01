@@ -88,9 +88,16 @@ export default ({ data, pageContext, location }) => {
               flex={1}
               marginRight={25}
             >
-              <Pane width={250} marginLeft={20} marginBottom={20} float="right">
-                <img src={paper.thumbnail} style={{width:"100%"}} alt="thumbnail" />
+              <Pane 
+                className="paper-thumbnail" 
+              >
+                <img 
+                  src={paper.thumbnail} 
+                  alt="thumbnail" 
+                />
               </Pane>
+
+
               <Heading>Abstract</Heading>
               <Pane>
                 <p>{paper.abstract}</p>

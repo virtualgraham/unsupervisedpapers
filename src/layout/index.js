@@ -8,7 +8,7 @@ import '../scss/app.scss'
 export default ({ header, search_input, header_bg: headerBG, children, location  }) => {
 
   return (
-    <Pane>
+    <Pane className="dont-break-out">
       <Helmet>
         <meta name="description" content={config.siteDescription} />
       </Helmet>

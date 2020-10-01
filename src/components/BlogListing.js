@@ -6,17 +6,18 @@ import util from "../util/util"
 
 export default ({ posts, tags }) => (
     <Pane
-        marginRight={15}
-        marginLeft={15}
+        className="blog-columns"
         display="flex"
         marginBottom={35}
     >
-        <Pane flex={1} marginRight={25}>
+        <Pane 
+            className="post-column"
+            flex={1}>
             <PostListing posts={posts} />
         </Pane>
 
         <Pane 
-            width={150} 
+            className="tags-column"
         >
 
             <Pane 

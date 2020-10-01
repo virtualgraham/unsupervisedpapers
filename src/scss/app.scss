@@ -28,6 +28,114 @@
 /* ---------------------------------------------------------- */
 
 /* ------------------------------- */
+.dont-break-out {
+
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+  
+    -ms-word-break: break-all !important;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all !important;
+    /* Instead use this non-standard one: */
+    word-break: break-word !important;
+  
+    // /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    // -ms-hyphens: auto !important;
+    // -moz-hyphens: auto !important;
+    // -webkit-hyphens: auto !important;
+    // hyphens: auto !important;
+  
+}
+
+@media (max-width:975px){
+    .paper-thumbnail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        background: #F9F9FB;
+    }
+
+    .paper-thumbnail img {
+        max-width: 300px;
+    }
+
+    .blog-columns {
+        flex-direction: column;
+    }
+
+    .post-column {
+        margin-right: 0;
+    }
+
+    .tags-column {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .entry-columns {
+        flex-direction: column-reverse;
+    }
+
+    .entry-left-column {
+        margin-right: 0;
+    }
+
+    .entry-right-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        background: #F9F9FB;
+    }
+
+    .entry-right-column img {
+        max-width: 300px;
+    }
+}
+  
+@media (min-width:975px){
+    .paper-thumbnail {
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        float: right;
+    }
+
+    .blog-columns {
+        flex-direction: row;
+    }
+
+    .post-column {
+        margin-right: 25px;
+    }
+
+    .tags-column {
+        width: 150px;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    .entry-columns {
+        flex-direction: row;
+    }
+
+    .entry-left-column {
+        margin-right: 25px;
+    }
+
+    .entry-right-column {
+        width: 300px;
+        margin-left: 0;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+
+
 
 .header-button {
     color: #425a70 !important;

@@ -79,12 +79,13 @@ export default ({ data, pageContext, location }) => {
             <Text>{utils.decodeKebobCase(task.area)}</Text> &#8226; <Text>{task.papers.length} Papers</Text>
           </Pane>
           <Pane
+            className="entry-columns"
             display="flex"
             marginBottom={35}
           >
-            <Pane flex={1} marginRight={25} dangerouslySetInnerHTML={{ __html: task.content }} />
-            <Pane width={250} marginTop={16}>
-              <img src={task.thumbnail} style={{width:"100%"}} alt="thumbnail" />
+            <Pane className="entry-left-column" flex={1} dangerouslySetInnerHTML={{ __html: task.content }} />
+            <Pane className="entry-right-column">
+              <img src={task.thumbnail} alt="thumbnail" />
             </Pane>
           </Pane>
 

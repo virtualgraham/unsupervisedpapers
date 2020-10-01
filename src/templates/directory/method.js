@@ -26,8 +26,6 @@ export default ({ data, pageContext, location }) => {
     content: data.markdownRemark.html,
   }
 
-  console.log(method)
-
   return (
     <Layout 
       location={location} 
@@ -80,14 +78,19 @@ export default ({ data, pageContext, location }) => {
           
 
           <Heading size={800} marginBottom={25}>{method.title}</Heading>
+
           <Pane
+            className="entry-columns"
             display="flex"
             marginBottom={35}
           >
-            <Pane flex={1} marginRight={25} dangerouslySetInnerHTML={{ __html: method.content }} />
-            <Pane width={250}>
-              <img src={method.thumbnail} style={{width:"100%"}} alt="thumbnail" />
+          
+            <Pane className="entry-left-column" flex={1} dangerouslySetInnerHTML={{ __html: method.content }} />
+
+            <Pane className="entry-right-column">
+              <img src={method.thumbnail} alt="thumbnail" />
             </Pane>
+
           </Pane>
 
           { method.introduced_by &&
@@ -153,7 +156,8 @@ export default ({ data, pageContext, location }) => {
               flexDirection="column"
             >
               {method.categories.map((category, index) => (
-                <Pane key={index}
+                <Pane 
+                  key={index}
                   display="flex"
                   flexDirection="column"
                 >
