@@ -25,9 +25,10 @@
   ],
   "supervision": ["unsupervised"],
   "tasks": [
-      "object-discovery"
+    "object-discovery"
   ],
   "methods": [
+    "k-means-clustering", "principal-component-analysis", "bag-of-visual-words", "scale-invariant-feature-transform", "harris-laplace", "hessian-laplace", "spectral-clustering", "latent-dirichlet-allocation", "non-negative-matrix-factorization"
   ],
   "thumbnail": "unsupervised-object-discovery-a-comparison.jpg"
 }
