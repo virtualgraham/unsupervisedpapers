@@ -23,7 +23,7 @@
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-colocalization"],
-  "methods": ["measure-of-objectiveness", "scale-invariant-feature-transform", "global-contrast-based-salient-region-detection"],
+  "methods": ["measure-of-objectiveness", "scale-invariant-feature-transform", "contrast-based-saliency"],
   "thumbnail": "co-localization-in-real-world-images.jpg"
 }
 ---

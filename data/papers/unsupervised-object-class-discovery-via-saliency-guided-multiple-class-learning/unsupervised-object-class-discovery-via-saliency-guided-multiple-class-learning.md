@@ -21,9 +21,9 @@
       "url": "https://scholar.google.com/scholar?cluster=10156006120042250527"
     },
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": ["unsupervised"],
+  "tasks": ["object-discovery", "object-localization"],
+  "methods": ["window-based-saliency"],
   "thumbnail": "unsupervised-object-class-discovery-via-saliency-guided-multiple-class-learning.jpg"
 }
 ---

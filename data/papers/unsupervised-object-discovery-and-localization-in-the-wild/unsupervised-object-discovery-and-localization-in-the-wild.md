@@ -38,7 +38,7 @@
       "object-discovery", "object-localization"
   ],
   "methods": [
-      "part-based-region-matching" ,"histogram-of-oriented-gradients", "randomized-prims-algorithm", "hough-transform", "gist-descriptors" 
+      "part-based-region-matching" ,"histogram-of-oriented-gradients", "randomized-prims-algorithm", "hough-transform", "gist-descriptor" 
   ],
   "thumbnail": "unsupervised-object-discovery-and-localization-in-the-wild.jpg"
 }

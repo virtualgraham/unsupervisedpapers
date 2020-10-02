@@ -23,7 +23,7 @@
   ],
   "supervision": ["weakly-supervised", "unsupervised"],
   "tasks": ["object-colocalization"],
-  "methods": ["gist-descriptors", "scale-invariant-feature-transform", "grab-cut"],
+  "methods": ["gist-descriptor", "scale-invariant-feature-transform", "grab-cut"],
   "thumbnail": "efficient-video-object-co-localization-with-co-saliency-activated-tracklets.jpg"
 }
 ---

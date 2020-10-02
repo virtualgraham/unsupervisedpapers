@@ -1,9 +1,9 @@
 ---
 {
   "area": "computer-vision",
-  "title": "GIST descriptors",
+  "title": "RGB Color Histogram",
   "year": null,
-  "categories": ["feature-descriptors"],
+  "categories": [],
   "components": [],
   "thumbnail": null,
   "introduced_by": null,

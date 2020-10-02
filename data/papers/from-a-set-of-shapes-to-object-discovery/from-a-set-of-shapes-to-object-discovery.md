@@ -22,7 +22,7 @@
     }
   ],
   "supervision": ["unsupervised"],
-  "tasks": ["object-discovery", "semantic-segmentation"],
+  "tasks": ["object-discovery", "object-segmentation"],
   "methods": ["minimum-cover-curve-detection", "dynamic-time-warping", "spacial-relationship-graph"],
   "thumbnail": "from-a-set-of-shapes-to-object-discovery.jpg"
 }

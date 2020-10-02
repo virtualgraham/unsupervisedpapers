@@ -1,7 +1,7 @@
 ---
 {
   "area": "computer-vision",
-  "title": "Global Contrast based Salient Region Detection",
+  "title": "Contrast-based Saliency",
   "year": null,
   "categories": [],
   "components": [],

@@ -26,9 +26,9 @@
       "url": "https://scholar.google.com/scholar?cluster=17687707521593576527"
     },
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": ["unsupervised"],
+  "tasks": ["object-cosegmentation"],
+  "methods": ["contrast-based-saliency", "scale-invariant-feature-transform", "sift-flow", "gist-descriptor", "color-histogram", "grab-cut"],
   "thumbnail": "unsupervised-joint-object-discovery-and-segmentation-in-internet-images.jpg"
 }
 ---

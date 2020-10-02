@@ -26,9 +26,9 @@
       "url": "https://scholar.google.com/scholar?cluster=15236829886521659824"
     },
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": ["unsupervised"],
+  "tasks": ["3d-semantic-segmentation"],
+  "methods": ["segment-graph", "viewpoint-feature-histogram", "color-histogram"],
   "thumbnail": "unsupervised-discovery-of-object-classes-with-a-mobile-robot.jpg"
 }
 ---
