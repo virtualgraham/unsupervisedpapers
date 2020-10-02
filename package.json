@@ -46,7 +46,8 @@
     "stylelint": "^13.7.1",
     "stylelint-config-standard-scss": "^1.1.0",
     "stylelint-scss": "^3.18.0",
-    "write-good": "^1.0.3"
+    "write-good": "^1.0.3",
+    "yargs": "^16.0.3"
   },
   "keywords": [
     "gatsby"
@@ -64,7 +65,8 @@
     "lint:js": "eslint --ext .js",
     "lint:md": "remark data/",
     "write-good": "write-good $(glob 'data/**/*.md')",
-    "format:js": "prettier '**/*.{js,jsx}' --write"
+    "format:js": "prettier '**/*.{js,jsx}' --write",
+    "ins": "node ./scripts/cli/ins.js"
   },
   "remarkConfig": {
     "plugins": [

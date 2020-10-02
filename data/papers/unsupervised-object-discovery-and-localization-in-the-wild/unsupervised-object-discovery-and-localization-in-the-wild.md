@@ -27,13 +27,18 @@
       "type": "Website",
       "url": "https://www.di.ens.fr/willow/research/objectdiscovery/"
     },
+    {
+      "title": "Google Scholar",
+      "type": "googlescholar",
+      "url": "https://scholar.google.com/scholar?cluster=3744727750041693033"
+    },
   ],
   "supervision": ["unsupervised"],
   "tasks": [
-      "object-discovery", "object-localization" 
+      "object-discovery", "object-localization"
   ],
   "methods": [
-      "part-based-region-matching"
+      "part-based-region-matching" ,"histogram-of-oriented-gradients", "randomized-prims-algorithm", "hough-transform", "gist-descriptors" 
   ],
   "thumbnail": "unsupervised-object-discovery-and-localization-in-the-wild.jpg"
 }

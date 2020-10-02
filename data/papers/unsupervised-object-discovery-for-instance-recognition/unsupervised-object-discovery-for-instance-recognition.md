@@ -33,6 +33,7 @@
       "object-discovery"
   ],
   "methods": [
+    "convolutional-neural-network-layer-activations", "gaussian-mixture-model"
   ],
   "thumbnail": "unsupervised-object-discovery-for-instance-recognition.jpg"
 }

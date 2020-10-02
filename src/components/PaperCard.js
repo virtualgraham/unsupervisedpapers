@@ -91,25 +91,27 @@ export default ({ paper, compact=false, searchWords=[] }) => {
           </Pane>
         )}
         <Pane display="flex" flexWrap="wrap">
-          {paper.links.slice(0, 5).map((link, index) => (
-            <a key={index} onClick={e=>e.stopPropagation()} href={link.url} style={{marginLeft: "-10px", marginTop: "5px", marginRight: "10px"}}>
-              <Button 
-                padding={10}
-                appearance="minimal"
-                height={24}
-                display="flex"
-                justifyContent="center"
-                alignItems="center"
-              >
-                <Pane width="16px" height="16px" marginRight={8} display="flex">
-                  <LinkIcon icon={link.type} style={{width:"100%", height: "100%", objectFit: "contain"}} />
-                </Pane>
-                <Pane flex={1} display="flex" justifyContent="flexStart" flexDirection="column">
-                  <Strong textAlign="left" size={300}>{link.title}</Strong>
-                </Pane>
-              </Button>
-            </a>
-          ))}
+          {paper.links.slice(0, 5).map((link, index) => {            
+            return (
+              <a key={index} onClick={e=>e.stopPropagation()} href={link.url} style={{marginLeft: "-10px", marginTop: "5px", marginRight: "10px"}}>
+                <Button 
+                  padding={10}
+                  appearance="minimal"
+                  height={24}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <Pane width="16px" height="16px" marginRight={8} display="flex">
+                    <LinkIcon icon={link.type} style={{width:"100%", height: "100%", objectFit: "contain"}} />
+                  </Pane>
+                  <Pane flex={1} display="flex" justifyContent="flexStart" flexDirection="column">
+                    <Strong textAlign="left" size={300}>{link.title}</Strong>
+                  </Pane>
+                </Button>
+              </a>
+            )
+          })}
         </Pane>
       </Pane>
     </Pane>
