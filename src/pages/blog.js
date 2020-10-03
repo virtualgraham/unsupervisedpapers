@@ -49,9 +49,19 @@ export default ({ data, location  }) => {
         marginLeft="auto"
         marginRight="auto"
       >
+        <Helmet>
+          <title>{`Blog | ${config.siteTitle}`}</title>
+          <meta name="description" content="Read posts from the Unsupervised Papers blog"  />
 
-        <Helmet title={`Blog | ${config.siteTitle}`} />
-        <SEO />
+          <meta name="og:title" content={`Blog | ${config.siteTitle}`} />
+          <meta name="og:description" content="Read posts from the Unsupervised Papers blog" />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content="/blog.jpg" />
+
+          <meta name="twitter:title" content={`Blog | ${config.siteTitle}`} />
+          <meta name="twitter:description" content="Read posts from the Unsupervised Papers blog" />
+          <meta name="twitter:image" content="/blog.jpg" />
+        </Helmet>
 
         <BlogListing posts={posts} tags={tags} />
         

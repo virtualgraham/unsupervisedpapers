@@ -32,8 +32,16 @@ export default ({location}) => (
       marginLeft="auto"
       marginRight="auto"
     >
-      <Helmet title={`About | ${config.siteTitle}`} />
-      <SEO />
+      <Helmet>
+        <title>{`About | ${config.siteTitle}`}</title>
+
+        <meta name="og:title" content={`About | ${config.siteTitle}`} />
+        <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+        <meta name="og:image" content="/blog.jpg" />
+
+        <meta name="twitter:title" content={`About | ${config.siteTitle}`} />
+        <meta name="twitter:image" content="/search.jpg" />
+      </Helmet>
 
       <Pane 
         marginRight={15}

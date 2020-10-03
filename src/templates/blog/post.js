@@ -20,6 +20,7 @@ export default ({ data, pageContext, location }) => {
     date: data.markdownRemark.frontmatter.date,
     tags: data.markdownRemark.frontmatter.tags,
     slug: data.markdownRemark.frontmatter.slug,
+    featureImage: data.markdownRemark.frontmatter.featureImage ? data.markdownRemark.frontmatter.featureImage.publicURL : config.defaultFeatureImage,
   }
 
   return (
@@ -51,10 +52,20 @@ export default ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
+
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
+          <meta name="description" content={post.excerpt} />
+
+          <meta name="og:title" content={`${post.title} | ${config.siteTitle}`} />
+          <meta name="og:description" content={post.excerpt} />
+          <meta name="og:image" content={post.featureImage} />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+
+          <meta name="twitter:title" content={`${post.title} | ${config.siteTitle}`} />
+          <meta name="twitter:description" content={post.excerpt} />
+          <meta name="twitter:image" content={post.featureImage} />
         </Helmet>
-        {/* <SEO postPath={slug} postNode={postNode} postSEO /> */}
 
 
         <Pane 
@@ -114,6 +125,9 @@ export const pageQuery = graphql`
         title
         date
         tags
+        featureImage {
+          publicURL
+        }
       }
       fields {
         slug

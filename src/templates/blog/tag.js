@@ -38,21 +38,29 @@ const TagTemplate = ({ data, pageContext, location }) => {
     >
       <Pane
         is="main"
-        marginTop={42}
-        marginRight={30}
-        marginLeft={30}
+        marginTop={15}
+        marginBottom={45}
         maxWidth={1024}
         display="flex"
-        alignItems="center"
-        justifyContent="center"
+        flexDirection="column"
         marginLeft="auto"
         marginRight="auto"
       >
 
-        <Helmet
-          title={`Posts tagged as "${pageContext.tag}" | ${config.siteTitle}`}
-        />
-        
+        <Helmet>
+          <title>{`Posts tagged as "${pageContext.tag}" | ${config.siteTitle}`}</title>
+          <meta name="description" content={`Posts tagged as "${pageContext.tag}"`}  />
+          
+          <meta name="og:title" content={`Posts tagged as "${pageContext.tag}" | ${config.siteTitle}`} />
+          <meta name="og:description" content={`Posts tagged as "${pageContext.tag}"`} />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content="/blog.jpg" />
+
+          <meta name="twitter:title" content={`Posts tagged as "${pageContext.tag}"`} />
+          <meta name="twitter:description" content={`Posts tagged as "${pageContext.tag}"`} />
+          <meta name="twitter:image" content="/blog.jpg" />
+        </Helmet>
+
         <BlogListing posts={posts} tags={tags} />
 
       </Pane>

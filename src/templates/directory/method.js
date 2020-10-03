@@ -24,6 +24,7 @@ export default ({ data, pageContext, location }) => {
     components: pageContext.components,
     categories: pageContext.categories,
     content: data.markdownRemark.html,
+    excerpt: data.markdownRemark.excerpt
   }
 
   return (
@@ -54,9 +55,22 @@ export default ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
-        <Helmet
-          title={`${method.title} | ${config.siteTitle}`}
-        />
+
+        <Helmet>
+          <title>{`${method.title} | ${config.siteTitle}`}</title>
+          <meta name="description" content={method.excerpt} />
+
+          <meta name="og:title" content={`${method.title} | ${config.siteTitle}`} />
+          <meta name="og:description" content={method.excerpt} />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content={method.thumbnail} />
+
+          <meta name="twitter:title" content={`${method.title} | ${config.siteTitle}`} />
+          <meta name="twitter:description" content={method.excerpt} />
+          <meta name="twitter:image" content={method.thumbnail} />
+        </Helmet>
+
+
         <Pane 
           marginRight={15}
           marginLeft={15}
@@ -177,6 +191,7 @@ export default ({ data, pageContext, location }) => {
 export const query = graphql`
   query MethodQuery($name: String!) {
     markdownRemark(fields: {type: {eq: "method"}, name: {eq: $name}}) {
+      excerpt
       frontmatter {
         area
         title

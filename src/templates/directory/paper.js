@@ -22,6 +22,7 @@ export default ({ data, pageContext, location }) => {
     tasks: pageContext.tasks,
     methods: pageContext.methods,
     content: data.markdownRemark.html,
+    excerpt: data.markdownRemark.excerpt
   }
 
   return (
@@ -52,10 +53,20 @@ export default ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
-        <Helmet
-          title={`${paper.title} | ${config.siteTitle}`}
-        />
+        <Helmet>
+          <title>{`${paper.title} | ${config.siteTitle}`}</title>
+          <meta name="description" content={utils.truncate(paper.abstract, 350)} />
 
+          <meta name="og:title" content={`${paper.title} | ${config.siteTitle}`} />
+          <meta name="og:description" content={utils.truncate(paper.abstract, 350)}  />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content={paper.thumbnail} />
+
+          <meta name="twitter:title" content={`${paper.title} | ${config.siteTitle}`} />
+          <meta name="twitter:description" content={utils.truncate(paper.abstract, 350)} />
+          <meta name="twitter:image" content={paper.thumbnail} />
+        </Helmet>
+          
         <Pane 
           marginRight={15}
           marginLeft={15}
@@ -164,6 +175,7 @@ export default ({ data, pageContext, location }) => {
 export const query = graphql`
   query PaperQuery($name: String!) {
     markdownRemark(fields: {type: {eq: "paper"}, name: {eq: $name }}) {
+      excerpt
       frontmatter {
         title
         abstract

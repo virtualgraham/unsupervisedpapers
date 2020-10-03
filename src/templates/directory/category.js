@@ -17,6 +17,7 @@ export default ({ data, pageContext, location }) => {
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     methods: pageContext.methods,
     content: data.markdownRemark.html,
+    excerpt: data.markdownRemark.excerpt
   }
 
   return (
@@ -47,9 +48,21 @@ export default ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
-        <Helmet
-          title={`${category.title} | ${config.siteTitle}`}
-        />
+        <Helmet>
+          <title>{`${category.title} | ${config.siteTitle}`}</title>
+          <meta name="description" content={category.excerpt}  />
+
+          <meta name="og:title" content={`${category.title} | ${config.siteTitle}`} />
+          <meta name="og:description" content={category.excerpt} />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content={category.thumbnail} />
+
+          <meta name="twitter:title" content={`${category.title} | ${config.siteTitle}`} />
+          <meta name="twitter:description" content={category.excerpt} />
+          <meta name="twitter:image" content={category.thumbnail} />
+        </Helmet>
+
+
         <Pane 
           marginRight={15}
           marginLeft={15}
@@ -95,6 +108,7 @@ export default ({ data, pageContext, location }) => {
 export const query = graphql`
   query CategoryQuery($name: String!) {
     markdownRemark(fields: {type: {eq: "category"}, name: {eq: $name}}) {
+      excerpt
       frontmatter {
         area
         title

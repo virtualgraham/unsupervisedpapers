@@ -42,9 +42,20 @@ export default ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
-        <Helmet
-          title={`${utils.decodeKebobCase(area)} | ${config.siteTitle}`}
-        />
+        <Helmet>
+          <title>{`${utils.decodeKebobCase(area)} | ${config.siteTitle}`}</title>
+          <meta name="description" content={`Browse Unsupervised Learning Tasks in ${utils.decodeKebobCase(area)}`} />
+
+          <meta name="og:title" content={`${utils.decodeKebobCase(area)} | ${config.siteTitle}`} />
+          <meta name="og:description" content={`Browse Unsupervised Learning Tasks in ${utils.decodeKebobCase(area)}`} />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content="/tasks.jpg" />
+
+          <meta name="twitter:title" content={`${utils.decodeKebobCase(area)} | ${config.siteTitle}`} />
+          <meta name="twitter:description" content={`Browse Unsupervised Learning Tasks in ${utils.decodeKebobCase(area)}`} />
+          <meta name="twitter:image" content="/tasks.jpg" />
+        </Helmet>
+
         
         <Pane
           marginRight={15}

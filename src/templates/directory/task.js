@@ -20,6 +20,7 @@ export default ({ data, pageContext, location }) => {
     filtered_papers: pageContext.papers,
     sub_tasks: pageContext.sub_tasks,
     content: data.markdownRemark.html,
+    excerpt: data.markdownRemark.excerpt
   }
 
   return (
@@ -49,10 +50,20 @@ export default ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
-        <Helmet
-          title={`${task.title} | ${config.siteTitle}`}
-        />
 
+        <Helmet>
+          <title>{`${task.title} | ${config.siteTitle}`}</title>
+          <meta name="description" content={task.excerpt} />
+
+          <meta name="og:title" content={`${task.title} | ${config.siteTitle}`} />
+          <meta name="og:description" content={task.excerpt} />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content={task.thumbnail} />
+
+          <meta name="twitter:title" content={`${task.title} | ${config.siteTitle}`} />
+          <meta name="twitter:description" content={task.excerpt} />
+          <meta name="twitter:image" content={task.thumbnail} />
+        </Helmet>
 
         <Pane 
           marginRight={15}
@@ -135,6 +146,7 @@ export default ({ data, pageContext, location }) => {
 export const query = graphql`
   query TaskQuery($name: String!) {
     markdownRemark(fields: {type: {eq: "task"}, name: {eq: $name}}) {
+      excerpt
       frontmatter {
         area
         title

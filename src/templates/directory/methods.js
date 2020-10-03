@@ -13,8 +13,6 @@ export default  ({ data, pageContext, location }) => {
   const area_categories = {}
   const area_category_counts = {}
 
-  console.log(pageContext.area_categories)
-
   Object.keys(pageContext.area_categories).forEach(area => {
     const ctx_area_categories = pageContext.area_categories[area]
     area_category_counts[area] = ctx_area_categories.length
@@ -52,9 +50,19 @@ export default  ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
+        <Helmet>
+          <title>{`Methods | ${config.siteTitle}`}</title>
+          <meta name="description" content="Browse Unsupervised Learning Methods" />
 
-        <Helmet title={`Methods | ${config.siteTitle}`} />
-        <SEO />
+          <meta name="og:title" content={`Methods | ${config.siteTitle}`} />
+          <meta name="og:description" content="Browse Unsupervised Learning Methods" />
+          <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
+          <meta name="og:image" content="/methods.jpg" />
+
+          <meta name="twitter:title" content={`Methods | ${config.siteTitle}`} />
+          <meta name="twitter:description" content="Browse Unsupervised Learning Methods" />
+          <meta name="twitter:image" content="/methods.jpg" />
+        </Helmet>
 
         <Pane 
           marginRight={15}

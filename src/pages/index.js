@@ -49,8 +49,6 @@ export default ({ data, location  }) => {
           marginLeft="auto"
           marginRight="auto"
         >
-          <Helmet title={config.siteTitle} />
-          <SEO />
           <PaperCardList papers={papers} />
         </Pane>
       </Layout>

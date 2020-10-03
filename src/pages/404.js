@@ -25,16 +25,19 @@ const NotFoundPage = ({location}) => (
     <Pane
       is="main"
       marginTop={42}
-      marginRight={30}
-      marginLeft={30}
+      marginBottom={96}
       maxWidth={1024}
       display="flex"
-      alignItems="center"
-      justifyContent="center"
       marginLeft="auto"
       marginRight="auto"
     >
-      <Helmet title={`404: Not Found | ${config.siteTitle}`} />
+      <Helmet>
+        <title>{`404: Not Found | ${config.siteTitle}`}</title>
+        <meta name="og:title" content={`404: Not Found | ${config.siteTitle}`} />
+        <meta name="og:url" content={`${config.siteUrl}/404/`} />
+        <meta name="twitter:title" content={`404: Not Found | ${config.siteTitle}`} />
+      </Helmet>
+
       <Pane 
         display="flex" 
         flexDirection="column"
