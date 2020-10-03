@@ -1,5 +1,7 @@
 const fs = require('fs');
-const {argv} = require('yargs')
+const argv = require('yargs')
+    .boolean(['s'])
+    .argv;
 
 function encodeKebobCase(str) {
     return str.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/\s+/g, '-').toLowerCase()
@@ -16,6 +18,11 @@ function writeMarkdownFile(frontmatter, file) {
     }
 }
 
+const staging = argv.s
+
+console.log(argv)
+
+const dataDir = staging ? 'data_staging' : 'data'
 const args = argv._
 
 if(args.length > 0) {
@@ -31,12 +38,20 @@ if(args.length > 0) {
         const title = args[2]
         const name = encodeKebobCase(args[2])
 
-        if (!fs.existsSync(`data/categories/${area}`)) {
-            fs.mkdirSync(`data/categories/${area}`);
+        if (!fs.existsSync(`${dataDir}`)) {
+            fs.mkdirSync(`${dataDir}`);
         }
 
-        if (!fs.existsSync(`data/categories/${area}/${name}`)) {
-            fs.mkdirSync(`data/categories/${area}/${name}`);
+        if (!fs.existsSync(`${dataDir}/categories`)) {
+            fs.mkdirSync(`${dataDir}/categories`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/categories/${area}`)) {
+            fs.mkdirSync(`${dataDir}/categories/${area}`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/categories/${area}/${name}`)) {
+            fs.mkdirSync(`${dataDir}/categories/${area}/${name}`);
         }
 
         const frontmatter = {
@@ -45,7 +60,7 @@ if(args.length > 0) {
             "thumbnail": null
         }
 
-        writeMarkdownFile(frontmatter, `data/categories/${area}/${name}/${name}.md`)
+        writeMarkdownFile(frontmatter, `${dataDir}/categories/${area}/${name}/${name}.md`)
 
         return
 
@@ -59,8 +74,16 @@ if(args.length > 0) {
         const title = args[2]
         const name = encodeKebobCase(args[2])
 
-        if (!fs.existsSync(`data/methods/${name}`)) {
-            fs.mkdirSync(`data/methods/${name}`);
+        if (!fs.existsSync(`${dataDir}`)) {
+            fs.mkdirSync(`${dataDir}`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/methods`)) {
+            fs.mkdirSync(`${dataDir}/methods`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/methods/${name}`)) {
+            fs.mkdirSync(`${dataDir}/methods/${name}`);
         }
 
         const frontmatter = {
@@ -74,7 +97,7 @@ if(args.length > 0) {
             "links": []
         }
 
-        writeMarkdownFile(frontmatter, `data/methods/${name}/${name}.md`)
+        writeMarkdownFile(frontmatter, `${dataDir}/methods/${name}/${name}.md`)
 
         return
 
@@ -87,8 +110,16 @@ if(args.length > 0) {
         const title = args[1]
         const name = encodeKebobCase(args[1])
 
-        if (!fs.existsSync(`data/papers/${name}`)) {
-            fs.mkdirSync(`data/papers/${name}`);
+        if (!fs.existsSync(`${dataDir}`)) {
+            fs.mkdirSync(`${dataDir}`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/papers`)) {
+            fs.mkdirSync(`${dataDir}/papers`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/papers/${name}`)) {
+            fs.mkdirSync(`${dataDir}/papers/${name}`);
         }
 
         const frontmatter = {
@@ -100,10 +131,10 @@ if(args.length > 0) {
             "supervision": [],
             "tasks": [],
             "methods": [],
-            "thumbnail": (name + ".jpg")
+            "thumbnail": (`${name}.jpg`)
         }
 
-        writeMarkdownFile(frontmatter, `data/papers/${name}/${name}.md`)
+        writeMarkdownFile(frontmatter, `${dataDir}/papers/${name}/${name}.md`)
 
         return
 
@@ -117,12 +148,20 @@ if(args.length > 0) {
         const title = args[2]
         const name = encodeKebobCase(args[2])
 
-        if (!fs.existsSync(`data/tasks/${area}`)) {
-            fs.mkdirSync(`data/tasks/${area}`);
+        if (!fs.existsSync(`${dataDir}`)) {
+            fs.mkdirSync(`${dataDir}`);
         }
 
-        if (!fs.existsSync(`data/tasks/${area}/${name}`)) {
-            fs.mkdirSync(`data/tasks/${area}/${name}`);
+        if (!fs.existsSync(`${dataDir}/tasks`)) {
+            fs.mkdirSync(`${dataDir}/tasks`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/tasks/${area}`)) {
+            fs.mkdirSync(`${dataDir}/tasks/${area}`);
+        }
+
+        if (!fs.existsSync(`${dataDir}/tasks/${area}/${name}`)) {
+            fs.mkdirSync(`${dataDir}/tasks/${area}/${name}`);
         }
 
         const frontmatter = {
@@ -133,7 +172,7 @@ if(args.length > 0) {
             "links": []
         }
 
-        writeMarkdownFile(frontmatter, `data/tasks/${area}/${name}/${name}.md`)
+        writeMarkdownFile(frontmatter, `${dataDir}/tasks/${area}/${name}/${name}.md`)
 
         return
 

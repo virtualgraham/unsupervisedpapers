@@ -27,8 +27,8 @@
     },
   ],
   "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "tasks": ["object-discovery", "object-localization", "video-object-tracking"],
+  "methods": ["histogram-of-oriented-gradients", "long-term-point-tracks"],
   "thumbnail": "unsupervised-object-discovery-and-tracking-in-video-collections.jpg"
 }
 ---

@@ -36,9 +36,9 @@
       "url": "https://scholar.google.com/scholar?cluster=14875425920144428913"
     },
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": ["unsupervised"],
+  "tasks": ["object-discovery", "object-colocalization"],
+  "methods": ["convolutional-neural-network-layer-activations", "principal-component-analysis"],
   "thumbnail": "unsupervised-object-discovery-and-co-localization-by-deep-descriptor-transforming.jpg"
 }
 ---
