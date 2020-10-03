@@ -37,10 +37,10 @@ export default ({location}) => (
 
         <meta name="og:title" content={`About | ${config.siteTitle}`} />
         <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-        <meta name="og:image" content="/blog.jpg" />
+        <meta name="og:image" content={`${config.siteUrl}/about.jpg`} />
 
         <meta name="twitter:title" content={`About | ${config.siteTitle}`} />
-        <meta name="twitter:image" content="/search.jpg" />
+        <meta name="twitter:image" content={`${config.siteUrl}/about.jpg`} />
       </Helmet>
 
       <Pane 

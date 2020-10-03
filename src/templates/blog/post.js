@@ -59,12 +59,12 @@ export default ({ data, pageContext, location }) => {
 
           <meta name="og:title" content={`${post.title} | ${config.siteTitle}`} />
           <meta name="og:description" content={post.excerpt} />
-          <meta name="og:image" content={post.featureImage} />
+          <meta name="og:image" content={`${config.siteUrl}${post.featureImage}`} />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
 
           <meta name="twitter:title" content={`${post.title} | ${config.siteTitle}`} />
           <meta name="twitter:description" content={post.excerpt} />
-          <meta name="twitter:image" content={post.featureImage} />
+          <meta name="twitter:image" content={`${config.siteUrl}${post.featureImage}`} />
         </Helmet>
 
 

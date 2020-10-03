@@ -16,7 +16,7 @@ export default ({ header, search_input, header_bg: headerBG, children, location 
 
         <meta name="og:title" content={config.siteTitle} />
         <meta name="og:description" content={config.siteDescription} />
-        <meta name="og:image" content="/index.jpg" />
+        <meta name="og:image" content={`${config.siteUrl}/index.jpg`} />
         <meta name="og:url" content={config.siteUrl} />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -24,7 +24,7 @@ export default ({ header, search_input, header_bg: headerBG, children, location 
         <meta name="twitter:creator" content="@unsuperpapers" />
         <meta name="twitter:description" content={config.siteDescription} />
         <meta name="twitter:title" content={config.siteTitle} />
-        <meta name="twitter:image" content="/index.jpg" />
+        <meta name="twitter:image" content={`${config.siteUrl}/index.jpg`} />
 
         <link rel="icon" href="/favicon.png" />
       </Helmet>

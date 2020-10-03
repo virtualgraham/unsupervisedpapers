@@ -54,11 +54,11 @@ export default ({ data, pageContext, location  }) => {
           <meta name="og:title" content={`${task.title} | ${config.siteTitle}`}  />
           <meta name="og:description" content={`Browse Unsupervised Learning Sub-Tasks for ${task.title}`} />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-          <meta name="og:image" content={task.thumbnail} />
+          <meta name="og:image" content={`${config.siteUrl}${task.thumbnail}`} />
 
           <meta name="twitter:title" content={`${task.title} | ${config.siteTitle}`}  />
           <meta name="twitter:description" content={`Browse Unsupervised Learning Sub-Tasks for ${task.title}`} />
-          <meta name="twitter:image" content={task.thumbnail} />
+          <meta name="twitter:image" content={`${config.siteUrl}${task.thumbnail}`} />
         </Helmet>
 
 

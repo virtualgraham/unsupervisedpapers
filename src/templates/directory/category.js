@@ -55,11 +55,11 @@ export default ({ data, pageContext, location }) => {
           <meta name="og:title" content={`${category.title} | ${config.siteTitle}`} />
           <meta name="og:description" content={category.excerpt} />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-          <meta name="og:image" content={category.thumbnail} />
+          <meta name="og:image" content={`${config.siteUrl}${category.thumbnail}`}  />
 
           <meta name="twitter:title" content={`${category.title} | ${config.siteTitle}`} />
           <meta name="twitter:description" content={category.excerpt} />
-          <meta name="twitter:image" content={category.thumbnail} />
+          <meta name="twitter:image" content={`${config.siteUrl}${category.thumbnail}`} />
         </Helmet>
 
 

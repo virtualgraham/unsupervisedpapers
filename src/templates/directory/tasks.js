@@ -60,11 +60,11 @@ export default ({ data, pageContext, location }) => {
           <meta name="og:title" content={`Tasks | ${config.siteTitle}`} />
           <meta name="og:description" content="Browse Unsupervised Learning Tasks" />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-          <meta name="og:image" content="/tasks.jpg" />
+          <meta name="og:image" content={`${config.siteUrl}/tasks.jpg`} />
 
           <meta name="twitter:title" content={`Tasks | ${config.siteTitle}`} />
           <meta name="twitter:description" content="Browse Unsupervised Learning Tasks" />
-          <meta name="twitter:image" content="/tasks.jpg" />
+          <meta name="twitter:image" content={`${config.siteUrl}/tasks.jpg`} />
         </Helmet>
 
         <Pane

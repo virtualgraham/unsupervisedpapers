@@ -52,11 +52,11 @@ export default ({ data, location  }) => {
         <meta name="og:title" content={`Search | ${config.siteTitle}`} />
         <meta name="og:description" content="Search Unsupervised Machine Learning Papers" />
         <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-        <meta name="og:image" content="/search.jpg" />
+        <meta name="og:image" content={`${config.siteUrl}/search.jpg`} />
 
         <meta name="twitter:title" content={`Search | ${config.siteTitle}`} />
         <meta name="twitter:description" content="Search Unsupervised Machine Learning Papers" />
-        <meta name="twitter:image" content="/search.jpg" />
+        <meta name="twitter:image" content={`${config.siteUrl}/search.jpg`} />
 
         <html className="search" lang="en" />
       </Helmet>

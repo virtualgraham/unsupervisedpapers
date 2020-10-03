@@ -63,11 +63,11 @@ export default ({ data, pageContext, location }) => {
           <meta name="og:title" content={`${method.title} | ${config.siteTitle}`} />
           <meta name="og:description" content={method.excerpt} />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-          <meta name="og:image" content={method.thumbnail} />
+          <meta name="og:image" content={`${config.siteUrl}${method.thumbnail}`} />
 
           <meta name="twitter:title" content={`${method.title} | ${config.siteTitle}`} />
           <meta name="twitter:description" content={method.excerpt} />
-          <meta name="twitter:image" content={method.thumbnail} />
+          <meta name="twitter:image" content={`${config.siteUrl}${method.thumbnail}`} />
         </Helmet>
 
 

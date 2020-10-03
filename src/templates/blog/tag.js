@@ -54,11 +54,11 @@ const TagTemplate = ({ data, pageContext, location }) => {
           <meta name="og:title" content={`Posts tagged as "${pageContext.tag}" | ${config.siteTitle}`} />
           <meta name="og:description" content={`Posts tagged as "${pageContext.tag}"`} />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-          <meta name="og:image" content="/blog.jpg" />
+          <meta name="og:image" content={`${config.siteUrl}/blog.jpg`} />
 
           <meta name="twitter:title" content={`Posts tagged as "${pageContext.tag}"`} />
           <meta name="twitter:description" content={`Posts tagged as "${pageContext.tag}"`} />
-          <meta name="twitter:image" content="/blog.jpg" />
+          <meta name="twitter:image" content={`${config.siteUrl}/blog.jpg`} />
         </Helmet>
 
         <BlogListing posts={posts} tags={tags} />

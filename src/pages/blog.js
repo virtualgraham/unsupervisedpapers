@@ -56,11 +56,11 @@ export default ({ data, location  }) => {
           <meta name="og:title" content={`Blog | ${config.siteTitle}`} />
           <meta name="og:description" content="Read posts from the Unsupervised Papers blog" />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-          <meta name="og:image" content="/blog.jpg" />
+          <meta name="og:image" content={`${config.siteUrl}/blog.jpg`} />
 
           <meta name="twitter:title" content={`Blog | ${config.siteTitle}`} />
           <meta name="twitter:description" content="Read posts from the Unsupervised Papers blog" />
-          <meta name="twitter:image" content="/blog.jpg" />
+          <meta name="twitter:image" content={`${config.siteUrl}/blog.jpg`} />
         </Helmet>
 
         <BlogListing posts={posts} tags={tags} />

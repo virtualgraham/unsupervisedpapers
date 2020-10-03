@@ -60,11 +60,11 @@ export default ({ data, pageContext, location }) => {
           <meta name="og:title" content={`${paper.title} | ${config.siteTitle}`} />
           <meta name="og:description" content={utils.truncate(paper.abstract, 350)}  />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
-          <meta name="og:image" content={paper.thumbnail} />
+          <meta name="og:image" content={`${config.siteUrl}${paper.thumbnail}`} />
 
           <meta name="twitter:title" content={`${paper.title} | ${config.siteTitle}`} />
           <meta name="twitter:description" content={utils.truncate(paper.abstract, 350)} />
-          <meta name="twitter:image" content={paper.thumbnail} />
+          <meta name="twitter:image" content={`${config.siteUrl}${paper.thumbnail}`} />
         </Helmet>
           
         <Pane 
