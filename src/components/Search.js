@@ -105,7 +105,7 @@ class Search extends React.Component {
     
     if(!this.fuse) {
       this.fuse = new Fuse(this.props.papers, {
-        threshold: 0.20,
+        threshold: 0.60,
         keys: [    
           {
             name: 'title',
