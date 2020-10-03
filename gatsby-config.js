@@ -4,9 +4,10 @@ const config = require("./site-config");
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
-    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    siteUrl: config.siteUrl,
   },
   plugins: [
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     // "gatsby-plugin-sharp",

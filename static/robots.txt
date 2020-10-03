@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: http://unsupervisedpapers.com/sitemap.xml
