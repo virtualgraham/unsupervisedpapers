@@ -11,7 +11,7 @@ export default ({ paper, compact=false, searchWords=[] }) => {
   return (
     <Pane
       className={compact?"hover-bg-change pointer paper-card-compact":"hover-bg-change pointer paper-card-full"}
-      elevation={2}
+      elevation={3}
       onClick={() => navigate(paper.slug)}
     >
       <Link onClick={e=>e.stopPropagation()} style={{ display: "contents" }} to={paper.slug} key={paper.name}>

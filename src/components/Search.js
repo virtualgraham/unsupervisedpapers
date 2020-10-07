@@ -129,7 +129,9 @@ class Search extends React.Component {
 
     } else {
       words = []
+      this.props.papers.sort((a, b) => (a.name > b.name) ? 1 : -1)
       filteredPapers = this.props.papers
+
     }
 
     return (
