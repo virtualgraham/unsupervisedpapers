@@ -18,6 +18,7 @@ export default ({ data, pageContext, location }) => {
     authors: data.markdownRemark.frontmatter.authors,
     links: data.markdownRemark.frontmatter.links,
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
+    card: data.markdownRemark.frontmatter.card ? data.markdownRemark.frontmatter.card.publicURL : config.defaultThumbnail,
     supervision: data.markdownRemark.frontmatter.supervision,
     tasks: pageContext.tasks,
     methods: pageContext.methods,
@@ -187,6 +188,9 @@ export const query = graphql`
           url
         }
         thumbnail {
+          publicURL
+        }
+        card {
           publicURL
         }
         supervision
