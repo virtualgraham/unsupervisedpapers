@@ -17,8 +17,19 @@ function truncate( str, n ){
     return subString.substr(0, subString.lastIndexOf(" ")) + "...";
   };
 
+function linkListToDict(links) {
+    return links.reduce((a,l) => {
+        if (!a.hasOwnProperty(l.type)) {
+            a[l.type] = []
+        }
+        a[l.type].push(l)
+        return a
+    }, {})
+}
+
 export default {
     encodeKebobCase,
     decodeKebobCase,
-    truncate
+    truncate,
+    linkListToDict
 }

@@ -17,6 +17,7 @@ export default ({ data, pageContext, location }) => {
     date: data.markdownRemark.frontmatter.date,
     authors: data.markdownRemark.frontmatter.authors,
     links: data.markdownRemark.frontmatter.links,
+    linksDict: utils.linkListToDict(data.markdownRemark.frontmatter.links),
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     card: data.markdownRemark.frontmatter.card ? data.markdownRemark.frontmatter.card.publicURL : config.defaultThumbnail,
     supervision: data.markdownRemark.frontmatter.supervision,
@@ -99,15 +100,16 @@ export default ({ data, pageContext, location }) => {
               flex={1}
               marginRight={25}
             >
-              <Pane 
-                className="paper-thumbnail" 
-              >
-                <img 
-                  src={paper.thumbnail} 
-                  alt="thumbnail" 
-                />
-              </Pane>
-
+              <Link to={paper.linksDict.pdf ? paper.linksDict.pdf[0].url : '#'}>
+                <Pane 
+                  className="paper-thumbnail" 
+                >
+                  <img 
+                    src={paper.thumbnail} 
+                    alt="thumbnail" 
+                  />
+                </Pane>
+              </Link>
 
               <Heading>Abstract</Heading>
               <Pane>

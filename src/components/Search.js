@@ -1,8 +1,8 @@
 import React from 'react'
 import { Pane, Strong, Text } from 'evergreen-ui'
 import queryString from 'query-string';
-import Fuse from 'fuse.js'
 import { Virtuoso } from 'react-virtuoso'
+import FlexSearch from 'flexsearch/dist/module/flexsearch';
 import PaperCard from './PaperCard';
 
 
@@ -10,6 +10,7 @@ import PaperCard from './PaperCard';
 function getHeader(query, resultCount) {
   return (
     <Pane 
+      key="_header_"
       maxWidth={1024}
       marginLeft="auto"
       marginRight="auto"
@@ -50,6 +51,7 @@ function getFooter() {
 function getPaper(paper, searchWords=[]) {
   return (
     <Pane 
+      key={paper.name}
       maxWidth={1024}
       marginLeft="auto"
       marginRight="auto"
@@ -103,21 +105,18 @@ class Search extends React.Component {
   render() {
     const searchQuery = this.state.searchQuery.trim()
     
-    if(!this.fuse) {
-      this.fuse = new Fuse(this.props.papers, {
-        threshold: 0.60,
-        keys: [    
-          {
-            name: 'title',
-            weight: 2
-          }, 
-          {
-            name: 'authors',
-            weight: 2
-          }, 
-          'abstract'
-        ]
+    if(!this.flexsearch) {
+      this.flexsearch = new FlexSearch({
+        doc: {
+            id: "name",
+            field: [
+                "title",
+                "authors",
+                "abstract"
+            ]
+        }
       })
+      this.flexsearch.add(this.props.papers)
     }
 
     let filteredPapers;
@@ -125,7 +124,7 @@ class Search extends React.Component {
 
     if (searchQuery.length > 0) {
 
-      filteredPapers = this.fuse.search(searchQuery).map(f => f.item)
+      filteredPapers = this.flexsearch.search(searchQuery)
       words = searchQuery.split(' ')
 
     } else {

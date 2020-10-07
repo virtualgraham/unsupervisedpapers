@@ -7,7 +7,8 @@ export default ({ papers }) => {
   return (
     <Pane>
       {papers.map(paper => (
-        <Pane           
+        <Pane 
+          key={paper.name}          
           marginRight={15}
           marginLeft={15}
           marginBottom={42}
