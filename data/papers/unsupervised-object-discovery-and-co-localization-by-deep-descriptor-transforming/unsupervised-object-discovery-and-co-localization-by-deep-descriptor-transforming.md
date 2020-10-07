@@ -31,14 +31,16 @@
       "url": "https://www.youtube.com/watch?v=Pg4GZNh3Gno"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=14875425920144428913"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/a75c9e95499d0846913e14b5278044aea18f8979"
     },
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-discovery", "object-colocalization"],
   "methods": ["convolutional-neural-network-layer-activations", "principal-component-analysis"],
-  "thumbnail": "unsupervised-object-discovery-and-co-localization-by-deep-descriptor-transforming.jpg"
+  "thumbnail": "unsupervised-object-discovery-and-co-localization-by-deep-descriptor-transforming-thumb.jpg",
+  "card": "unsupervised-object-discovery-and-co-localization-by-deep-descriptor-transforming-card.jpg",
+  "s2_paper_id": "a75c9e95499d0846913e14b5278044aea18f8979"
 }
 ---

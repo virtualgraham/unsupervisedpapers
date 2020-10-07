@@ -18,9 +18,9 @@
       "url": "https://link.springer.com/article/10.1007/s11263-009-0271-8"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com.ph/scholar?cluster=9407314025050430119"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/c97432c9640d0bb825c4c3c36a770077f8e53161"
     }
   ],
   "supervision": ["unsupervised"],
@@ -30,6 +30,8 @@
   "methods": [
     "k-means-clustering", "principal-component-analysis", "bag-of-visual-words", "scale-invariant-feature-transform", "harris-laplace", "hessian-laplace", "spectral-clustering", "latent-dirichlet-allocation", "non-negative-matrix-factorization"
   ],
-  "thumbnail": "unsupervised-object-discovery-a-comparison.jpg"
+  "thumbnail": "unsupervised-object-discovery-a-comparison-thumb.jpg",
+  "card": "unsupervised-object-discovery-a-comparison-card.jpg",
+  "s2_paper_id": "c97432c9640d0bb825c4c3c36a770077f8e53161"
 }
 ---

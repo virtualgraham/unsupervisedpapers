@@ -16,14 +16,16 @@
       "url": "https://link.springer.com/chapter/10.1007/978-3-642-15555-0_5"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=3026167580734529503"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/2b67dbfadb5812501780d700d20c9dbfb1d1727b"
     }
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-discovery", "object-segmentation"],
   "methods": ["minimum-cover-curve-detection", "dynamic-time-warping", "spacial-relationship-graph"],
-  "thumbnail": "from-a-set-of-shapes-to-object-discovery.jpg"
+  "thumbnail": "from-a-set-of-shapes-to-object-discovery-thumb.jpg",
+  "card": "from-a-set-of-shapes-to-object-discovery-card.jpg",
+  "s2_paper_id": "2b67dbfadb5812501780d700d20c9dbfb1d1727b"
 }
 ---

@@ -21,14 +21,16 @@
       "url": "https://www.youtube.com/watch?v=AFRPVa2QFso"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=12203500835590333101"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/1c84ad377084cd3a86ec0977b8e5fe29de855f2a"
     },
   ],
   "supervision": [],
   "tasks": ["object-discovery", "object-localization", "video-object-tracking"],
   "methods": ["histogram-of-oriented-gradients", "long-term-point-tracks"],
-  "thumbnail": "unsupervised-object-discovery-and-tracking-in-video-collections.jpg"
+  "thumbnail": "unsupervised-object-discovery-and-tracking-in-video-collections-thumb.jpg",
+  "card": "unsupervised-object-discovery-and-tracking-in-video-collections-card.jpg",
+  "s2_paper_id": "1c84ad377084cd3a86ec0977b8e5fe29de855f2a"
 }
 ---

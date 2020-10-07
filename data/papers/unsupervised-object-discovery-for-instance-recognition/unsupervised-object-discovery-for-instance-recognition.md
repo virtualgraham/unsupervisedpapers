@@ -23,9 +23,9 @@
       "url": "https://www.youtube.com/watch?v=BkmOHwKUCTA"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=7269623352862388884"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/3e9f9e3ed71ddebf156b74fad0cabbccfaa61bbd"
     }
   ],
   "supervision": ["unsupervised"],
@@ -35,6 +35,8 @@
   "methods": [
     "convolutional-neural-network-layer-activations", "gaussian-mixture-model"
   ],
-  "thumbnail": "unsupervised-object-discovery-for-instance-recognition.jpg"
+  "thumbnail": "unsupervised-object-discovery-for-instance-recognition-thumb.jpg",
+  "card": "unsupervised-object-discovery-for-instance-recognition-card.jpg",
+  "s2_paper_id": "3e9f9e3ed71ddebf156b74fad0cabbccfaa61bbd"
 }
 ---

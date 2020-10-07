@@ -30,7 +30,7 @@ Markdown Frontmatter Schema
 			"url": "http://url"
 		}
 	],
-	"supervision": ["unsupervised", "semi-supervised", "weakly-supervised"]
+	"supervision": ["unsupervised", "self-supervised"]
 	"tasks": [
 		"task_id", 
 		"task_id"

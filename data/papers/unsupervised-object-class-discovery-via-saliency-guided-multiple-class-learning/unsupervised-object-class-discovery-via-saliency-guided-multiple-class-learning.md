@@ -16,14 +16,16 @@
       "url": "https://ieeexplore.ieee.org/document/6888473"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=10156006120042250527"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/563f53d542be54cadb587282a77dbfb094a00b19"
     },
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-discovery", "object-localization"],
   "methods": ["window-based-saliency"],
-  "thumbnail": "unsupervised-object-class-discovery-via-saliency-guided-multiple-class-learning.jpg"
+  "thumbnail": "unsupervised-object-class-discovery-via-saliency-guided-multiple-class-learning-thumb.jpg",
+  "card": "unsupervised-object-class-discovery-via-saliency-guided-multiple-class-learning-card.jpg",
+  "s2_paper_id": "563f53d542be54cadb587282a77dbfb094a00b19"
 }
 ---

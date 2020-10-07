@@ -21,14 +21,16 @@
       "url": "https://research.google/pubs/pub42188/"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=15236829886521659824"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/616742f967a115183e4399643f15d153325c7f38"
     },
   ],
   "supervision": ["unsupervised"],
   "tasks": ["3d-semantic-segmentation"],
   "methods": ["segment-graph", "viewpoint-feature-histogram", "color-histogram"],
-  "thumbnail": "unsupervised-discovery-of-object-classes-with-a-mobile-robot.jpg"
+  "thumbnail": "unsupervised-discovery-of-object-classes-with-a-mobile-robot-thumb.jpg",
+  "card": "unsupervised-discovery-of-object-classes-with-a-mobile-robot-card.jpg",
+  "s2_paper_id": "616742f967a115183e4399643f15d153325c7f38"
 }
 ---

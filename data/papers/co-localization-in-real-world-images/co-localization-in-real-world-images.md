@@ -16,14 +16,16 @@
       "url": "https://ieeexplore.ieee.org/document/6909586"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=1366465610591697332"
-    },
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/c624f31ceb73c9ba11cf3bbc5578fd0c54ed9ab9"
+    }
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-colocalization"],
   "methods": ["measure-of-objectiveness", "scale-invariant-feature-transform", "contrast-based-saliency"],
-  "thumbnail": "co-localization-in-real-world-images.jpg"
+  "thumbnail": "co-localization-in-real-world-images-thumb.jpg",
+  "card": "co-localization-in-real-world-images-card.jpg",
+  "s2_paper_id": "c624f31ceb73c9ba11cf3bbc5578fd0c54ed9ab9"
 }
 ---

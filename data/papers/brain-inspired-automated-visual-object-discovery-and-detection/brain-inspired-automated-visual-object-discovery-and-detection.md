@@ -28,9 +28,9 @@
       "url": "https://www.pnas.org/highwire/filestream/840726/field_highwire_adjunct_files/0/pnas.1802103115.sapp.pdf"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=4897885539950989400"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/a2d132c0bbccf4261329f6143ebb70f69209d07e"
     },
     {
       "title": "TechXplore Article",
@@ -47,6 +47,8 @@
   "methods": [
     "spring-network-model", "histogram-of-oriented-gradients", "k-means-clustering", "principal-component-analysis", "markov-random-field"
   ],
-  "thumbnail": "brain-inspired-automated-visual-object-discovery-and-detection.jpg"
+  "thumbnail": "brain-inspired-automated-visual-object-discovery-and-detection-thumb.jpg",
+  "card": "brain-inspired-automated-visual-object-discovery-and-detection-card.jpg",
+  "s2_paper_id": "a2d132c0bbccf4261329f6143ebb70f69209d07e"
 }
 ---

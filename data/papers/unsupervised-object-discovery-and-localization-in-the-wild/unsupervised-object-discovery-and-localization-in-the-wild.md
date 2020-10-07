@@ -28,9 +28,9 @@
       "url": "https://www.di.ens.fr/willow/research/objectdiscovery/"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=3744727750041693033"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/988c8578178fa263c2524d85292072c6a13a6121"
     },
   ],
   "supervision": ["unsupervised"],
@@ -40,6 +40,8 @@
   "methods": [
       "part-based-region-matching" ,"histogram-of-oriented-gradients", "randomized-prims-algorithm", "hough-transform", "gist-descriptor" 
   ],
-  "thumbnail": "unsupervised-object-discovery-and-localization-in-the-wild.jpg"
+  "thumbnail": "unsupervised-object-discovery-and-localization-in-the-wild-thumb.jpg",
+  "card": "unsupervised-object-discovery-and-localization-in-the-wild.jpg",
+  "s2_paper_id": "988c8578178fa263c2524d85292072c6a13a6121"
 }
 ---

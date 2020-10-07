@@ -16,14 +16,16 @@
       "url": "https://ieeexplore.ieee.org/document/6909586"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=8851208826982887772"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/86dffe4940280c14a8cddf43bcdda83b9ce91b9c"
     },
   ],
   "supervision": ["weakly-supervised", "unsupervised"],
   "tasks": ["object-colocalization"],
   "methods": ["gist-descriptor", "scale-invariant-feature-transform", "grab-cut"],
-  "thumbnail": "efficient-video-object-co-localization-with-co-saliency-activated-tracklets.jpg"
+  "thumbnail": "efficient-video-object-co-localization-with-co-saliency-activated-tracklets-thumb.jpg",
+  "card": "efficient-video-object-co-localization-with-co-saliency-activated-tracklets-card.jpg",
+  "s2_paper_id": "86dffe4940280c14a8cddf43bcdda83b9ce91b9c"
 }
 ---

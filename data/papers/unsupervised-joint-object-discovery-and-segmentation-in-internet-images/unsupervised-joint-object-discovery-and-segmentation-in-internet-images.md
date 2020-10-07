@@ -21,14 +21,16 @@
       "url": "https://ieeexplore.ieee.org/document/6619097"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=17687707521593576527"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/e99be23407b4965ab0e34ed2998cb6fafec7822a"
     },
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-cosegmentation"],
   "methods": ["contrast-based-saliency", "scale-invariant-feature-transform", "sift-flow", "gist-descriptor", "color-histogram", "grab-cut"],
-  "thumbnail": "unsupervised-joint-object-discovery-and-segmentation-in-internet-images.jpg"
+  "thumbnail": "unsupervised-joint-object-discovery-and-segmentation-in-internet-images-thumb.jpg",
+  "card": "unsupervised-joint-object-discovery-and-segmentation-in-internet-images-card.jpg",
+  "s2_paper_id": "e99be23407b4965ab0e34ed2998cb6fafec7822a"
 }
 ---

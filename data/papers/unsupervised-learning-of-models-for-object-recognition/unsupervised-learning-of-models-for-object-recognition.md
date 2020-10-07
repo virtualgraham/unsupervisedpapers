@@ -16,14 +16,16 @@
       "url": "https://thesis.library.caltech.edu/6095/"
     },
     {
-      "title": "Google Scholar",
-      "type": "googlescholar",
-      "url": "https://scholar.google.com/scholar?cluster=9389708332353168175"
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/14c4e4b83f936184875ba79e6df1ac10ec556bdd"
     },
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-detection", "face-detection"],
   "methods": ["constellation-model"],
-  "thumbnail": "unsupervised-learning-of-models-for-object-recognition.jpg"
+  "thumbnail": "unsupervised-learning-of-models-for-object-recognition-thumb.jpg",
+  "card": "unsupervised-learning-of-models-for-object-recognition-card.jpg",
+  "s2_paper_id": "14c4e4b83f936184875ba79e6df1ac10ec556bdd"
 }
 ---
