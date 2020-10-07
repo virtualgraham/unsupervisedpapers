@@ -1,0 +1,36 @@
+---
+{
+  "title": "Convolutional Clustering for Unsupervised Learning",
+  "date": "2015-11-19",
+  "authors": [
+    "Aysegul Dundar",
+    "Jonghoon Jin",
+    "E. Culurciello"
+  ],
+  "abstract": "The task of labeling data for training deep neural networks is daunting and tedious, requiring millions of labels to achieve the current state-of-the-art results. Such reliance on large amounts of labeled data can be relaxed by exploiting hierarchical features via unsupervised learning techniques. In this work, we propose to train a deep convolutional network based on an enhanced version of the k-means clustering algorithm, which reduces the number of correlated parameters in the form of similar filters, and thus increases test categorization accuracy. We call our algorithm convolutional k-means clustering. We further show that learning the connection between the layers of a deep convolutional neural network improves its ability to be trained on a smaller amount of labeled data. Our experiments show that the proposed algorithm outperforms other techniques that learn filters unsupervised. Specifically, we obtained a test accuracy of 74.1% on STL-10 and a test error of 0.5% on MNIST.",
+  "links": [
+    {
+      "title": "PDF",
+      "type": "pdf",
+      "url": "https://arxiv.org/pdf/1511.06241.pdf"
+    },
+    {
+      "title": "arXiv.org",
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/1511.06241"
+    },
+    {
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/a47077a665e7df36690db3b493a0ab0da76ac220"
+    }
+  ],
+  "supervision": [],
+  "tasks": [],
+  "methods": [],
+  "thumbnail": "convolutional-clustering-for-unsupervised-learning-thumb.jpg",
+  "card": "convolutional-clustering-for-unsupervised-learning-card.jpg",
+  "s2_paper_id": "a47077a665e7df36690db3b493a0ab0da76ac220"
+}
+---
+

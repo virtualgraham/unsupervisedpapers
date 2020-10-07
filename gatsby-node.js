@@ -976,9 +976,13 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         "parent_task": {
           type: 'String',
         },
+        "date": {
+          type: 'String',
+        },
         components: {
           type: "[String!]",
         },
+
         // thumbnail: {
         //   type: 'Thumbnail!',
         //   resolve(source) {

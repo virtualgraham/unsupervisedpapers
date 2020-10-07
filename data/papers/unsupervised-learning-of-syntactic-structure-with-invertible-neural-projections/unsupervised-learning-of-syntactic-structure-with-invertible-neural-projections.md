@@ -1,0 +1,36 @@
+---
+{
+  "title": "Unsupervised Learning of Syntactic Structure with Invertible Neural Projections",
+  "date": "2018-08-28",
+  "authors": [
+    "Junxian He",
+    "Graham Neubig",
+    "Taylor Berg-Kirkpatrick"
+  ],
+  "abstract": "Unsupervised learning of syntactic structure is typically performed using generative models with discrete latent variables and multinomial parameters. In most cases, these models have not leveraged continuous word representations. In this work, we propose a novel generative model that jointly learns discrete syntactic structure and continuous word representations in an unsupervised fashion by cascading an invertible neural network with a structured generative prior. We show that the invertibility condition allows for efficient exact inference and marginal likelihood computation in our model so long as the prior is well-behaved. In experiments we instantiate our approach with both Markov and tree-structured priors, evaluating on two tasks: part-of-speech (POS) induction, and unsupervised dependency parsing without gold POS annotation. On the Penn Treebank, our Markov-structured model surpasses state-of-the-art results on POS induction. Similarly, we find that our tree-structured model achieves state-of-the-art performance on unsupervised dependency parsing for the difficult training condition where neither gold POS annotation nor punctuation-based constraints are available.",
+  "links": [
+    {
+      "title": "PDF",
+      "type": "pdf",
+      "url": "https://arxiv.org/pdf/1808.09111.pdf"
+    },
+    {
+      "title": "arXiv.org",
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/1808.09111"
+    },
+    {
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/a03675379685d88c727bc985a323cc71d06f2514"
+    }
+  ],
+  "supervision": [],
+  "tasks": [],
+  "methods": [],
+  "thumbnail": "unsupervised-learning-of-syntactic-structure-with-invertible-neural-projections-thumb.jpg",
+  "card": "unsupervised-learning-of-syntactic-structure-with-invertible-neural-projections-card.jpg",
+  "s2_paper_id": "a03675379685d88c727bc985a323cc71d06f2514"
+}
+---
+

@@ -1,0 +1,37 @@
+---
+{
+  "title": "Sequential Attend, Infer, Repeat: Generative Modelling of Moving Objects",
+  "date": "2018-06-05",
+  "authors": [
+    "Adam R. Kosiorek",
+    "Hyunjik Kim",
+    "I. Posner",
+    "Y. Teh"
+  ],
+  "abstract": "We present Sequential Attend, Infer, Repeat (SQAIR), an interpretable deep generative model for image sequences. It can reliably discover and track objects through the sequence; it can also conditionally generate future frames, thereby simulating expected motion of objects. This is achieved by explicitly encoding object numbers, locations and appearances in the latent variables of the model. SQAIR retains all strengths of its predecessor, Attend, Infer, Repeat (AIR, Eslami et. al. 2016), including unsupervised learning, made possible by inductive biases present in the model structure. We use a moving multi-\\textsc{mnist} dataset to show limitations of AIR in detecting overlapping or partially occluded objects, and show how \\textsc{sqair} overcomes them by leveraging temporal consistency of objects. Finally, we also apply SQAIR to real-world pedestrian CCTV data, where it learns to reliably detect, track and generate walking pedestrians with no supervision.",
+  "links": [
+    {
+      "title": "PDF",
+      "type": "pdf",
+      "url": "https://arxiv.org/pdf/1806.01794.pdf"
+    },
+    {
+      "title": "arXiv.org",
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/1806.01794"
+    },
+    {
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/8928371206f313d409eeb5242d646a8e71061d90"
+    }
+  ],
+  "supervision": [],
+  "tasks": [],
+  "methods": [],
+  "thumbnail": "sequential-attend-infer-repeat-generative-modelling-of-moving-objects-thumb.jpg",
+  "card": "sequential-attend-infer-repeat-generative-modelling-of-moving-objects-card.jpg",
+  "s2_paper_id": "8928371206f313d409eeb5242d646a8e71061d90"
+}
+---
+

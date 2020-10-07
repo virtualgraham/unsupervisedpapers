@@ -57,7 +57,7 @@ export default ({ data, location  }) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(filter: {fields: {type: {eq: "paper"}}}, sort: {fields: frontmatter___date, order: DESC}, limit: 30) {
+    allMarkdownRemark(filter: {fields: {type: {eq: "paper"}}, frontmatter: {date: {ne: null}}}, sort: {fields: frontmatter___date, order: DESC}, limit: 30) {
       nodes {
         frontmatter {
           title

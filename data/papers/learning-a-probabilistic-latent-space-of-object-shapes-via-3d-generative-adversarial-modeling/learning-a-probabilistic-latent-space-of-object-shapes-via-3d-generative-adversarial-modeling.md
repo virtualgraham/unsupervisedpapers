@@ -1,0 +1,38 @@
+---
+{
+  "title": "Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling",
+  "date": "2016-10-24",
+  "authors": [
+    "Jiajun Wu",
+    "Chengkai Zhang",
+    "Tianfan Xue",
+    "B. Freeman",
+    "J. Tenenbaum"
+  ],
+  "abstract": "We study the problem of 3D object generation. We propose a novel framework, namely 3D Generative Adversarial Network (3D-GAN), which generates 3D objects from a probabilistic space by leveraging recent advances in volumetric convolutional networks and generative adversarial nets. The benefits of our model are three-fold: first, the use of an adversarial criterion, instead of traditional heuristic criteria, enables the generator to capture object structure implicitly and to synthesize high-quality 3D objects; second, the generator establishes a mapping from a low-dimensional probabilistic space to the space of 3D objects, so that we can sample objects without a reference image or CAD models, and explore the 3D object manifold; third, the adversarial discriminator provides a powerful 3D shape descriptor which, learned without supervision, has wide applications in 3D object recognition. Experiments demonstrate that our method generates high-quality 3D objects, and our unsupervisedly learned features achieve impressive performance on 3D object recognition, comparable with those of supervised learning methods.",
+  "links": [
+    {
+      "title": "PDF",
+      "type": "pdf",
+      "url": "https://arxiv.org/pdf/1610.07584.pdf"
+    },
+    {
+      "title": "arXiv.org",
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/1610.07584"
+    },
+    {
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/76cee11c6a9f1424f03571378a966c1417ff2935"
+    }
+  ],
+  "supervision": [],
+  "tasks": [],
+  "methods": [],
+  "thumbnail": "learning-a-probabilistic-latent-space-of-object-shapes-via-3d-generative-adversarial-modeling-thumb.jpg",
+  "card": "learning-a-probabilistic-latent-space-of-object-shapes-via-3d-generative-adversarial-modeling-card.jpg",
+  "s2_paper_id": "76cee11c6a9f1424f03571378a966c1417ff2935"
+}
+---
+

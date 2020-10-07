@@ -1,0 +1,35 @@
+---
+{
+  "title": "Unsupervised Learning of Disentangled Representations from Video",
+  "date": "2017-05-31",
+  "authors": [
+    "Emily L. Denton",
+    "Vighnesh Birodkar"
+  ],
+  "abstract": "We present a new model DrNET that learns disentangled image representations from video. Our approach leverages the temporal coherence of video and a novel adversarial loss to learn a representation that factorizes each frame into a stationary part and a temporally varying component. The disentangled representation can be used for a range of tasks. For example, applying a standard LSTM to the time-vary components enables prediction of future frames. We evaluate our approach on a range of synthetic and real videos, demonstrating the ability to coherently generate hundreds of steps into the future.",
+  "links": [
+    {
+      "title": "PDF",
+      "type": "pdf",
+      "url": "https://arxiv.org/pdf/1705.10915.pdf"
+    },
+    {
+      "title": "arXiv.org",
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/1705.10915"
+    },
+    {
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/1a8d3ad2b400bcebc9f17b309901ca5ef2e95315"
+    }
+  ],
+  "supervision": [],
+  "tasks": [],
+  "methods": [],
+  "thumbnail": "unsupervised-learning-of-disentangled-representations-from-video-thumb.jpg",
+  "card": "unsupervised-learning-of-disentangled-representations-from-video-card.jpg",
+  "s2_paper_id": "1a8d3ad2b400bcebc9f17b309901ca5ef2e95315"
+}
+---
+

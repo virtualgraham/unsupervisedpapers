@@ -1,0 +1,37 @@
+---
+{
+  "title": "Meta-Learning Update Rules for Unsupervised Representation Learning",
+  "date": "2018-03-31",
+  "authors": [
+    "Luke Metz",
+    "Niru Maheswaranathan",
+    "B. Cheung",
+    "Jascha Sohl-Dickstein"
+  ],
+  "abstract": "A major goal of unsupervised learning is to discover data representations that are useful for subsequent tasks, without access to supervised labels during training. Typically, this involves minimizing a surrogate objective, such as the negative log likelihood of a generative model, with the hope that representations useful for subsequent tasks will arise as a side effect. In this work, we propose instead to directly target later desired tasks by meta-learning an unsupervised learning rule which leads to representations useful for those tasks. Specifically, we target semi-supervised classification performance, and we meta-learn an algorithm -- an unsupervised weight update rule -- that produces representations useful for this task. Additionally, we constrain our unsupervised update rule to a be a biologically-motivated, neuron-local function, which enables it to generalize to different neural network architectures, datasets, and data modalities. We show that the meta-learned update rule produces useful features and sometimes outperforms existing unsupervised learning techniques. We further show that the meta-learned unsupervised update rule generalizes to train networks with different widths, depths, and nonlinearities. It also generalizes to train on data with randomly permuted input dimensions and even generalizes from image datasets to a text task.",
+  "links": [
+    {
+      "title": "PDF",
+      "type": "pdf",
+      "url": "https://arxiv.org/pdf/1804.00222.pdf"
+    },
+    {
+      "title": "arXiv.org",
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/1804.00222"
+    },
+    {
+      "title": "Semantic Scholar",
+      "type": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/c6509a450bdda7ca5b8567103dfe9671dbf3b567"
+    }
+  ],
+  "supervision": [],
+  "tasks": [],
+  "methods": [],
+  "thumbnail": "meta-learning-update-rules-for-unsupervised-representation-learning-thumb.jpg",
+  "card": "meta-learning-update-rules-for-unsupervised-representation-learning-card.jpg",
+  "s2_paper_id": "c6509a450bdda7ca5b8567103dfe9671dbf3b567"
+}
+---
+
