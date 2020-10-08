@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link, navigate } from 'gatsby'
-import { Pane, Text, Strong, Heading, Button } from 'evergreen-ui'
-import Highlighter from "react-highlight-words"
-import moment from 'moment';
-import util from "../util/util"
-import LinkIcon from "./LinkIcon"
+import { Pane, Text, Heading, Button } from 'evergreen-ui'
 
 
 export default ({ tasks, type }) => {
