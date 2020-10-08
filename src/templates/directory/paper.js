@@ -116,16 +116,20 @@ export default ({ data, pageContext, location }) => {
                 <p>{paper.abstract}</p>
               </Pane>
 
-              <Heading>Supervision</Heading>
-              <Pane 
-                display="flex"
-                marginLeft={-15}
-                marginBottom={25}
-              >
-                {paper.supervision.map((supervision, index) => (
-                  <Button appearance="minimal" key={index}>{utils.decodeKebobCase(supervision)}</Button>
-                ))}
-              </Pane>
+              { paper.supervision.length > 0 && (
+                <>
+                  <Heading>Supervision</Heading>
+                  <Pane 
+                    display="flex"
+                    marginLeft={-15}
+                    marginBottom={25}
+                  >
+                    {paper.supervision.map((supervision, index) => (
+                      <Button appearance="minimal" key={index}>{utils.decodeKebobCase(supervision)}</Button>
+                    ))}
+                  </Pane>
+                </>
+              )}
 
               { paper.content.trim().length > 0 && (
                 <>
@@ -134,9 +138,7 @@ export default ({ data, pageContext, location }) => {
                 </>
               )}
 
-
             </Pane>
-
           </Pane>
 
           <Pane
@@ -148,23 +150,27 @@ export default ({ data, pageContext, location }) => {
             <LinkList links={paper.links} />
           </Pane>
 
-          <Pane
-            display="flex"
-            flexDirection="column"
-            marginBottom={35}
-          >
-            <Heading size={700} marginBottom={30}>Tasks</Heading>
-            <CardList tasks={paper.tasks} url_callback={task=>`/task/${task.name}`} />
-          </Pane>
+          { paper.tasks.length > 0 && (
+            <Pane
+              display="flex"
+              flexDirection="column"
+              marginBottom={35}
+            >
+              <Heading size={700} marginBottom={30}>Tasks</Heading>
+              <CardList tasks={paper.tasks} url_callback={task=>`/task/${task.name}`} />
+            </Pane>
+          )}
 
-          <Pane
-            display="flex"
-            flexDirection="column"
-            marginBottom={35}
-          >
-            <Heading size={700} marginBottom={30}>Methods</Heading>
-            <CardList tasks={paper.methods} url_callback={method=>`/method/${method.name}`} />
-          </Pane>
+          { paper.methods.length > 0 && (
+            <Pane
+              display="flex"
+              flexDirection="column"
+              marginBottom={35}
+            >
+              <Heading size={700} marginBottom={30}>Methods</Heading>
+              <CardList tasks={paper.methods} url_callback={method=>`/method/${method.name}`} />
+            </Pane>
+          )}
 
         </Pane>
 

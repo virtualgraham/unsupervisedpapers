@@ -11,7 +11,7 @@ export default ({ tasks, type }) => {
       onClick={() => navigate(`${type}s/`)}
     >
       <Pane
-        marginBottom={5}
+        marginBottom={10}
       >
         <Link to={`${type}s/`} onClick={e=>e.stopPropagation()}>
           <Heading size={700}>{`Browse ${type}s`}</Heading>
