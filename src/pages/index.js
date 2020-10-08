@@ -81,7 +81,7 @@ export default ({ data, location  }) => {
             marginLeft="auto"
             marginRight="auto"
             marginBottom={96}
-            marginTop={35}
+            marginTop={20}
             maxWidth={1024}
             display="flex"
             flexDirection="column"
@@ -89,7 +89,7 @@ export default ({ data, location  }) => {
           >
 
             <Pane
-              paddingBottom={25}
+              paddingBottom={20}
               maxWidth={1024}
               display="flex"
               alignItems="center"
