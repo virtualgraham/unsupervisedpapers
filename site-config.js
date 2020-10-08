@@ -1,12 +1,12 @@
 const config = {
   siteTitle: 'Unsupervised Papers', // Site title.
-  siteTitleShort: 'Unsupervised Papers', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleLong: 'Unsupervised Papers', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: 'Unsupervised Papers', // Alternative site title for SEO.
   siteLogo: '/unsupervisedpapers.svg', // Logo used for SEO and manifest.
   siteUrl: 'http://unsupervisedpapers.com', // Domain of your website without pathPrefix.
   pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
-    'UnsupervisedPapers.com is an open-source directory of papers on unsupervised machine learning and related topics with links to resources such as code, websites and videos. ', // Website description used for RSS feeds/meta description tag.
+    'Explore unsupervised learning at UnsupervisedPapers.com, an open-source directory of tasks, methods and papers with links to resources such as code, websites and videos. ', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '', // FB Application ID for using app insights
   googleAnalyticsID: '', // GA tracking ID.

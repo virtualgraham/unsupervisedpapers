@@ -49,6 +49,39 @@
 }
 
 @media (max-width:975px){
+    .explore_header {
+        color: white !important;
+        font-size: 24px !important;
+    }
+
+    .browse_tasks_outer_header {
+        flex: 1 !important;
+        display: flex !important;
+        align-items: stretch !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 32px !important;
+        margin-bottom: 32px !important;
+        max-width: 1024px !important;
+    }
+
+    .browse_tasks_inner_header {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        margin-top: -25px !important;
+    }
+
+    .browse_tasks_card {
+        display: flex !important;
+        flex-direction: column;
+        background-color: white !important;
+        padding: 15px !important;
+        flex: 1 !important;
+        margin-top: 25px !important;
+    }
+
     .paper-thumbnail {
         display: flex !important;
         align-items: center !important;
@@ -96,6 +129,38 @@
 }
   
 @media (min-width:975px){
+    .explore_header {
+        color: white !important;
+        font-size: 35px !important;
+    }
+
+    .browse_tasks_outer_header {
+        flex: 1 !important;
+        display: flex !important;
+        align-items: stretch !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 48px !important;
+        margin-bottom: 48px !important;
+        max-width: 1024px !important;
+    }
+
+    .browse_tasks_inner_header {
+        display: flex !important;
+        flex-direction: row !important;
+        margin-left: -15px !important;
+        margin-right: 15px !important;
+    }
+
+    .browse_tasks_card {
+        display: flex !important;
+        flex-direction: column !important;
+        background-color: white !important;
+        padding: 15px !important;
+        flex: 1 !important;
+        margin-left: 25px !important;
+    }
+
     .paper-thumbnail {
         width: 300px !important;
         margin-top: 25px !important;
