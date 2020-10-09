@@ -12,7 +12,7 @@
       "title": "Wikipedia",
       "type": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hough_transform"
-    },
+    }
   ]
 }
 ---

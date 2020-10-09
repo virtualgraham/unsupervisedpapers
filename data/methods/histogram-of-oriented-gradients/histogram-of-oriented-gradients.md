@@ -4,7 +4,7 @@
   "title": "Histogram of Oriented Gradients",
   "year": null,
   "categories": [
-    "feature-descriptors",
+    "feature-descriptors"
   ],
   "components": [],
   "thumbnail": "histogram-of-oriented-gradients.jpg",

@@ -14,7 +14,7 @@
       "title": "Wikipedia",
       "type": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Non-negative_matrix_factorization"
-    },
+    }
   ]
 }
 ---

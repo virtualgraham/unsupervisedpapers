@@ -1,7 +1,7 @@
 ---
 {
   "title": "Unsupervised Learning of Models for Object Recognition",
-  "date": 2000-05-01,
+  "date": "2000-05-01",
   "authors": ["Markus Weber"],
   "abstract": "A method is presented to learn object class models from unlabeled and unsegmented cluttered scenes for the purpose of visual object recognition. The variability across a class of objects is modeled in a principled way, treating objects as flexible constellations of rigid parts (features). Variability is represented by a joint probability density function (pdf) on the shape of the constellation and the output of part detectors. Corresponding \"constellation models\" can be learned in a completely unsupervised fashion. In a first stage, the learning method automatically identifies distinctive parts in the training set by applying a clustering algorithm to patterns selected by an interest operator. It then learns the statistical shape model using expectation maximization. Mixtures of constellation models can be defined and applied to \"discover\" object categories in an unsupervised manner. The method achieves very good classification results on human faces, cars, leaves, handwritten letters, and cartoon characters.",
   "links": [
@@ -19,7 +19,7 @@
       "title": "Semantic Scholar",
       "type": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/14c4e4b83f936184875ba79e6df1ac10ec556bdd"
-    },
+    }
   ],
   "supervision": ["unsupervised"],
   "tasks": ["object-detection", "face-detection"],

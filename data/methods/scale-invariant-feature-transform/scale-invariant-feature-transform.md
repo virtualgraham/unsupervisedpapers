@@ -19,7 +19,7 @@
       "title": "OpenCV Tutorial",
       "type": "article",
       "url": "https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html"
-    },
+    }
   ]
 }
 ---

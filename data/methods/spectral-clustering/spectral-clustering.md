@@ -19,7 +19,7 @@
       "title": "Towards Data Science",
       "type": "article",
       "url": "https://towardsdatascience.com/spectral-clustering-aba2640c0d5b"
-    },
+    }
   ]
 }
 ---

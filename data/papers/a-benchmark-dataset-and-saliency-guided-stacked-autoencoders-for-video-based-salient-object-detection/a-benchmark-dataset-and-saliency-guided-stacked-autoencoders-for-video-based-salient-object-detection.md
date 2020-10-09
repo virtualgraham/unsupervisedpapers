@@ -25,9 +25,9 @@
       "url": "https://www.semanticscholar.org/paper/55604c73022a40953ed0ff67c8b0e543ae6e9451"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": ["unsupervised"],
+  "tasks": ["object-detection", "salient-object-detection", "video-object-detection", "saliency-detection"],
+  "methods": ["stacked-autoencoders"],
   "thumbnail": "a-benchmark-dataset-and-saliency-guided-stacked-autoencoders-for-video-based-salient-object-detection-thumb.jpg",
   "card": "a-benchmark-dataset-and-saliency-guided-stacked-autoencoders-for-video-based-salient-object-detection-card.jpg",
   "s2_paper_id": "55604c73022a40953ed0ff67c8b0e543ae6e9451"

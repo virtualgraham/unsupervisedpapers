@@ -4,7 +4,7 @@
   "title": "Principal component analysis",
   "year": null,
   "categories": [
-    "dimensionality-reduction",
+    "dimensionality-reduction"
   ],
   "components": [],
   "thumbnail": "principal-component-analysis.png",

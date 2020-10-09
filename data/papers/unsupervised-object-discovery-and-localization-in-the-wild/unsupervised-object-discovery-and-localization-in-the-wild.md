@@ -31,7 +31,7 @@
       "title": "Semantic Scholar",
       "type": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/988c8578178fa263c2524d85292072c6a13a6121"
-    },
+    }
   ],
   "supervision": ["unsupervised"],
   "tasks": [

@@ -4,7 +4,7 @@
   "title": "Bag of Visual Words",
   "year": null,
   "categories": [
-    feature-models
+    "feature-models"
   ],
   "components": [],
   "thumbnail": "bag-of-visual-words.png",

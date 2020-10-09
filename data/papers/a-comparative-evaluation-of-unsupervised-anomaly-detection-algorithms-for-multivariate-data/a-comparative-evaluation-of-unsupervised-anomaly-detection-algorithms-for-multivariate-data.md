@@ -19,8 +19,8 @@
       "url": "https://www.semanticscholar.org/paper/355692eb86b06a0a23af45c106cfb02c95bf380e"
     }
   ],
-  "supervision": [],
-  "tasks": [],
+  "supervision": ["unsupervised"],
+  "tasks": ["anomaly-detection"],
   "methods": [],
   "thumbnail": "a-comparative-evaluation-of-unsupervised-anomaly-detection-algorithms-for-multivariate-data-thumb.jpg",
   "card": "a-comparative-evaluation-of-unsupervised-anomaly-detection-algorithms-for-multivariate-data-card.jpg",

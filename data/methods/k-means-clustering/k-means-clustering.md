@@ -4,7 +4,7 @@
   "title": "k-Means Clustering",
   "year": null,
   "categories": [
-    "clustering",
+    "clustering"
   ],
   "components": [],
   "thumbnail": "k-means-clustering.png",
@@ -24,8 +24,7 @@
       "title": "Papers With Code",
       "type": "paperswithcode",
       "url": "https://paperswithcode.com/method/k-means-clustering"
-    },
-
+    }
   ]
 }
 ---
