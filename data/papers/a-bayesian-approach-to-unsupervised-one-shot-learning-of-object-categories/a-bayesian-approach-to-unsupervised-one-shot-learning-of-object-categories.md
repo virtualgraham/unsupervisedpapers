@@ -20,9 +20,19 @@
       "url": "https://www.semanticscholar.org/paper/d044d7d92dd1fb80275d04d035aed71bcd3374e5"
     }
   ],
-  "supervision": ["unsupervised"],
-  "tasks": ["object-detection", "one-shot-learning"],
-  "methods": ["constellation-model", "bayesian-inference", "gaussian-mixture-model", "principal-component-analysis"],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "object-detection",
+    "one-shot-learning"
+  ],
+  "methods": [
+    "constellation-model",
+    "bayesian-inference",
+    "gaussian-mixture-model",
+    "principal-component-analysis"
+  ],
   "thumbnail": "a-bayesian-approach-to-unsupervised-one-shot-learning-of-object-categories-thumb.jpg",
   "card": "a-bayesian-approach-to-unsupervised-one-shot-learning-of-object-categories-card.jpg",
   "s2_paper_id": "d044d7d92dd1fb80275d04d035aed71bcd3374e5"

@@ -19,9 +19,22 @@
       "url": "https://www.semanticscholar.org/paper/355692eb86b06a0a23af45c106cfb02c95bf380e"
     }
   ],
-  "supervision": ["unsupervised"],
-  "tasks": ["anomaly-detection"],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "anomaly-detection"
+  ],
+  "methods": [
+    "k-nearest-neighbors",
+    "local-outlier-factor",
+    "principal-component-analysis",
+    "support-vector-machine",
+    "histogram-based-outlier-score",
+    "connectivity-based-outlier-factor",
+    "influenced-outlierness",
+    "local-correlation-integral"
+  ],
   "thumbnail": "a-comparative-evaluation-of-unsupervised-anomaly-detection-algorithms-for-multivariate-data-thumb.jpg",
   "card": "a-comparative-evaluation-of-unsupervised-anomaly-detection-algorithms-for-multivariate-data-card.jpg",
   "s2_paper_id": "355692eb86b06a0a23af45c106cfb02c95bf380e"

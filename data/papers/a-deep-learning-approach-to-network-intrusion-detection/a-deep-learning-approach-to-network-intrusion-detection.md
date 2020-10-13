@@ -21,9 +21,17 @@
       "url": "https://www.semanticscholar.org/paper/78f7c6818c97383b5ae4b61664ffc6cde7974466"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "network-intrusion-detection"
+  ],
+  "methods": [
+    "autoencoders",
+    "stacked-autoencoders",
+    "random-forest"
+  ],
   "thumbnail": "a-deep-learning-approach-to-network-intrusion-detection-thumb.jpg",
   "card": "a-deep-learning-approach-to-network-intrusion-detection-card.jpg",
   "s2_paper_id": "78f7c6818c97383b5ae4b61664ffc6cde7974466"

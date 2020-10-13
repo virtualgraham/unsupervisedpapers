@@ -25,9 +25,18 @@
       "url": "https://www.semanticscholar.org/paper/c65ae411493f4d09a6a426ca2887533c075ee038"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "music-auto-tagging"
+  ],
+  "methods": [
+    "restricted-boltzmann-machine",
+    "bag-of-features",
+    "deep-neural-network",
+    "rectified-linear-units"
+  ],
   "thumbnail": "a-deep-bag-of-features-model-for-music-auto-tagging-thumb.jpg",
   "card": "a-deep-bag-of-features-model-for-music-auto-tagging-card.jpg",
   "s2_paper_id": "c65ae411493f4d09a6a426ca2887533c075ee038"

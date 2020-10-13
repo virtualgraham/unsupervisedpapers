@@ -26,9 +26,16 @@
       "url": "https://www.semanticscholar.org/paper/008c901b3fd9e46ee8d3bddb616121e2887b7e67"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised",
+    "semi-supervised"
+  ],
+  "tasks": [
+    "domain-adaptation"
+  ],
+  "methods": [
+    "virtual-adversarial-training"
+  ],
   "thumbnail": "a-dirt-t-approach-to-unsupervised-domain-adaptation-thumb.jpg",
   "card": "a-dirt-t-approach-to-unsupervised-domain-adaptation-card.jpg",
   "s2_paper_id": "008c901b3fd9e46ee8d3bddb616121e2887b7e67"

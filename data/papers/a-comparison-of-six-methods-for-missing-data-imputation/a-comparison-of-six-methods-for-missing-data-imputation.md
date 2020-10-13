@@ -20,9 +20,19 @@
       "url": "https://www.semanticscholar.org/paper/29bf9f19520b9b1ea9fc383133fb60e230747ceb"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "missing-data-imputation"
+  ],
+  "methods": [
+    "k-nearest-neighbors",
+    "singular-value-decomposition",
+    "bayesian-principal-component-analysis",
+    "multiple-imputation-by-chained-equations",
+    "fuzzy-k-means"
+  ],
   "thumbnail": "a-comparison-of-six-methods-for-missing-data-imputation-thumb.jpg",
   "card": "a-comparison-of-six-methods-for-missing-data-imputation-card.jpg",
   "s2_paper_id": "29bf9f19520b9b1ea9fc383133fb60e230747ceb"

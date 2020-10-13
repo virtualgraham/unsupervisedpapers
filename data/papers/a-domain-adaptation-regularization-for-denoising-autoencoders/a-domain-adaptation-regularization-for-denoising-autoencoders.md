@@ -20,8 +20,15 @@
     }
   ],
   "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "tasks": [
+    "domain-adaptation",
+    "transfer-learning"
+  ],
+  "methods": [
+    "autoencoders",
+    "stacked-autoencoders",
+    "denoising-autoencoders"
+  ],
   "thumbnail": "a-domain-adaptation-regularization-for-denoising-autoencoders-thumb.jpg",
   "card": "a-domain-adaptation-regularization-for-denoising-autoencoders-card.jpg",
   "s2_paper_id": "8612ceb99dceeb74d7ca1aab26be3fb67568fdd0"

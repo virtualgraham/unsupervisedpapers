@@ -25,9 +25,18 @@
       "url": "https://www.semanticscholar.org/paper/84f7f9e121c1285e15cefbfc44bcb3322f73b6aa"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "anomaly-detection"
+  ],
+  "methods": [
+    "histogram-of-oriented-gradients",
+    "histogram-of-optical-flow",
+    "motion-boundary-histogram",
+    "density-ratio-estimation"
+  ],
   "thumbnail": "a-discriminative-framework-for-anomaly-detection-in-large-videos-thumb.jpg",
   "card": "a-discriminative-framework-for-anomaly-detection-in-large-videos-card.jpg",
   "s2_paper_id": "84f7f9e121c1285e15cefbfc44bcb3322f73b6aa"

@@ -26,9 +26,17 @@
       "url": "https://www.semanticscholar.org/paper/0d150431c662d7ddc18afa8648e684db25db7d78"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "missing-data-imputation",
+    "sequence-generation"
+  ],
+  "methods": [
+    "variational-autoencoder",
+    "linear-gaussian-state-space-models"
+  ],
   "thumbnail": "a-disentangled-recognition-and-nonlinear-dynamics-model-for-unsupervised-learning-thumb.jpg",
   "card": "a-disentangled-recognition-and-nonlinear-dynamics-model-for-unsupervised-learning-card.jpg",
   "s2_paper_id": "0d150431c662d7ddc18afa8648e684db25db7d78"

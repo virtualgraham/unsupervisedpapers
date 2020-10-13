@@ -6,7 +6,7 @@ function decodeKebobCase(str) {
 }
 
 function encodeKebobCase(str) {
-    return str.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/\s+/g, '-').toLowerCase()
+    return str.replace(/[^0-9a-zA-Z]+/g, ' ').trim().replace(/([a-z])([A-Z])/g, '$1-$2').replace(/[\-\s]+/g, '-').toLowerCase()
 }
 
 

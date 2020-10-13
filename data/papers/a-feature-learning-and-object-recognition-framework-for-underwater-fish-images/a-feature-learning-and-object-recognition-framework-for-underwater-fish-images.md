@@ -25,9 +25,18 @@
       "url": "https://www.semanticscholar.org/paper/28719d8a96812d6959fe2660cad752b71f4c1a17"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised",
+    "supervised"
+  ],
+  "tasks": [
+    "object-detection"
+  ],
+  "methods": [
+    "non-rigid-part-model",
+    "gaussian-mixture-model",
+    "support-vector-machine"
+  ],
   "thumbnail": "a-feature-learning-and-object-recognition-framework-for-underwater-fish-images-thumb.jpg",
   "card": "a-feature-learning-and-object-recognition-framework-for-underwater-fish-images-card.jpg",
   "s2_paper_id": "28719d8a96812d6959fe2660cad752b71f4c1a17"
