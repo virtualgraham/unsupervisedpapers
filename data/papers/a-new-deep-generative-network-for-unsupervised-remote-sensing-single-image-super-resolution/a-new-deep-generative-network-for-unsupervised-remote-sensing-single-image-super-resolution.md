@@ -23,8 +23,13 @@
       "url": "https://www.semanticscholar.org/paper/1917f8e8cd8e51b92124c2a9fd27100ddb7954c8"
     }
   ],
-  "supervision": [],
-  "tasks": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "super-resolution",
+    "remote-sensing"
+  ],
   "methods": [],
   "thumbnail": "a-new-deep-generative-network-for-unsupervised-remote-sensing-single-image-super-resolution-thumb.jpg",
   "card": "a-new-deep-generative-network-for-unsupervised-remote-sensing-single-image-super-resolution-card.jpg",

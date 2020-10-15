@@ -26,9 +26,16 @@
       "url": "https://www.semanticscholar.org/paper/3c0f9d5126949a728cb40067fc495b58c25e6ff6"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "domain-adaptation",
+    "speech-recognition"
+  ],
+  "methods": [
+    "generative-adversarial-network"
+  ],
   "thumbnail": "a-multi-discriminator-cycle-gan-for-unsupervised-non-parallel-speech-domain-adaptation-thumb.jpg",
   "card": "a-multi-discriminator-cycle-gan-for-unsupervised-non-parallel-speech-domain-adaptation-card.jpg",
   "s2_paper_id": "3c0f9d5126949a728cb40067fc495b58c25e6ff6"

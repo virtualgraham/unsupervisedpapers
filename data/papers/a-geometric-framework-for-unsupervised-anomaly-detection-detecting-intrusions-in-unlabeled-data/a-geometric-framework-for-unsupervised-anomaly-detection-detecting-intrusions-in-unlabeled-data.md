@@ -19,9 +19,18 @@
       "url": "https://www.semanticscholar.org/paper/2981e8267135dae55c0c061ee214e888ecbef099"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "anomaly-detection",
+    "network-intrusion-detection"
+  ],
+  "methods": [
+    "k-nearest-neighbors",
+    "one-class-support-vector-machine",
+    "spectrum-kernel"
+  ],
   "thumbnail": "a-geometric-framework-for-unsupervised-anomaly-detection-detecting-intrusions-in-unlabeled-data-thumb.jpg",
   "card": "a-geometric-framework-for-unsupervised-anomaly-detection-detecting-intrusions-in-unlabeled-data-card.jpg",
   "s2_paper_id": "2981e8267135dae55c0c061ee214e888ecbef099",

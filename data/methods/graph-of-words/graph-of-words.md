@@ -1,7 +1,7 @@
 ---
 {
   "area": "natural-language-processing",
-  "title": "Latent Dirichlet allocation",
+  "title": "Graph of Words",
   "year": null,
   "categories": [],
   "components": [],

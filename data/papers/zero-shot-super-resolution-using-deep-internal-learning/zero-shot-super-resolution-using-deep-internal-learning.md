@@ -20,9 +20,17 @@
       "url": "https://www.semanticscholar.org/paper/e4092ce5b2c5a1997be2702335f7d33ba7a353ef"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised",
+    "self-supervised"
+  ],
+  "tasks": [
+    "super-resolution"
+  ],
+  "methods": [
+    "convolutional-neural-network",
+    "rectified-linear-units"
+  ],
   "thumbnail": "zero-shot-super-resolution-using-deep-internal-learning-thumb.jpg",
   "card": "zero-shot-super-resolution-using-deep-internal-learning-card.jpg",
   "s2_paper_id": "e4092ce5b2c5a1997be2702335f7d33ba7a353ef"

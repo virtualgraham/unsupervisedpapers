@@ -20,8 +20,12 @@
       "url": "https://www.semanticscholar.org/paper/ff4255922dc6db94799a298b0a672365eaa572cc"
     }
   ],
-  "supervision": [],
-  "tasks": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "multi-view-learning"
+  ],
   "methods": [],
   "thumbnail": "a-general-model-for-multiple-view-unsupervised-learning-thumb.jpg",
   "card": "a-general-model-for-multiple-view-unsupervised-learning-card.jpg",

@@ -21,9 +21,16 @@
       "url": "https://www.semanticscholar.org/paper/097634a3c3c91570580ac29ac5f23a8e493c88dc"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "geographical-location-detection"
+  ],
+  "methods": [
+    "gaussian-mixture-model",
+    "maximum-likelihood-estimation"
+  ],
   "thumbnail": "phillies-tweeting-from-philly-predicting-twitter-user-locations-with-spatial-word-usage-thumb.jpg",
   "card": "phillies-tweeting-from-philly-predicting-twitter-user-locations-with-spatial-word-usage-card.jpg",
   "s2_paper_id": "097634a3c3c91570580ac29ac5f23a8e493c88dc"

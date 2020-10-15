@@ -1,7 +1,7 @@
 ---
 {
-  "area": "natural-language-processing",
-  "title": "Latent Dirichlet allocation",
+  "area": "general",
+  "title": "Graphical Models",
   "year": null,
   "categories": [],
   "components": [],

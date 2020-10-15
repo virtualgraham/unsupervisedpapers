@@ -24,9 +24,15 @@
       "url": "https://www.semanticscholar.org/paper/ab57c70c14b82d07c40c75fecaac98b0e2dc0510"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "record-linkage"
+  ],
+  "methods": [
+    "graphical-models"
+  ],
   "thumbnail": "a-hierarchical-graphical-model-for-record-linkage-thumb.jpg",
   "card": "a-hierarchical-graphical-model-for-record-linkage-card.jpg",
   "s2_paper_id": "ab57c70c14b82d07c40c75fecaac98b0e2dc0510"

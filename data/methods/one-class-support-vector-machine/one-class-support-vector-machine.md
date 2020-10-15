@@ -1,7 +1,7 @@
 ---
 {
-  "area": "natural-language-processing",
-  "title": "Latent Dirichlet allocation",
+  "area": "general",
+  "title": "One Class Support Vector Machine",
   "year": null,
   "categories": [],
   "components": [],

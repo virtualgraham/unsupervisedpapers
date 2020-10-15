@@ -19,9 +19,15 @@
       "url": "https://www.semanticscholar.org/paper/0c22933a45594cec626678e828269e85e28294b0"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "keyword-extraction"
+  ],
+  "methods": [
+    "graph-of-words"
+  ],
   "thumbnail": "a-graph-degeneracy-based-approach-to-keyword-extraction-thumb.jpg",
   "card": "a-graph-degeneracy-based-approach-to-keyword-extraction-card.jpg",
   "s2_paper_id": "0c22933a45594cec626678e828269e85e28294b0"

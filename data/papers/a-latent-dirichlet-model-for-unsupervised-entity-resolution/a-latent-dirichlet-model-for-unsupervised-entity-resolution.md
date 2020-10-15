@@ -19,9 +19,16 @@
       "url": "https://www.semanticscholar.org/paper/40df4771b203dc7b7f1b959745b88a44adefbfcc"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "entity-resolution"
+  ],
+  "methods": [
+    "latent-dirichlet-allocation",
+    "gibbs-sampling"
+  ],
   "thumbnail": "a-latent-dirichlet-model-for-unsupervised-entity-resolution-thumb.jpg",
   "card": "a-latent-dirichlet-model-for-unsupervised-entity-resolution-card.jpg",
   "s2_paper_id": "40df4771b203dc7b7f1b959745b88a44adefbfcc"

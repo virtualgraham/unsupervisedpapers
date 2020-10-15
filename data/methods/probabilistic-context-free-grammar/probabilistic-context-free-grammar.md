@@ -1,7 +1,7 @@
 ---
 {
   "area": "natural-language-processing",
-  "title": "Latent Dirichlet allocation",
+  "title": "Probabilistic context-free grammar",
   "year": null,
   "categories": [],
   "components": [],

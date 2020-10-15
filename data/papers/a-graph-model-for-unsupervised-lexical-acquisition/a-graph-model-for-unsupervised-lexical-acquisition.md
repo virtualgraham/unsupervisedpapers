@@ -19,9 +19,15 @@
       "url": "https://www.semanticscholar.org/paper/477b4fa10a68e3eb203b412a64a815d108ade680"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "lexical-acquisition"
+  ],
+  "methods": [
+    "graphical-models"
+  ],
   "thumbnail": "a-graph-model-for-unsupervised-lexical-acquisition-thumb.jpg",
   "card": "a-graph-model-for-unsupervised-lexical-acquisition-card.jpg",
   "s2_paper_id": "477b4fa10a68e3eb203b412a64a815d108ade680"

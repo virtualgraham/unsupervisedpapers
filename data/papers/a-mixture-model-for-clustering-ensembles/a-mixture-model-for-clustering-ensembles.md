@@ -19,9 +19,18 @@
       "url": "https://www.semanticscholar.org/paper/62d49d6fe57dbf6a020f1036b6986e0954daaf1b"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "clustering"
+  ],
+  "methods": [
+    "clustering-ensembles",
+    "maximum-likelihood-estimation",
+    "consensus-clustering",
+    "mixture-models"
+  ],
   "thumbnail": "a-mixture-model-for-clustering-ensembles-thumb.jpg",
   "card": "a-mixture-model-for-clustering-ensembles-card.jpg",
   "s2_paper_id": "62d49d6fe57dbf6a020f1036b6986e0954daaf1b"

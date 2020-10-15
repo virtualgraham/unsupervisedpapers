@@ -1,7 +1,7 @@
 ---
 {
-  "area": "natural-language-processing",
-  "title": "Latent Dirichlet allocation",
+  "area": "general",
+  "title": "Markov chain Monte Carlo",
   "year": null,
   "categories": [],
   "components": [],

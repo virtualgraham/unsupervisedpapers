@@ -19,9 +19,15 @@
       "url": "https://www.semanticscholar.org/paper/77021fb48704b860fa850dd103b79db4dcf920ee"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "grammar-induction"
+  ],
+  "methods": [
+    "probabilistic-context-free-grammar"
+  ],
   "thumbnail": "a-generative-constituent-context-model-for-improved-grammar-induction-thumb.jpg",
   "card": "a-generative-constituent-context-model-for-improved-grammar-induction-card.jpg",
   "s2_paper_id": "77021fb48704b860fa850dd103b79db4dcf920ee"
