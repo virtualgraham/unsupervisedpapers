@@ -2,7 +2,7 @@
 {
   "area": "computer-vision",
   "title": "Object Localization",
-  "parent_task": null,
+  "parent_task": "object-detection",
   "thumbnail": "object-localization.png",
   "links": [
     {

@@ -2,7 +2,7 @@
 {
   "area": "computer-vision",
   "title": "Semantic Segmentation",
-  "parent_task": null,
+  "parent_task": "image-segmentation",
   "thumbnail": "semantic-segmentation.jpg",
   "links": [
     {
@@ -18,5 +18,4 @@
   ]
 }
 ---
-
-  Image Source [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf)
+Image Source [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf)

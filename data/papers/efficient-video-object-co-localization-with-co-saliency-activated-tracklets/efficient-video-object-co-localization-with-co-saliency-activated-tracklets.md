@@ -22,7 +22,7 @@
     }
   ],
   "supervision": ["weakly-supervised", "unsupervised"],
-  "tasks": ["object-colocalization"],
+  "tasks": ["object-co-localization"],
   "methods": ["gist-descriptor", "scale-invariant-feature-transform", "grab-cut"],
   "thumbnail": "efficient-video-object-co-localization-with-co-saliency-activated-tracklets-thumb.jpg",
   "card": "efficient-video-object-co-localization-with-co-saliency-activated-tracklets-card.jpg",

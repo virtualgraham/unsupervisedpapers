@@ -37,7 +37,7 @@
     }
   ],
   "supervision": ["unsupervised"],
-  "tasks": ["object-discovery", "object-colocalization"],
+  "tasks": ["object-discovery", "object-co-localization"],
   "methods": ["convolutional-neural-network-layer-activations", "principal-component-analysis"],
   "thumbnail": "unsupervised-object-discovery-and-co-localization-by-deep-descriptor-transforming-thumb.jpg",
   "card": "unsupervised-object-discovery-and-co-localization-by-deep-descriptor-transforming-card.jpg",

@@ -22,7 +22,7 @@
     }
   ],
   "supervision": ["unsupervised"],
-  "tasks": ["object-colocalization"],
+  "tasks": ["object-co-localization"],
   "methods": ["measure-of-objectiveness", "scale-invariant-feature-transform", "contrast-based-saliency"],
   "thumbnail": "co-localization-in-real-world-images-thumb.jpg",
   "card": "co-localization-in-real-world-images-card.jpg",

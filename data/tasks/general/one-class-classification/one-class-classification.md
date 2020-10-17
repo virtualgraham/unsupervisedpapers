@@ -13,5 +13,4 @@
   ]
 }
 ---
-
 Image Source: [Learning Deep Features for One-Class Classification](https://arxiv.org/pdf/1801.05365.pdf)

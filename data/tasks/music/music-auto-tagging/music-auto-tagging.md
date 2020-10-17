@@ -14,4 +14,4 @@
   "card": null
 }
 ---
-
+Image source: [Lee et al., 2017](https://arxiv.org/pdf/1703.01793v2.pdf)

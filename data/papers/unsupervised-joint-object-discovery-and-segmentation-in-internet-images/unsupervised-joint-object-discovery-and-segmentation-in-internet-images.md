@@ -27,7 +27,7 @@
     }
   ],
   "supervision": ["unsupervised"],
-  "tasks": ["object-cosegmentation"],
+  "tasks": ["object-co-segmentation"],
   "methods": ["contrast-based-saliency", "scale-invariant-feature-transform", "sift-flow", "gist-descriptor", "color-histogram", "grab-cut"],
   "thumbnail": "unsupervised-joint-object-discovery-and-segmentation-in-internet-images-thumb.jpg",
   "card": "unsupervised-joint-object-discovery-and-segmentation-in-internet-images-card.jpg",

@@ -13,5 +13,4 @@
   ]
 }
 ---
-
 Image Source [Wikipedia](https://commons.wikimedia.org/wiki/File:Samples_of_object_co-segmentation.jpg)
