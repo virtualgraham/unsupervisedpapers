@@ -1,7 +1,7 @@
 ---
 {
   "area": "computer-vision",
-  "title": " Image segmentation evaluation",
+  "title": "Image segmentation evaluation",
   "parent_task": "image-segmentation",
   "links": [
     {

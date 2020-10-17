@@ -1,7 +1,7 @@
 ---
 {
   "area": "genomics",
-  "title": " Genome Annotation",
+  "title": "Genome Annotation",
   "parent_task": null,
   "links": [
     {
@@ -11,7 +11,10 @@
     }
   ],
   "thumbnail": "genome-annotation-thumb.png",
-  "card": null
+  "card": null,
+  "also_known_as": [
+    "DNA Annotation"
+  ]
 }
 ---
 Image source: [nature.com](https://www.nature.com/articles/s41598-018-30398-6)
