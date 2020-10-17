@@ -19,7 +19,10 @@
       "url": "https://www.semanticscholar.org/paper/8612ceb99dceeb74d7ca1aab26be3fb67568fdd0"
     }
   ],
-  "supervision": [],
+  "supervision": [
+    "self-supervised",
+    "unsupervised"
+  ],
   "tasks": [
     "domain-adaptation",
     "transfer-learning"

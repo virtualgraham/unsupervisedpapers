@@ -26,7 +26,6 @@
     "clustering"
   ],
   "methods": [
-    "clustering-ensembles",
     "maximum-likelihood-estimation",
     "consensus-clustering",
     "mixture-models"

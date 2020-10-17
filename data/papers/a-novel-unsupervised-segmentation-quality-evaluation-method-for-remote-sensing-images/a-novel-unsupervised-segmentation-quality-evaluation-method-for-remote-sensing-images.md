@@ -22,9 +22,15 @@
       "url": "https://www.semanticscholar.org/paper/4787dc041daa91354f0c83db1d531f219f7cdc50"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "image-segmentation-evaluation"
+  ],
+  "methods": [
+    "spatial-stratified-heterogeneity"
+  ],
   "thumbnail": "a-novel-unsupervised-segmentation-quality-evaluation-method-for-remote-sensing-images-thumb.jpg",
   "card": "a-novel-unsupervised-segmentation-quality-evaluation-method-for-remote-sensing-images-card.jpg",
   "s2_paper_id": "4787dc041daa91354f0c83db1d531f219f7cdc50"

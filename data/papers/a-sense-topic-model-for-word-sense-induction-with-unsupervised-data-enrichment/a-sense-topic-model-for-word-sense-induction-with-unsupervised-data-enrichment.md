@@ -22,9 +22,18 @@
       "url": "https://www.semanticscholar.org/paper/c19abfe062ade87155f8738da4583d56ab344edb"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "word-sense-induction",
+    "data-enrichment"
+  ],
+  "methods": [
+    "topic-model",
+    "skip-gram",
+    "dependency-network"
+  ],
   "thumbnail": "a-sense-topic-model-for-word-sense-induction-with-unsupervised-data-enrichment-thumb.jpg",
   "card": "a-sense-topic-model-for-word-sense-induction-with-unsupervised-data-enrichment-card.jpg",
   "s2_paper_id": "c19abfe062ade87155f8738da4583d56ab344edb"

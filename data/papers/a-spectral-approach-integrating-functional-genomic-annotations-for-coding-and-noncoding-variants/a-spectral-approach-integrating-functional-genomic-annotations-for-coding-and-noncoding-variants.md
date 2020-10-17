@@ -21,9 +21,15 @@
       "url": "https://www.semanticscholar.org/paper/4ed8f5a13e267e3ff88e1e034620bd19c18cdd7a"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "genome-annotation"
+  ],
+  "methods": [
+    "ensemble-learning"
+  ],
   "thumbnail": "a-spectral-approach-integrating-functional-genomic-annotations-for-coding-and-noncoding-variants-thumb.jpg",
   "card": "a-spectral-approach-integrating-functional-genomic-annotations-for-coding-and-noncoding-variants-card.jpg",
   "s2_paper_id": "4ed8f5a13e267e3ff88e1e034620bd19c18cdd7a"

@@ -22,9 +22,17 @@
       "url": "https://www.semanticscholar.org/paper/8100aec34c0003410e71a25b64dc190d95f9d501"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "spectral-target-detection"
+  ],
+  "methods": [
+    "automatic-target-generation-process",
+    "unsupervised-non-negativity-least-squares",
+    "unsupervised-fully-least-squares"
+  ],
   "thumbnail": "a-review-of-unsupervised-spectral-target-analysis-for-hyperspectral-imagery-thumb.jpg",
   "card": "a-review-of-unsupervised-spectral-target-analysis-for-hyperspectral-imagery-card.jpg",
   "s2_paper_id": "8100aec34c0003410e71a25b64dc190d95f9d501"

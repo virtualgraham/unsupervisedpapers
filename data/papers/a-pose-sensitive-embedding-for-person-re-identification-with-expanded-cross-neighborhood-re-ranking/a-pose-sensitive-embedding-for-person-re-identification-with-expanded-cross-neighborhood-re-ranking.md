@@ -26,9 +26,15 @@
       "url": "https://www.semanticscholar.org/paper/a4958d26a3aaf77081fcb9b76393a30bf722e92e"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "re-ranking"
+  ],
+  "methods": [
+    "k-nearest-neighbors"
+  ],
   "thumbnail": "a-pose-sensitive-embedding-for-person-re-identification-with-expanded-cross-neighborhood-re-ranking-thumb.jpg",
   "card": "a-pose-sensitive-embedding-for-person-re-identification-with-expanded-cross-neighborhood-re-ranking-card.jpg",
   "s2_paper_id": "a4958d26a3aaf77081fcb9b76393a30bf722e92e"

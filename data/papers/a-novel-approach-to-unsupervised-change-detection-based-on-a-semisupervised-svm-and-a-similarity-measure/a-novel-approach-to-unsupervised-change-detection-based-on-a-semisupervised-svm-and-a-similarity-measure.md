@@ -20,9 +20,15 @@
       "url": "https://www.semanticscholar.org/paper/fea071373863c2f78a268264cfb0ff2e0c4b4f19"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "change-detection"
+  ],
+  "methods": [
+    "support-vector-machine"
+  ],
   "thumbnail": "a-novel-approach-to-unsupervised-change-detection-based-on-a-semisupervised-svm-and-a-similarity-measure-thumb.jpg",
   "card": "a-novel-approach-to-unsupervised-change-detection-based-on-a-semisupervised-svm-and-a-similarity-measure-card.jpg",
   "s2_paper_id": "fea071373863c2f78a268264cfb0ff2e0c4b4f19"

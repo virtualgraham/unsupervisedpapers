@@ -30,7 +30,9 @@
     "super-resolution",
     "remote-sensing"
   ],
-  "methods": [],
+  "methods": [
+    "hourglass-convolutional-neural-network"
+  ],
   "thumbnail": "a-new-deep-generative-network-for-unsupervised-remote-sensing-single-image-super-resolution-thumb.jpg",
   "card": "a-new-deep-generative-network-for-unsupervised-remote-sensing-single-image-super-resolution-card.jpg",
   "s2_paper_id": "1917f8e8cd8e51b92124c2a9fd27100ddb7954c8"
