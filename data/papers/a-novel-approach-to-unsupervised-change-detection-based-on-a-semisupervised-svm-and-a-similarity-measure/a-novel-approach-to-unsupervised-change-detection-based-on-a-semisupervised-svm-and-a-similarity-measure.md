@@ -24,7 +24,7 @@
     "unsupervised"
   ],
   "tasks": [
-    "change-detection"
+    "geographical-change-detection"
   ],
   "methods": [
     "support-vector-machine"

@@ -2,10 +2,16 @@
 {
   "area": "general",
   "title": "Ensemble Clustering",
-  "parent_task": null,
-  "links": [],
-  "thumbnail": null,
+  "parent_task": "clustering",
+  "links": [
+    {
+      "title": "Wikipedia",
+      "type": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Consensus_clustering"
+    }
+  ],
+  "thumbnail": "ensemble-clustering-thumb.png",
   "card": null
 }
 ---
-
+Image Source: [Chakraborty, 2017](https://arxiv.org/pdf/1708.08591.pdf)

@@ -23,7 +23,8 @@
     "unsupervised"
   ],
   "tasks": [
-    "clustering"
+    "clustering",
+    "ensemble-clustering"
   ],
   "methods": [
     "maximum-likelihood-estimation",
