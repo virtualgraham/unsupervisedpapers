@@ -10,8 +10,8 @@
       "url": "https://en.wikipedia.org/wiki/Grammar_induction"
     }
   ],
-  "thumbnail": null,
-  "card": null
+  "thumbnail": "grammar-induction-thumb.jpg",
+  "card": "grammar-induction-card.jpg"
 }
 ---
 Image source: [Wang et al., 2019](https://arxiv.org/pdf/1909.06639.pdf)

@@ -15,8 +15,8 @@
       "url": "https://towardsdatascience.com/why-we-need-person-re-identification-3a45d170098b"
     }
   ],
-  "thumbnail": null,
-  "card": null
+  "thumbnail": "person-re-identification-thumb.jpg",
+  "card": "person-re-identification-card.jpg"
 }
 ---
 Image source: [Lavi et al., 2018](https://arxiv.org/pdf/1807.05284.pdf)

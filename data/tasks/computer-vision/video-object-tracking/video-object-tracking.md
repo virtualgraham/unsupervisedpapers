@@ -2,8 +2,15 @@
 {
   "area": "computer-vision",
   "title": "Video Object Tracking",
-  "parent_task": null,
+  "parent_task": "object-detection",
   "thumbnail": null,
-  "links": []
+  "links": [
+    {
+      "title": "Papers with Code",
+      "type": "paperswithcode",
+      "url": "https://paperswithcode.com/task/video-object-tracking"
+    }
+  ]
 }
 ---
+

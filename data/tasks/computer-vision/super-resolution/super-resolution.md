@@ -15,8 +15,8 @@
       "url": "https://en.wikipedia.org/wiki/Super-resolution_imaging"
     }
   ],
-  "thumbnail": null,
-  "card": null
+  "thumbnail": "super-resolution-thumb.jpg",
+  "card": "super-resolution-card.jpg"
 }
 ---
-
+Image source: [Wang et al., 2017](https://arxiv.org/ftp/arxiv/papers/1708/1708.07029.pdf)
