@@ -4,13 +4,17 @@
   "title": "Automatic Target Generation Process",
   "year": null,
   "categories": [
-    "hyperspectral-imaging"
+    "spectral-target-analysis",
+    "spectral-target-detection"
   ],
   "components": [],
   "introduced_by": null,
   "links": [],
   "thumbnail": null,
-  "card": null
+  "card": null,
+  "also_known_as": [
+    "ATGP"
+  ]
 }
 ---
 

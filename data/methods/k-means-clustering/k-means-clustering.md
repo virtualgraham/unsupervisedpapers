@@ -4,7 +4,8 @@
   "title": "k-Means Clustering",
   "year": null,
   "categories": [
-    "clustering"
+    "clustering",
+    "data-imputation"
   ],
   "components": [],
   "thumbnail": "k-means-clustering.png",

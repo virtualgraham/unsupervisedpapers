@@ -3,7 +3,9 @@
   "area": "general",
   "title": "Bayesian Principal Component Analysis",
   "year": null,
-  "categories": [],
+  "categories": [
+    "data-imputation"
+  ],
   "components": [
     "bayesian-inference",
     "principal-component-analysis"

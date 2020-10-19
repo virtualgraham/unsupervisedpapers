@@ -3,7 +3,9 @@
   "area": "general",
   "title": "Bayesian Inference",
   "year": null,
-  "categories": [],
+  "categories": [
+    "statistical-inference"
+  ],
   "components": [],
   "thumbnail": null,
   "introduced_by": null,

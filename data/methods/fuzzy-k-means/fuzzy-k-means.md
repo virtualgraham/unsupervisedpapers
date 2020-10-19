@@ -3,7 +3,9 @@
   "area": "general",
   "title": "Fuzzy K-means",
   "year": null,
-  "categories": [],
+  "categories": [
+    "data-imputation"
+  ],
   "components": [],
   "introduced_by": null,
   "links": [],
