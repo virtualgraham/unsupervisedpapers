@@ -100,7 +100,7 @@ export default ({ data, pageContext, location }) => {
             </Pane>
           </Pane>
 
-          { task.links && task.links.length && (
+          { task.links && task.links.length > 0 && (
             <Pane
               display="flex"
               flexDirection="column"

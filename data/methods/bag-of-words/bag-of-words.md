@@ -1,16 +1,19 @@
 ---
 {
   "area": "general",
-  "title": "Graphical Models",
+  "title": "Bag of Words",
   "year": null,
   "categories": [
-    "graphical-models"
+    "feature-models"
   ],
   "components": [],
   "introduced_by": null,
   "links": [],
   "thumbnail": null,
-  "card": null
+  "card": null,
+  "also_known_as": [
+    "Bag of Features"
+  ]
 }
 ---
 

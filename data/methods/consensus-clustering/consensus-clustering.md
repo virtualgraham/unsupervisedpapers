@@ -3,7 +3,9 @@
   "area": "general",
   "title": "Consensus clustering",
   "year": null,
-  "categories": [],
+  "categories": [
+    "clustering"
+  ],
   "components": [],
   "introduced_by": null,
   "links": [

@@ -7,6 +7,13 @@
   "components": [],
   "thumbnail": null,
   "introduced_by": null,
-  "links": []
+  "links": [
+    {
+      "title": "Wikipedia",
+      "type": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+    }
+  ]
 }
 ---
+

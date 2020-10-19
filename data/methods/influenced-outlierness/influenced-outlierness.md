@@ -3,7 +3,9 @@
   "area": "anomaly-detection",
   "title": "Influenced Outlierness",
   "year": null,
-  "categories": [],
+  "categories": [
+    "outlier-detection"
+  ],
   "components": [],
   "introduced_by": null,
   "links": [],

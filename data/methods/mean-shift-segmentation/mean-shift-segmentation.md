@@ -3,7 +3,9 @@
   "area": "computer-vision",
   "title": "Mean-shift segmentation",
   "year": null,
-  "categories": [],
+  "categories": [
+    "image-segmentation"
+  ],
   "components": [],
   "introduced_by": null,
   "links": [],

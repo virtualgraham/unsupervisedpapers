@@ -3,7 +3,9 @@
   "area": "natural-language-processing",
   "title": "Graph of Words",
   "year": null,
-  "categories": [],
+  "categories": [
+    "graphical-models"
+  ],
   "components": [],
   "introduced_by": null,
   "links": [],

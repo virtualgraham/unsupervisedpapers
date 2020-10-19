@@ -12,7 +12,7 @@
     {
       "title": "PDF",
       "type": "pdf",
-      "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1238476"
+      "url": "lear.inrialpes.fr/people/triggs/events/iccv03/cdrom/iccv03/1134_fei-fei.pdf"
     },
     {
       "title": "Semantic Scholar",

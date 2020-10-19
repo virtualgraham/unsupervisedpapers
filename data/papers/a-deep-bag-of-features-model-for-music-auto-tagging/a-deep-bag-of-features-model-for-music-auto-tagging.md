@@ -33,7 +33,7 @@
   ],
   "methods": [
     "restricted-boltzmann-machine",
-    "bag-of-features",
+    "bag-of-words",
     "deep-neural-network",
     "rectified-linear-units"
   ],

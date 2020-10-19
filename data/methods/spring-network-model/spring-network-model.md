@@ -4,7 +4,8 @@
   "title": "Spring Network Model",
   "year": 1973,
   "categories": [
-    "parts-based-models"
+    "parts-based-models",
+    "graphical-models"
   ],
   "components": [],
   "thumbnail": "spring-network-model.png",

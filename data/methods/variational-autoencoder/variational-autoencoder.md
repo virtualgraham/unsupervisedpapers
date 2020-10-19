@@ -3,7 +3,9 @@
   "area": "general",
   "title": "Variational Autoencoder",
   "year": null,
-  "categories": [],
+  "categories": [
+    "autoencoders"
+  ],
   "components": [],
   "introduced_by": null,
   "links": [],

@@ -1,24 +1,26 @@
 ---
 {
-    "area": "general",
-    "title": "Markov Random Field",
-    "year": null,
-    "categories": [],
-    "components": [],
-    "thumbnail": "markov-random-field.png",
-    "introduced_by": null,
-    "links": [
-        {
-            "title": "Wikipedia",
-            "type": "wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Markov_random_field"
-        },
-        {
-            "title": "Towards Data Science",
-            "type": "article",
-            "url": "https://towardsdatascience.com/markov-random-fields-and-image-processing-20fb4cf7e10d"
-        }
-    ]
+  "area": "general",
+  "title": "Markov Random Field",
+  "year": null,
+  "categories": [
+    "graphical-models"
+  ],
+  "components": [],
+  "thumbnail": "markov-random-field.png",
+  "introduced_by": null,
+  "links": [
+    {
+      "title": "Wikipedia",
+      "type": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Markov_random_field"
+    },
+    {
+      "title": "Towards Data Science",
+      "type": "article",
+      "url": "https://towardsdatascience.com/markov-random-fields-and-image-processing-20fb4cf7e10d"
+    }
+  ]
 }
 ---
 
