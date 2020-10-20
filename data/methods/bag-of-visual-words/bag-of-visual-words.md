@@ -28,7 +28,6 @@
   ]
 }
 ---
-
 A visual bag of words is the visual version of the bag of words approach used in document classification. Image features are clustered to create a vocabulary. The bag of words is a histogram over the occurrences of the visual words.
 
 Image Source [Stanford Lecture Slides](http://vision.stanford.edu/teaching/cs131_fall1718/files/14_BoW_bayes.pdf)

@@ -13,5 +13,4 @@
   ]
 }
 ---
-
 Image Source [Unsupervised object discovery for instance recognition](https://arxiv.org/pdf/1709.04725)
