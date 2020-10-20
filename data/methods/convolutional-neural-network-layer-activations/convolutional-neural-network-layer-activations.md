@@ -4,7 +4,8 @@
   "title": "Convolutional Neural Network Layer Activations",
   "year": null,
   "categories": [
-    "transfer-learning"
+    "transfer-learning",
+    "deep-neural-network"
   ],
   "components": [],
   "thumbnail": null,

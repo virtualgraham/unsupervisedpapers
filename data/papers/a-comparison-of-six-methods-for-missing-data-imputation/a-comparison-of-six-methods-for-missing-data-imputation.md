@@ -31,7 +31,7 @@
     "singular-value-decomposition",
     "bayesian-principal-component-analysis",
     "multiple-imputation-by-chained-equations",
-    "fuzzy-k-means"
+    "fuzzy-clustering"
   ],
   "thumbnail": "a-comparison-of-six-methods-for-missing-data-imputation-thumb.jpg",
   "card": "a-comparison-of-six-methods-for-missing-data-imputation-card.jpg",
