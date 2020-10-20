@@ -35,7 +35,7 @@ class PapersTable extends React.Component {
             Date
           </Table.TextHeaderCell>
         </Table.Head>
-        <Table.VirtualBody height={450}>
+        <Table.VirtualBody height={filtered_papers.length < 5 ? (filtered_papers.length * 72) : 360}>
           {filtered_papers.map(paper => (
             <Table.Row key={paper.name} height={72} isSelectable onSelect={()=>navigate(`/paper/${paper.name}`)}> 
               <Table.Cell alignItems="flexStart" justifyContent="center" display="flex" flexDirection="column" flexBasis="80%">

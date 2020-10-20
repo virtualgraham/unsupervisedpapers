@@ -80,7 +80,7 @@ export default ({ data, pageContext, location }) => {
           >
             <Link to="/methods/"><Button appearance="minimal" paddingLeft={7} paddingRight={7}>Methods</Button></Link>
             <CaretRightIcon color="muted" marginLeft={-3} marginRight={-3} />
-            <Heading paddingLeft={7} paddingRight={7} size={200}>{area}</Heading>
+            <Heading paddingLeft={7} paddingRight={7} size={200}>{utils.decodeKebobCase(area)}</Heading>
           </Pane>
 
           <Heading size={800} marginBottom={10}>{utils.decodeKebobCase(area)}</Heading>

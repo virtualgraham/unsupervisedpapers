@@ -95,18 +95,20 @@ export default ({ data, pageContext, location }) => {
             marginBottom={35}
           >
             <Pane className="entry-left-column" flex={1} dangerouslySetInnerHTML={{ __html: task.content }} />
-            <Pane className="entry-right-column">
-              <img src={task.thumbnail} alt="thumbnail" />
-            </Pane>
+            { task.thumbnail && task.thumbnail !== config.defaultThumbnail && (
+              <Pane className="entry-right-column">
+                <img src={task.thumbnail} alt="thumbnail" />
+              </Pane>
+            )}
           </Pane>
 
           { task.links && task.links.length > 0 && (
             <Pane
               display="flex"
               flexDirection="column"
-              marginBottom={35}
+              marginBottom={50}
             >
-              <Heading size={700} marginBottom={30}>Links</Heading>
+              <Heading size={700} marginBottom={20}>Links</Heading>
               <LinkList links={task.links} />
             </Pane>
           )}
@@ -115,7 +117,7 @@ export default ({ data, pageContext, location }) => {
             <Pane
               display="flex"
               flexDirection="column"
-              marginBottom={35}
+              marginBottom={50}
             >
               <Heading size={700} marginBottom={30}>Sub-Tasks</Heading>
               <CardList 

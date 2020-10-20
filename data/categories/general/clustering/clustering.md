@@ -2,7 +2,8 @@
 {
   "area": "general",
   "title": "Clustering",
-  "thumbnail": "clustering.png"
+  "thumbnail": "clustering-thumb.jpg",
+  "card": "clustering-card.jpg"
 }
 ---
 

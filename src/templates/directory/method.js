@@ -101,9 +101,11 @@ export default ({ data, pageContext, location }) => {
           
             <Pane className="entry-left-column" flex={1} dangerouslySetInnerHTML={{ __html: method.content }} />
 
-            <Pane className="entry-right-column">
-              <img src={method.thumbnail} alt="thumbnail" />
-            </Pane>
+            { method.thumbnail && method.thumbnail !== config.defaultThumbnail && (
+              <Pane className="entry-right-column">
+                <img src={method.thumbnail} alt="thumbnail" />
+              </Pane>
+            )}
 
           </Pane>
 
@@ -124,9 +126,9 @@ export default ({ data, pageContext, location }) => {
             <Pane
               display="flex"
               flexDirection="column"
-              marginBottom={35}
+              marginBottom={50}
             >
-              <Heading size={700} marginBottom={30}>Links</Heading>
+              <Heading size={700} marginBottom={20}>Links</Heading>
               <LinkList links={method.links} />
             </Pane>
           )}
@@ -134,52 +136,61 @@ export default ({ data, pageContext, location }) => {
           <Pane
             display="flex"
             flexDirection="column"
-            marginBottom={35}
+            marginBottom={60}
           >
-            <Heading size={700} marginBottom={30}>Papers</Heading>
+            <Heading size={700} marginBottom={25}>Papers</Heading>
             <PapersTable papers={method.papers} />
           </Pane>     
 
-          <Pane
-            display="flex"
-            flexDirection="column"
-            marginBottom={35}
-          >
-            <Heading size={700} marginBottom={30}>Tasks</Heading>
-            <CardList tasks={method.tasks} url_callback={task=>`/task/${task.name}`}/>
-          </Pane>
-
-          <Pane
-            display="flex"
-            flexDirection="column"
-            marginBottom={35}
-          >
-            <Heading size={700} marginBottom={30}>Components</Heading>
-            <CardList tasks={method.components} url_callback={component=>`/method/${component.name}`}/>
-          </Pane>
-
-          <Pane
-            display="flex"
-            flexDirection="column"
-            marginBottom={35}
-          >
-            <Heading size={700} marginBottom={30}>Categories</Heading>
-
-            <Pane 
+          { method.tasks && method.tasks.length > 0 && (
+            <Pane
               display="flex"
               flexDirection="column"
+              marginBottom={50}
             >
-              {method.categories.map((category, index) => (
-                <Pane 
-                  key={index}
-                  display="flex"
-                  flexDirection="column"
-                >
-                  <Link to={`/methods/category/${category.name}`}><Button>{category.title}</Button></Link>
-                </Pane>
-              ))}
+              <Heading size={700} marginBottom={30}>Tasks</Heading>
+              <CardList tasks={method.tasks} url_callback={task=>`/task/${task.name}`} />
             </Pane>
-          </Pane>
+          )}
+
+          { method.components && method.components.length > 0 && (
+            <Pane
+              display="flex"
+              flexDirection="column"
+              marginBottom={50}
+            >
+              <Heading size={700} marginBottom={25}>Components</Heading>
+              <CardList tasks={method.components} url_callback={component=>`/method/${component.name}`}/>
+            </Pane>
+          )}
+
+          { method.categories && method.categories.length > 0 && (
+            <Pane
+              display="flex"
+              flexDirection="column"
+              marginBottom={50}
+            >
+              <Heading size={700} marginBottom={25}>Categories</Heading>
+
+              <Pane 
+                display="flex"
+                flexWrap="wrap"
+                marginLeft={-15}
+              >
+                {method.categories.map((category, index) => (
+                  <Pane 
+                    key={index}
+                    display="flex"
+                    flexDirection="column"
+                    marginBottom={15}
+                    marginLeft={15}
+                  >
+                    <Link to={`/methods/category/${category.name}`}><Button>{category.title}</Button></Link>
+                  </Pane>
+                ))}
+              </Pane>
+            </Pane>
+          )}
 
         </Pane>
 
