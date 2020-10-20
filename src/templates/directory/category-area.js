@@ -16,6 +16,8 @@ export default ({ data, pageContext, location }) => {
   const category_methods = {}
   const category_method_counts = {}
 
+  categories.sort((a, b) => (a.name > b.name) ? 1 : -1)
+
   categories.forEach(category => {
     category_method_counts[category.name] = category.methods.length
     category.methods.sort((a, b) => (a.paper_count < b.paper_count) ? 1 : -1)

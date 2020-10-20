@@ -15,6 +15,8 @@ export default ({ data, pageContext, location }) => {
   const task_count = pageContext.task_count
   const paper_count = pageContext.paper_count
 
+  tasks.sort((a, b) => (a.name > b.name) ? 1 : -1)
+
   return (
     <Layout location={location} 
       header_bg="/header_bg_tasks.svg"

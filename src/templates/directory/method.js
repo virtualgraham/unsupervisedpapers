@@ -27,6 +27,9 @@ export default ({ data, pageContext, location }) => {
     excerpt: data.markdownRemark.excerpt
   }
 
+  method.tasks.sort((a, b) => (a.name > b.name) ? 1 : -1)
+  method.papers.sort((a, b) => (a.name > b.name) ? 1 : -1)
+
   return (
     <Layout 
       location={location} 

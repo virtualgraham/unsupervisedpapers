@@ -23,6 +23,9 @@ export default ({ data, pageContext, location }) => {
     excerpt: data.markdownRemark.excerpt
   }
 
+  task.sub_tasks.sort((a, b) => (a.name > b.name) ? 1 : -1)
+  task.papers.sort((a, b) => (a.name > b.name) ? 1 : -1)
+
   return (
     <Layout location={location} 
       header_bg="/header_bg_tasks.svg"

@@ -914,10 +914,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const dir = parsedFilePath.dir
     const name = parsedFilePath.name
 
-    if (sourceInstanceName == 'blog') {
+    if (sourceInstanceName === 'blog') {
       type = 'post'
       slug = `/blog/${name}/`;
-    } else if (sourceInstanceName == 'data') {
+    } else if (sourceInstanceName === 'data') {
       if (dir.startsWith('categories')) {
         type = 'category'
         slug = `/methods/category/${name}/`; 

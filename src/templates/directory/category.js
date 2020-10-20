@@ -20,6 +20,8 @@ export default ({ data, pageContext, location }) => {
     excerpt: data.markdownRemark.excerpt
   }
 
+  category.methods.sort((a, b) => (a.name > b.name) ? 1 : -1)
+
   return (
     <Layout 
       location={location} 
