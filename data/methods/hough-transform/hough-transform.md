@@ -3,16 +3,19 @@
   "area": "computer-vision",
   "title": "Hough Transform",
   "year": null,
-  "categories": ["feature-extraction"],
+  "categories": [
+    "feature-extraction"
+  ],
   "components": [],
   "thumbnail": null,
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hough_transform"
     }
   ]
 }
 ---
+

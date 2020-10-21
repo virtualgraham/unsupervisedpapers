@@ -10,13 +10,13 @@
   "abstract": "To support summarization of automatically transcribed meetings, we introduce a classifier to recognize agreement or disagreement utterances, utilizing both word-based and prosodic cues. We show that hand-labeling efforts can be minimized by using unsupervised training on a large unlabeled data set combined with supervised training on a small amount of data. For ASR transcripts with over 45% WER, the system recovers nearly 80% of agree/disagree utterances with a confusion rate of only 3%.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://dustin.rigghillard.com/files/2010/11/hillard-agree-disagree.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/0d833ccbc824e81891e55baa2da6318e9651956a"
     }
   ],

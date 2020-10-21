@@ -115,9 +115,11 @@ export const query = graphql`
         area
         title
         links {
-          title
-          type
           url
+          icon
+          resource
+          title
+          description
         }
         thumbnail {
           publicURL

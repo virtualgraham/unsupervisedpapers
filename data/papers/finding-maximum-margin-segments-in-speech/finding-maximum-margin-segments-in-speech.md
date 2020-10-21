@@ -10,13 +10,13 @@
   "abstract": "Maximum margin clustering (MMC) is a relatively new and promising kernel method. In this paper, we apply MMC to the task of unsupervised speech segmentation. We present three automatic speech segmentation methods based on MMC, which are tested on TIMIT and evaluated on the level of phoneme boundary detection. The results show that MMC is highly competitive with existing unsupervised methods for the automatic detection of phoneme boundaries. Furthermore, initial analyses show that MMC is a promising method for the automatic detection of sub-phonetic information in the speech signal.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4218256"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/de3fdba655fd1de7ab666201a2d63a2bff32fe5f"
     }
   ],

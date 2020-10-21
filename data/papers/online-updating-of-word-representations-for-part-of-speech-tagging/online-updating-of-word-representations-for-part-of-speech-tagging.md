@@ -10,18 +10,18 @@
   "abstract": "We propose online unsupervised domain adaptation (DA), which is performed incrementally as data comes in and is applicable when batch DA is not possible. In a part-of-speech (POS) tagging evaluation, we find that online unsupervised DA performs as well as batch DA.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1604.00502.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1604.00502"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/e101bd3a90524d4011eddc0ab8fdc2d3b4bea8ca"
     }
   ],

@@ -4,20 +4,20 @@
   "title": "Spectral clustering",
   "year": null,
   "categories": [
-      "clustering"
+    "clustering"
   ],
   "components": [],
   "thumbnail": "spectral-clustering.png",
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Spectral_clustering"
     },
     {
-      "title": "Towards Data Science",
-      "type": "article",
+      "resource": "Towards Data Science",
+      "icon": "article",
       "url": "https://towardsdatascience.com/spectral-clustering-aba2640c0d5b"
     }
   ]

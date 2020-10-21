@@ -8,13 +8,13 @@
   "abstract": "We present a language-independent and unsupervised algorithm for the segmentation of words into morphs. The algorithm is based on a new generative probabilistic model, which makes use of relevant prior information on the length and frequency distributions of morphs in a language. Our algorithm is shown to outperform two competing algorithms, when evaluated on data from a language with agglutinative morphology (Finnish), and to perform well also on English data.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://aclweb.org/anthology/P/P03/P03-1036.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/8b9a274eec5f938595e0ebcbd0ce5f6cc619e75d"
     }
   ],

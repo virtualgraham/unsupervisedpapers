@@ -12,13 +12,13 @@
   "abstract": "We present in this paper some advances in color restoration of underwater images, especially with regard to the strong and non uniform color cast which is typical of underwater images. The proposed color correction method is based on ACE model, an unsupervised color equalization algorithm. ACE is a perceptual approach inspired by some adaptation mechanisms of the human visual system, in particular lightness constancy and color constancy. A perceptual approach presents a lot of advantages: it is unsupervised, robust and has local filtering properties, that lead to more effective results. The restored images give better results when displayed or processed (fish segmentation and feature extraction). The presented preliminary results are satisfying and promising.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://doi.org/10.1117/12.524540"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/c6d5b415630799a01fd7e61418c138dbbfa25b48"
     }
   ],

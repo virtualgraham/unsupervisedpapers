@@ -9,13 +9,13 @@
   "abstract": "This paper investigates the combination of spatial and probabilistic models for reasoning about pedestrian behaviour in visual surveillance systems. Models are learnt by a multi-step unsupervised method and they are used for trajectory labelling and atypical behaviour detection.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/12fa/cc1309f486a541d721134b2aaedc00570235.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/12facc1309f486a541d721134b2aaedc00570235"
     }
   ],

@@ -11,18 +11,18 @@
   "abstract": "We present a novel and unified deep learning framework which is capable of learning domain-invariant representation from data across multiple domains. Realized by adversarial training with additional ability to exploit domain-specific information, the proposed network is able to perform continuous cross-domain image translation and manipulation, and produces desirable output images accordingly. In addition, the resulting feature representation exhibits superior performance of unsupervised domain adaptation, which also verifies the effectiveness of the proposed model in learning disentangled features for describing cross-domain data.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1809.01361.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1809.01361"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/7bb804466057c5ae57c58a8aff4e0c96fe3f6c18"
     }
   ],

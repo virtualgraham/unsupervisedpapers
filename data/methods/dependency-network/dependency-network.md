@@ -10,8 +10,8 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Dependency_network_(graphical_model)"
     }
   ],

@@ -10,13 +10,13 @@
   "abstract": "An author may have multiple names and multiple authors may share the same name simply due to name abbreviations, identical names, or name misspellings in publications or bibliographies (citations). This can produce name ambiguity which can affect the performance of document retrieval, web search, and database integration, and may cause improper attribution of credit. Proposed here is an unsupervised learning approach using K-way spectral clustering that disambiguates authors in citations. The approach utilizes three types of citation attributes: co-author names, paper titles, and publication venue titles. The approach is illustrated with 16 name datasets with citations collected from the DBLP database bibliography and author home pages and shows that name disambiguation can be achieved using these citation attributes",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://dl.acm.org/citation.cfm?id=1065462"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/3f347814b736d31dd9d51c81ec7eeab3214187e2"
     }
   ],

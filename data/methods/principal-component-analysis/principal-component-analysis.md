@@ -11,13 +11,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Papers With Code",
-      "type": "paperswithcode",
+      "resource": "Papers With Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/method/pca"
     },
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Principal_component_analysis"
     }
   ]

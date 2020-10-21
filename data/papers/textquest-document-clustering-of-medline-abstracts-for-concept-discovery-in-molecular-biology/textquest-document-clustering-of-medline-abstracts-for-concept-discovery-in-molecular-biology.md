@@ -10,13 +10,13 @@
   "abstract": "We present an algorithm for large-scale document clustering of biological text, obtained from Medline abstracts. The algorithm is based on statistical treatment of terms, stemming, the idea of a 'go-list', unsupervised machine learning and graph layout optimization. The method is flexible and robust, controlled by a small number of parameter values. Experiments show that the resulting document clusters are meaningful as assessed by cluster-specific terms. Despite the statistical nature of the approach, with minimal semantic analysis, the terms provide a shallow description of the document corpus and support concept discovery.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/09f2/f71a1515d83753410b0fb93ea3777653d6d4.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/09f2f71a1515d83753410b0fb93ea3777653d6d4"
     }
   ],

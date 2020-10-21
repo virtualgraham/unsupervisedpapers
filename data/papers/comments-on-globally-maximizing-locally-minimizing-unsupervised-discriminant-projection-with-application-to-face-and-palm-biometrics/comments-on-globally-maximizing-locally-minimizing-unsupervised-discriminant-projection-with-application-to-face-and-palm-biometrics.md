@@ -12,13 +12,13 @@
   "abstract": "In [1], UDP is proposed to address the limitation of LPP for the clustering and classification tasks. In this communication, we show that the basic ideas of UDP and LPP are identical. In particular, UDP is just a simplified version of LPP on the assumption that the local density is uniform.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/6fd5/aeb29448e86e6ee5c3b976227f4456f68933.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/6fd5aeb29448e86e6ee5c3b976227f4456f68933"
     }
   ],

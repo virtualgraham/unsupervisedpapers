@@ -6,13 +6,13 @@
   "thumbnail": null,
   "links": [
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/video-object-detection"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/ug-vod-the-ultimate-guide-to-video-object-detection-816a76073aef"
     }
   ]

@@ -11,13 +11,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Dynamic_time_warping"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/dynamic-time-warping-3933f25fcdd"
     }
   ],

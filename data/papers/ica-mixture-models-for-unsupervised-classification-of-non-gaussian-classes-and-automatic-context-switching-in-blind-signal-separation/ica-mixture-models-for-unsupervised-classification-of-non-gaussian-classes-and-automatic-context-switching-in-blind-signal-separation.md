@@ -10,13 +10,13 @@
   "abstract": "An unsupervised classification algorithm is derived by modeling observed data as a mixture of several mutually exclusive classes that are each described by linear combinations of independent, non-Gaussian densities. The algorithm estimates the density of each class and is able to model class distributions with non-Gaussian structure. The new algorithm can improve classification accuracy compared with standard Gaussian mixture models. When applied to blind source separation in nonstationary environments, the method can switch automatically between classes, which correspond to contexts with different mixing properties. The algorithm can learn efficient codes for images containing both natural scenes and text. This method shows promise for modeling non-Gaussian structure in high-dimensional data and has many potential applications.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/1ec3/a3b0475b26c2d35d5ce644eea13440fed410.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/1ec3a3b0475b26c2d35d5ce644eea13440fed410"
     }
   ],

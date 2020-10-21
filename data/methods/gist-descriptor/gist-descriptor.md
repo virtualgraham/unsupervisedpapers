@@ -11,8 +11,8 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/Modeling-the-Shape-of-the-Scene%3A-A-Holistic-of-the-Oliva-Torralba/869171b2f56cfeaa9b81b2626cb4956fea590a57"
     }
   ],

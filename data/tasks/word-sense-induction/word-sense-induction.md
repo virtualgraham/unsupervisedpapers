@@ -5,13 +5,13 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Wikipeida",
-      "type": "wikipedia",
+      "resource": "Wikipeida",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Word-sense_induction"
     },
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/word-sense-induction"
     }
   ],

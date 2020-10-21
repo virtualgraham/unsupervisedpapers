@@ -9,13 +9,13 @@
   "abstract": "",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://doi.org/10.1201/9780203998076.CH3"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/935d0a69c8bedd5588fcdb20904e91cf14a25da2"
     }
   ],

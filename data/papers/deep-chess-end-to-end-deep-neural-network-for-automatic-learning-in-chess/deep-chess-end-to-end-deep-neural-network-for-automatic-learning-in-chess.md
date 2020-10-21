@@ -10,18 +10,18 @@
   "abstract": "We present an end-to-end learning method for chess, relying on deep neural networks. Without any a priori knowledge, in particular without any knowledge regarding the rules of chess, a deep neural network is trained using a combination of unsupervised pretraining and supervised training. The unsupervised training extracts high level features from a given position, and the supervised training learns to compare two chess positions and select the more favorable one. The training relies entirely on datasets of several million chess games, and no further domain specific knowledge is incorporated.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1711.09667.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1711.09667"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/83aaf05c9abf4b1a087f72d948f1c53f6ed8cbd9"
     }
   ],

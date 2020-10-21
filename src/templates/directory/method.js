@@ -211,9 +211,11 @@ export const query = graphql`
         title
         year
         links {
-          title
-          type
           url
+          icon
+          resource
+          title
+          description
         }
         thumbnail {
           publicURL

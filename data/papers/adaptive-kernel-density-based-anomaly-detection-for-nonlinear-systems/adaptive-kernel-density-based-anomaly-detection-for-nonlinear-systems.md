@@ -9,13 +9,13 @@
   "abstract": "This paper presents an unsupervised, density-based approach to anomaly detection. The purpose is to define a smooth yet effective measure of outlierness that can be used to detect anomalies in nonl ...",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://ltu.diva-portal.org/smash/get/diva2:1046782/FULLTEXT01"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/e16741f935b5485e02641c7b33a531348809e111"
     }
   ],

@@ -42,9 +42,11 @@ async function createDirectoryPages(graphql, actions) {
               publicURL
             }
             links {
-              title
-              type
               url
+              icon
+              resource
+              title
+              description
             }
             supervision
             tasks
@@ -982,35 +984,35 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         components: {
           type: "[String!]",
         },
-
-        // thumbnail: {
-        //   type: 'Thumbnail!',
-        //   resolve(source) {
-        //     console.log('Thumbnail', source)
-        //     const { thumbnail } = source
-        //     if (source.thumbnail == null || !thumbnail.publicURL) {
-        //       return {
-        //         publicURL: "/unsupervisedpapers.svg"
-        //       }
-        //     }
-        //     return thumbnail
-        //   },
-          
-        // }
+        links: {
+          type: "[Link!]",
+        },
       }
     }),
-    // schema.buildObjectType({
-    //   name: 'Thumbnail',
-    //   interfaces: ['Node'],
-    //   fields: {
-    //     publicURL: {
-    //       type: 'String',
-    //     },
-    //   },
-    //   extensions: {
-    //     infer: true,
-    //   },
-    // }),
+    schema.buildObjectType({
+      name: 'Link',
+      interfaces: ['Node'],
+      fields: {
+        url: {
+          type: 'String',
+        },
+        icon: {
+          type: 'String',
+        },
+        resource: {
+          type: 'String',
+        },
+        title: {
+          type: 'String',
+        },
+        description: {
+          type: 'String',
+        },
+      },
+      extensions: {
+        infer: true,
+      },
+    }),
   ]
   createTypes(typeDefs)
 }

@@ -12,18 +12,18 @@
   "abstract": "In this paper, we claim that vector cosine – which is generally considered among the most efficient unsupervised measures for identifying word similarity in Vector Space Models – can be outperformed by an unsupervised measure that calculates the extent of the intersection among the most mutually dependent contexts of the target words. To prove it, we describe and evaluate APSyn, a variant of the Average Precision that, without any optimization, outperforms the vector cosine and the co-occurrence on the standard ESL test set, with an improvement ranging between +9.00% and +17.98%, depending on the number of chosen top contexts.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1603.09054.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1603.09054"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/da624777fc860d1488bfbd8b57a4050e59810d69"
     }
   ],

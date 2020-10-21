@@ -5,8 +5,8 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Keyword_extraction"
     }
   ],

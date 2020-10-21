@@ -5,8 +5,8 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Medium",
-      "type": "website",
+      "resource": "Medium",
+      "icon": "website",
       "url": "https://medium.com/@gglrthiru/multi-view-machine-learning-methods-9552c048a8fd"
     }
   ],

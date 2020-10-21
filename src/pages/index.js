@@ -130,8 +130,10 @@ export const query = graphql`
           }
           links {
             url
-            type
+            icon
+            resource
             title
+            description
           }
           supervision
           tasks

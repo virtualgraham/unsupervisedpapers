@@ -11,13 +11,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Markov_random_field"
     },
     {
-      "title": "Towards Data Science",
-      "type": "article",
+      "resource": "Towards Data Science",
+      "icon": "article",
       "url": "https://towardsdatascience.com/markov-random-fields-and-image-processing-20fb4cf7e10d"
     }
   ]

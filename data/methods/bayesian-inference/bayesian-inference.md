@@ -11,13 +11,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
     },
     {
-      "title": "CMU Statistics",
-      "type": "pdf",
+      "resource": "CMU Statistics",
+      "icon": "pdf",
       "url": "http://www.stat.cmu.edu/~larry/=sml/Bayes.pdf"
     }
   ],

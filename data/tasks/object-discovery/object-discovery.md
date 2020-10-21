@@ -6,8 +6,8 @@
   "thumbnail": "object-discovery.png",
   "links": [
     {
-      "title": "Papers With Code",
-      "type": "paperswithcode",
+      "resource": "Papers With Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/object-discovery"
     }
   ]

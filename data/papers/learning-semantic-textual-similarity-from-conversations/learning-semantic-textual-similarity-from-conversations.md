@@ -17,18 +17,18 @@
   "abstract": "We present a novel approach to learn representations for sentence-level semantic similarity using conversational data. Our method trains an unsupervised model to predict conversational input-response pairs. The resulting sentence embeddings perform well on the semantic textual similarity (STS) benchmark and SemEval 2017's Community Question Answering (CQA) question similarity subtask. Performance is further improved by introducing multitask training combining the conversational input-response prediction task and a natural language inference task. Extensive experiments show the proposed model achieves the best performance among all neural models on the STS benchmark and is competitive with the state-of-the-art feature engineered and mixed systems in both tasks.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1804.07754.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1804.07754"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/245b03b60cb4bf0235109af4e48f958fbab03b34"
     }
   ],

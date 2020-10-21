@@ -9,18 +9,18 @@
   "abstract": "This paper presents to the best of our knowledge the first end-to-end object tracking approach which directly maps from raw sensor input to object tracks in sensor space without requiring any feature engineering or system identification in the form of plant or sensor models. Specifically, our system accepts a stream of raw sensor data at one end and, in real-time, produces an estimate of the entire environment state at the output including even occluded objects. We achieve this by framing the problem as a deep learning task and exploit sequence models in the form of recurrent neural networks to learn a mapping from sensor measurements to object tracks. In particular, we propose a learning method based on a form of input dropout which allows learning in an unsupervised manner, only based on raw, occluded sensor data without access to ground-truth annotations. We demonstrate our approach using a synthetic dataset designed to mimic the task of tracking objects in 2D laser data -- as commonly encountered in robotics applications -- and show that it learns to track many dynamic objects despite occlusions and the presence of sensor noise.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1602.00991.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1602.00991"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/c8dcdd65e496f59d3550fe8b612194f40652f3f1"
     }
   ],

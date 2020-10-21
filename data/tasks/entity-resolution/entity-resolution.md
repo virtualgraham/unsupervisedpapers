@@ -5,13 +5,13 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/entity-resolution"
     },
     {
-      "title": "Science Direct",
-      "type": "website",
+      "resource": "Science Direct",
+      "icon": "website",
       "url": "https://www.sciencedirect.com/topics/computer-science/entity-resolution"
     }
   ],

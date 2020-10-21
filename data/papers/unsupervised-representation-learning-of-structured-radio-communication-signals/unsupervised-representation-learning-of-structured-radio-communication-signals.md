@@ -10,18 +10,18 @@
   "abstract": "We explore unsupervised representation learning of radio communication signals in raw sampled time series representation. We demonstrate that we can learn modulation basis functions using convolutional autoencoders and visually recognize their relationship to the analytic bases used in digital communications. We also propose and evaluate quantitative metrics for quality of encoding using domain relevant performance metrics.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1604.07078.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1604.07078"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/14189330ef6b7abfcc32191f7c1afd34f6dac371"
     }
   ],

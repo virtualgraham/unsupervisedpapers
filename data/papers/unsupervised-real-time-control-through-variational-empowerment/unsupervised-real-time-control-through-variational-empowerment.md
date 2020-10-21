@@ -13,18 +13,18 @@
   "abstract": "We introduce a methodology for efficiently computing a lower bound to empowerment, allowing it to be used as an unsupervised cost function for policy learning in real-time control. Empowerment, being the channel capacity between actions and states, maximises the influence of an agent on its near future. It has been shown to be a good model of biological behaviour in the absence of an extrinsic goal. But empowerment is also prohibitively hard to compute, especially in nonlinear continuous spaces. We introduce an efficient, amortised method for learning empowerment-maximising policies. We demonstrate that our algorithm can reliably handle continuous dynamical systems using system dynamics learned from raw data. The resulting policies consistently drive the agents into states where they can use their full potential.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1710.05101.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1710.05101"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/725209bf1feaed869c3ba40450e0657ed6e335bc"
     }
   ],

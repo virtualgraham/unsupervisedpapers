@@ -11,13 +11,13 @@
   "abstract": "We describe a texture analysis system in which informative discrimination rules are learned from a multiresolution representation of time textured input. The system incorporates unsupervised and supervised learning via statistical machine learning and rule-based neural networks, respectively. The textured input is represented in the frequency-orientation space via a log-Gabor pyramidal decomposition. In the unsupervised learning stage a statistical clustering scheme is used for the quantization of the feature-vector attributes. A supervised stage follows in which labeling of the textured map is achieved using a rule-based network. Simulation results for the texture classification task are given. An application of the system to real-world problems is demonstrated. >",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/998b/1314b54abb589ffa747baa1038635f6528ef.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/998b1314b54abb589ffa747baa1038635f6528ef"
     }
   ],

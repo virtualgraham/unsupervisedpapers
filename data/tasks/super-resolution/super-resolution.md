@@ -5,13 +5,13 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/super-resolution"
     },
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Super-resolution_imaging"
     }
   ],

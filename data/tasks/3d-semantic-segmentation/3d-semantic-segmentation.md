@@ -6,8 +6,8 @@
   "thumbnail": "3d-semantic-segmentation-thumb.png",
   "links": [
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/3d-semantic-segmentation"
     }
   ]

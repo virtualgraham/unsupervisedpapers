@@ -5,13 +5,13 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Cluster_analysis"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68"
     }
   ],

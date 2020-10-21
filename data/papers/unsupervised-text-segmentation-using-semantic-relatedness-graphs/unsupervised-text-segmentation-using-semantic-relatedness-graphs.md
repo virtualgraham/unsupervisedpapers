@@ -9,13 +9,13 @@
   "abstract": "Segmenting text into semantically coherent \nfragments improves readability of text \nand facilitates tasks like text summarization \nand passage retrieval. In this paper, \nwe present a novel unsupervised algorithm \nfor linear text segmentation (TS) \nthat exploits word embeddings and a measure \nof semantic relatedness of short texts \nto construct a semantic relatedness graph \nof the document. Semantically coherent \nsegments are then derived from maximal \ncliques of the relatedness graph. The algorithm \nperforms competitively on a standard \nsynthetic dataset and outperforms the \nbest-performing method on a real-world \n(i.e., non-artificial) dataset of political manifestos.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/a492/a571dcc51ff35f8a2dafdb86295d15fa2210.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/a492a571dcc51ff35f8a2dafdb86295d15fa2210"
     }
   ],

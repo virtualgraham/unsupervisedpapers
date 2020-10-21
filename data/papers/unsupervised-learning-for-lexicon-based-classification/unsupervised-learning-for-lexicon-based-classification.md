@@ -8,18 +8,18 @@
   "abstract": "To be presented at the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17), February 4–9, 2017, San Francisco, California, USA.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1611.06933.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1611.06933"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/37d50b2c77dbe270ec366926a664a4936ab54844"
     }
   ],

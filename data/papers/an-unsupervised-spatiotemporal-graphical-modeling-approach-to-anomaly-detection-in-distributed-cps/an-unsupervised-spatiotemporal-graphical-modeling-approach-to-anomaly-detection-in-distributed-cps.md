@@ -11,18 +11,18 @@
   "abstract": "Modern distributed cyber-physical systems (CPSs) encounter a large variety of physical faults and cyber anomalies and in many cases, they are vulnerable to catastrophic fault propagation scenarios due to strong connectivity among the sub-systems. This paper presents a new data-driven framework for system-wide anomaly detection for addressing such issues. The framework is based on a spatiotemporal feature extraction scheme built on the concept of symbolic dynamics for discovering and representing causal interactions among the subsystems of a CPS. The extracted spatiotemporal features are then used to learn system-wide patterns via a Restricted Boltzmann Machine (RBM). The results show that: (1) the RBM free energy in the off-nominal conditions is different from that in the nominal conditions and can be used for anomaly detection; (2) the framework can capture multiple nominal modes with one graphical model; (3) the case studies with simulated data and an integrated building system validate the proposed approach.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1512.07876.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1512.07876"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/89f56b54a4568e6547b4e4db7008108370932f75"
     }
   ],

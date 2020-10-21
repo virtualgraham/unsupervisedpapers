@@ -12,18 +12,18 @@
   "abstract": "auDeep is a Python toolkit for deep unsupervised representation learning from acoustic data. It is based on a recurrent sequence to sequence autoencoder approach which can learn representations of time series data by taking into account their temporal dynamics. We provide an extensive command line interface in addition to a Python API for users and developers, both of which are comprehensively documented and publicly available at this https URL Experimental results indicate that auDeep features are competitive with state-of-the art audio classification.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1712.04382.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1712.04382"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/589b9bdabddfa3a8d03fcbcf9b45514b128cde1e"
     }
   ],

@@ -9,13 +9,13 @@
   "abstract": "We easily recognize objects and faces across a myriad of retinal images produced by each object. One hypothesis is that this tolerance (a.k.a. \"invariance\") is learned by relying on the fact that object identities are temporally stable. While we previously found neuronal evidence supporting this idea at the top of the nonhuman primate ventral visual stream (inferior temporal cortex, or IT), we here test if this is a general tolerance learning mechanism. First, we found that the same type of unsupervised experience that reshaped IT position tolerance also predictably reshaped IT size tolerance, and the magnitude of reshaping was quantitatively similar. Second, this tolerance reshaping can be induced under naturally occurring dynamic visual experience, even without eye movements. Third, unsupervised temporal contiguous experience can build new neuronal tolerance. These results suggest that the ventral visual stream uses a general unsupervised tolerance learning algorithm to build its invariant object representation.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://www.sciencedirect.com/science/article/pii/S0896627310006392"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/d05931ad16482ac5f8ddbd0d623a732949f7e652"
     }
   ],

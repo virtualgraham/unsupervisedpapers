@@ -11,13 +11,13 @@
   "abstract": "Outlier detection and ensemble learning are well established research directions in data mining yet the application of ensemble techniques to outlier detection has been rarely studied. Here, we propose and study subsampling as a technique to induce diversity among individual outlier detectors. We show analytically and experimentally that an outlier detector based on a subsample per se, besides inducing diversity, can, under certain conditions, already improve upon the results of the same outlier detector on the complete dataset. Building an ensemble on top of several subsamples is further improving the results. While in the literature so far the intuition that ensembles improve over single outlier detectors has just been transferred from the classification literature, here we also justify analytically why ensembles are also expected to work in the unsupervised area of outlier detection. As a side effect, running an ensemble of several outlier detectors on subsamples of the dataset is more efficient than ensembles based on other means of introducing diversity and, depending on the sample rate and the size of the ensemble, can be even more efficient than just the single outlier detector on the complete data.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://dl.acm.org/citation.cfm?id=2487676"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/dcafe812c7f0ec094b25f32fe71010cad7323797"
     }
   ],

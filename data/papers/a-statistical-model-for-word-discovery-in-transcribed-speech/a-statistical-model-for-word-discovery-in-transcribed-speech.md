@@ -8,18 +8,18 @@
   "abstract": "A statistical model for segmentation and word discovery in continuous speech is presented. An incremental unsupervised learning algorithm to infer word boundaries based on this model is described. Results are also presented of empirical tests showing that the algorithm is competitive with other models that have been used for similar tasks.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/cs/0111065.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/cs/0111065"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/9048314823da03b3e24c5721a601e66bae2acc07"
     }
   ],

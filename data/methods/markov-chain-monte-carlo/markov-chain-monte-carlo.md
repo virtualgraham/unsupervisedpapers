@@ -10,13 +10,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo"
     },
     {
-      "title": "Springer Link",
-      "type": "website",
+      "resource": "Springer Link",
+      "icon": "website",
       "url": "https://link.springer.com/article/10.3758/s13423-016-1015-8"
     }
   ],

@@ -11,13 +11,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Learn OpenCV",
-      "type": "website",
+      "resource": "Learn OpenCV",
+      "icon": "website",
       "url": "https://www.learnopencv.com/histogram-of-oriented-gradients/"
     },
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients"
     }
   ]

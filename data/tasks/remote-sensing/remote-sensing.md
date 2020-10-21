@@ -5,8 +5,8 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Papers with Code",
-      "type": "wikipedia",
+      "resource": "Papers with Code",
+      "icon": "wikipedia",
       "url": "https://paperswithcode.com/task/remote-sensing"
     }
   ],

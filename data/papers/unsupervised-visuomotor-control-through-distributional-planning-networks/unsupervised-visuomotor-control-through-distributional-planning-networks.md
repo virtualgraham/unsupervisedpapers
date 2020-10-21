@@ -11,18 +11,18 @@
   "abstract": "While reinforcement learning (RL) has the potential to enable robots to autonomously acquire a wide range of skills, in practice, RL usually requires manual, per-task engineering of reward functions, especially in real world settings where aspects of the environment needed to compute progress are not directly accessible. To enable robots to autonomously learn skills, we instead consider the problem of reinforcement learning without access to rewards. We aim to learn an unsupervised embedding space under which the robot can measure progress towards a goal for itself. Our approach explicitly optimizes for a metric space under which action sequences that reach a particular state are optimal when the goal is the final state reached. This enables learning effective and control-centric representations that lead to more autonomous reinforcement learning algorithms. Our experiments on three simulated environments and two real-world manipulation problems show that our method can learn effective goal metrics from unlabeled interaction, and use the learned goal metrics for autonomous reinforcement learning.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1902.05542.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1902.05542"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/743400b552f06a5275633c3f8fab1a36f39d789a"
     }
   ],

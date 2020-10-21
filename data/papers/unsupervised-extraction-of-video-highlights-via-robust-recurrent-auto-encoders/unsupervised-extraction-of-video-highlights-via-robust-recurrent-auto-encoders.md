@@ -13,18 +13,18 @@
   "abstract": "With the growing popularity of short-form video sharing platforms such as Instagram and Vine, there has been an increasing need for techniques that automatically extract highlights from video. Whereas prior works have approached this problem with heuristic rules or supervised learning, we present an unsupervised learning approach that takes advantage of the abundance of user-edited videos on social media websites such as YouTube. Based on the idea that the most significant sub-events within a video class are commonly present among edited videos while less interesting ones appear less frequently, we identify the significant sub-events via a robust recurrent auto-encoder trained on a collection of user-edited videos queried for each particular class of interest. The auto-encoder is trained using a proposed shrinking exponential loss function that makes it robust to noise in the web-crawled training data, and is configured with bidirectional long short term memory (LSTM) [5] cells to better model the temporal structure of highlight segments. Different from supervised techniques, our method can infer highlights using only a set of downloaded edited videos, without also needing their pre-edited counterparts which are rarely available online. Extensive experiments indicate the promise of our proposed solution in this challenging unsupervised setting.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1510.01442.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1510.01442"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/faafe2a76dbb9a5a1468b1a02b1f0f09ced8587e"
     }
   ],

@@ -6,18 +6,18 @@
   "thumbnail": "face-detection-thumb.jpg",
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Face_detection"
     },
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/face-detection"
     },
     {
-      "title": "Science Direct",
-      "type": "website",
+      "resource": "Science Direct",
+      "icon": "website",
       "url": "https://www.sciencedirect.com/topics/computer-science/face-detection"
     }
   ],

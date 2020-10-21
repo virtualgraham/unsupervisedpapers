@@ -5,13 +5,13 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/person-re-identification"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/why-we-need-person-re-identification-3a45d170098b"
     }
   ],

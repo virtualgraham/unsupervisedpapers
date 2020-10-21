@@ -6,8 +6,8 @@
   "thumbnail": "object-cosegmentation.jpg",
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Object_co-segmentation"
     }
   ]

@@ -10,13 +10,13 @@
   "abstract": "Information Extraction (IE) systems are commonly based on pattern matching. Adapting an IE system to a new scenario entails the construction of a new pattern base---a time-consuming and expensive process. We have implemented a system for finding patterns automatically from un-annotated text. Starting with a small initial set of seed patterns proposed by the user, the system applies an incremental discovery procedure to identify new patterns. We present experiments with evaluations which show that the resulting patterns exhibit high precision and recall.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://www.ru.is/faculty/hrafn/Papers/yangarber-anlp00.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/9eacd2b8226e6124eec8241996ce86b9dfaa393b"
     }
   ],

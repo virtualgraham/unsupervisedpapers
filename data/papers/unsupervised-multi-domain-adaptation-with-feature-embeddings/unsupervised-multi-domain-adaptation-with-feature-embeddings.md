@@ -9,18 +9,18 @@
   "abstract": "Representation learning is the dominant technique for unsupervised domain adaptation, but existing approaches often require the specification of \"pivot features\" that generalize across domains, which are selected by task-specific heuristics. We show that a novel but simple feature embedding approach provides better performance, by exploiting the feature template structure common in NLP problems.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1412.4385.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1412.4385"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/246c31d5746e0c42ad55c14adb9ff5886e794fa8"
     }
   ],

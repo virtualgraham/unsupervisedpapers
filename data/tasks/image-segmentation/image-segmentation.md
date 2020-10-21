@@ -5,8 +5,8 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Wikipeida",
-      "type": "wikipedia",
+      "resource": "Wikipeida",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Image_segmentation"
     }
   ],

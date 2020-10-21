@@ -11,18 +11,18 @@
   "abstract": "It's useful to automatically transform an image from its original form to some synthetic form (style, partial contents, etc.), while keeping the original structure or semantics. We define this requirement as the \"image-to-image translation\" problem, and propose a general approach to achieve it, based on deep convolutional and conditional generative adversarial networks (GANs), which has gained a phenomenal success to learn mapping images from noise input since 2014. In this work, we develop a two step (unsupervised) learning method to translate images between different domains by using unlabeled images without specifying any correspondence between them, so that to avoid the cost of acquiring labeled data. Compared with prior works, we demonstrated the capacity of generality in our model, by which variance of translations can be conduct by a single type of model. Such capability is desirable in applications like bidirectional translation",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1701.02676.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1701.02676"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/d5c4e3c101041556e00b25c0dcb09716827ed5b3"
     }
   ],

@@ -6,8 +6,8 @@
   "thumbnail": "saliency-detection-thumb.jpg",
   "links": [
     {
-      "title": "Papers with code",
-      "type": "paperswithcode",
+      "resource": "Papers with code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/saliency-detection"
     }
   ],

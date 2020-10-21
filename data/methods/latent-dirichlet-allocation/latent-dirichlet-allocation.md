@@ -10,18 +10,18 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158"
     }
   ],

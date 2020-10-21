@@ -9,13 +9,13 @@
   "abstract": "Summary: Unsupervised class discovery is a highly useful technique in cancer research, where intrinsic groups sharing biological characteristics may exist but are unknown. The consensus clustering (CC) method provides quantitative and visual stability evidence for estimating the number of unsupervised classes in a dataset. ConsensusClusterPlus implements the CC method in R and extends it with new functionality and visualizations including item tracking, item-consensus and cluster-consensus plots. These new features provide users with detailed information that enable more specific decisions in unsupervised class discovery. Availability: ConsensusClusterPlus is open source software, written in R, under GPL-2, and available through the Bioconductor project (http://www.bioconductor.org/). Contact: mwilkers@med.unc.edu Supplementary Information: Supplementary data are available at Bioinformatics online.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/4767/94bbd8776a67a858b0014183bb62ad4f8811.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/f09c52301704d1c89380f90b50b682dcc3f9d80f"
     }
   ],

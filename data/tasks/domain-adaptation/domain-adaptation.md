@@ -5,13 +5,13 @@
   "parent_task": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Domain_adaptation"
     },
     {
-      "title": "Papers with code",
-      "type": "paperswithcode",
+      "resource": "Papers with code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/domain-adaptation"
     }
   ],

@@ -10,18 +10,18 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Generative_adversarial_network"
     },
     {
-      "title": "Machine Learning Mastery",
-      "type": "website",
+      "resource": "Machine Learning Mastery",
+      "icon": "website",
       "url": "https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29"
     }
   ],

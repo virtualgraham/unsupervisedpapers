@@ -10,18 +10,18 @@
   "abstract": "We show how a deep denoising autoencoder with lateral connections can be used as an auxiliary unsupervised learning task to support supervised learning. The proposed model is trained to minimize simultaneously the sum of supervised and unsupervised cost functions by back-propagation, avoiding the need for layer-wise pretraining. It improves the state of the art significantly in the permutation-invariant MNIST classification task.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1504.08215.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1504.08215"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/45dc57377a16d2e278f49d183adf1687d737201c"
     }
   ],

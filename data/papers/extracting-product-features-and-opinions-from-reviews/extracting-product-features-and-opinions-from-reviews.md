@@ -9,13 +9,13 @@
   "abstract": "Consumers are often forced to wade through many on-line reviews in order to make an informed product choice. This paper introduces Opine, an unsupervised information-extraction system which mines reviews in order to build a model of important product features, their evaluation by reviewers, and their relative quality across products.Compared to previous work, Opine achieves 22% higher precision (with only 3% lower recall) on the feature extraction task. Opine's novel use of relaxation labeling for finding the semantic orientation of words in context leads to strong performance on the tasks of finding opinion phrases and their polarity.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://anthology.aclweb.org/H/H05/H05-1043.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/ff75055d4e47737702d3b550879d6128cec13233"
     }
   ],

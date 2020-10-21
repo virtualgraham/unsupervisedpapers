@@ -157,9 +157,11 @@ export const query = graphql`
         title
         parent_task
         links {
-          title
-          type
           url
+          icon
+          resource
+          title
+          description
         }
         thumbnail {
           publicURL

@@ -9,13 +9,13 @@
   "abstract": "The concept of generalization is defined for a general class of unsupervised learning machines. The generalization error is a straightforward extension of the corresponding concept for supervised learning, and may be estimated empirically using a test set or by statistical means-in close analogy with supervised learning. The empirical and analytical estimates are compared for principal component analysis and for K-means clustering based density estimation.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=548861"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/58d6f904789aa19eaa83b2e8a91dafb9c6405e22"
     }
   ],

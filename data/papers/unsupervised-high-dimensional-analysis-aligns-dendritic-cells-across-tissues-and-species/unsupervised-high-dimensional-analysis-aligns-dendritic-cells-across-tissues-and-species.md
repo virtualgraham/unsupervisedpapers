@@ -39,13 +39,13 @@
   "abstract": "Summary Dendritic cells (DCs) are professional antigen-presenting cells that hold great therapeutic potential. Multiple DC subsets have been described, and it remains challenging to align them across tissues and species to analyze their function in the absence of macrophage contamination. Here, we provide and validate a universal toolbox for the automated identification of DCs through unsupervised analysis of conventional flow cytometry and mass cytometry data obtained from multiple mouse, macaque, and human tissues. The use of a minimal set of lineage-imprinted markers was sufficient to subdivide DCs into conventional type 1 (cDC1s), conventional type 2 (cDC2s), and plasmacytoid DCs (pDCs) across tissues and species. This way, a large number of additional markers can still be used to further characterize the heterogeneity of DCs across tissues and during inflammation. This framework represents the way forward to a universal, high-throughput, and standardized analysis of DC populations from mutant mice and human patients.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://core.ac.uk/download/pdf/52422074.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/5ed9dc53c27698972953816980ed44ccc440d081"
     }
   ],

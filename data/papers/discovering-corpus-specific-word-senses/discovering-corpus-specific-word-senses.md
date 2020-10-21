@@ -9,13 +9,13 @@
   "abstract": "This paper presents an unsupervised algorithm which automatically discovers word senses from text. The algorithm is based on a graph model representing words and relationships between them. Sense clusters are iteratively computed by clustering the local graph of similar words around an ambiguous word. Discrimination against previously extracted sense clusters enables us to discover new senses. We use the same data for both recognising and resolving ambiguity.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://aclweb.org/anthology/E/E03/E03-1020.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/77377e0322a98f50fd93d2da2cc0abf35e608948"
     }
   ],

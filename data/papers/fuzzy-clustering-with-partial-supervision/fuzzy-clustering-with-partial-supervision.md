@@ -9,13 +9,13 @@
   "abstract": "Presented here is a problem of fuzzy clustering with partial supervision, i.e., unsupervised learning completed in the presence of some labeled patterns. The classification information is incorporated additively as a part of an objective function utilized in the standard FUZZY ISODATA. The algorithms proposed in the paper embrace two specific learning scenarios of complete and incomplete class assignment of the labeled patterns. Numerical examples including both synthetic and real-world data arising in the realm of software engineering are also provided.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/fadd/ecda2c86598714e022f7190bee9ec41f0c0f.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/faddecda2c86598714e022f7190bee9ec41f0c0f"
     }
   ],

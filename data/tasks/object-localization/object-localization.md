@@ -6,8 +6,8 @@
   "thumbnail": "object-localization.png",
   "links": [
     {
-      "title": "Papers With Code",
-      "type": "paperswithcode",
+      "resource": "Papers With Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/object-localization"
     }
   ]

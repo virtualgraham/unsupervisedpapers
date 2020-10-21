@@ -10,13 +10,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gibbs_sampling"
     },
     {
-      "title": " The OG Clever Machine",
-      "type": "website",
+      "resource": " The OG Clever Machine",
+      "icon": "website",
       "url": "https://theclevermachine.wordpress.com/2012/11/05/mcmc-the-gibbs-sampler/"
     }
   ],

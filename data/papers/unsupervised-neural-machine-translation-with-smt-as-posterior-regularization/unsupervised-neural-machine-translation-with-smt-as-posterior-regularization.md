@@ -12,18 +12,18 @@
   "abstract": "Without real bilingual corpus available, unsupervised Neural Machine Translation (NMT) typically requires pseudo parallel data generated with the back-translation method for the model training. However, due to weak supervision, the pseudo data inevitably contain noises and errors that will be accumulated and reinforced in the subsequent training process, leading to bad translation performance. To address this issue, we introduce phrase based Statistic Machine Translation (SMT) models which are robust to noisy data, as posterior regularizations to guide the training of unsupervised NMT models in the iterative back-translation process. Our method starts from SMT models built with pre-trained language models and word-level translation tables inferred from cross-lingual embeddings. Then SMT and NMT models are optimized jointly and boost each other incrementally in a unified EM framework. In this way, (1) the negative effect caused by errors in the iterative back-translation process can be alleviated timely by SMT filtering noises from its phrase tables; meanwhile, (2) NMT can compensate for the deficiency of fluency inherent in SMT. Experiments conducted on en-fr and en-de translation tasks show that our method outperforms the strong baseline and achieves new state-of-the-art unsupervised machine translation performance.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1901.04112.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1901.04112"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/4c8bc820562559ea29a3570d7b0bf349d975ae51"
     }
   ],

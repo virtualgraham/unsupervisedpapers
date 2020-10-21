@@ -9,13 +9,13 @@
   "abstract": "Abstract A partially unsupervised approach to the classification of multitemporal remote-sensing images is presented. Such an approach allows the automatic classification of a remote-sensing image for which training data are not available, drawing on the information derived from an image acquired in the same area at a previous time. In particular, the proposed technique is based on a cascade-classifier approach and on a specific formulation of the expectation-maximization (EM) algorithm used for the unsupervised estimation of the statistical parameters of the image to be classified. The results of experiments carried out on a multitemporal data set confirm the validity of the proposed approach.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://doi.org/10.1016/S0167-8655%2802%2900053-3"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/1b95480c804ff34665ada783a50efff4c4c7b5b0"
     }
   ],

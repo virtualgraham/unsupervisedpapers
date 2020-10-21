@@ -12,18 +12,18 @@
   "abstract": "It has been recently shown that a convolutional neural network can learn optical flow estimation with unsupervised learning. However, the performance of the unsupervised methods still has a relatively large gap compared to its supervised counterpart. Occlusion and large motion are some of the major factors that limit the current unsupervised learning of optical flow methods. In this work we introduce a new method which models occlusion explicitly and a new warping way that facilitates the learning of large motion. Our method shows promising results on Flying Chairs, MPI-Sintel and KITTI benchmark datasets. Especially on KITTI dataset where abundant unlabeled samples exist, our unsupervised method outperforms its counterpart trained with supervised learning.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1711.05890.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1711.05890"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/0b197f323e7d5514e5ada388858e38890dce0148"
     }
   ],

@@ -6,8 +6,8 @@
   "thumbnail": null,
   "links": [
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/object-proposal-generation/codeless"
     }
   ],

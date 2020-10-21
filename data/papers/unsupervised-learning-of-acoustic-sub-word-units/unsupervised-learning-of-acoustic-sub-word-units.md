@@ -10,13 +10,13 @@
   "abstract": "Accurate unsupervised learning of phonemes of a language directly from speech is demonstrated via an algorithm for joint unsupervised learning of the topology and parameters of a hidden Markov model (HMM); states and short state-sequences through this HMM correspond to the learnt sub-word units. The algorithm, originally proposed for unsupervised learning of allophonic variations within a given phoneme set, has been adapted to learn without any knowledge of the phonemes. An evaluation methodology is also proposed, whereby the state-sequence that aligns to a test utterance is transduced in an automatic manner to a phoneme-sequence and compared to its manual transcription. Over 85% phoneme recognition accuracy is demonstrated for speaker-dependent learning from fluent, large-vocabulary speech.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/710e/cffeb7681d2455410553eeb92ef2c8487373.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/710ecffeb7681d2455410553eeb92ef2c8487373"
     }
   ],

@@ -103,10 +103,10 @@ export default ({ paper, compact=false, searchWords=[] }) => {
                   alignItems="center"
                 >
                   <Pane width="16px" height="16px" marginRight={8} display="flex">
-                    <LinkIcon icon={link.type} style={{width:"100%", height: "100%", objectFit: "contain"}} />
+                    <LinkIcon icon={link.icon} style={{width:"100%", height: "100%", objectFit: "contain"}} />
                   </Pane>
                   <Pane flex={1} display="flex" justifyContent="flexStart" flexDirection="column">
-                    <Strong textAlign="left" size={300}>{link.title}</Strong>
+                    <Strong textAlign="left" size={300}>{link.resource}</Strong>
                   </Pane>
                 </Button>
               </a>

@@ -11,13 +11,13 @@
   "abstract": "We show via an equivalence of mathematical programs that a support vector (SV) algorithm can be translated into an equivalent boosting-like algorithm and vice versa. We exemplify this translation procedure for a new algorithm: one-class leveraging, starting from the one-class support vector machine (1-SVM). This is a first step toward unsupervised learning in a boosting framework. Building on so-called barrier methods known from the theory of constrained optimization, it returns a function, written as a convex combination of base hypotheses, that characterizes whether a given test point is likely to have been generated from the distribution underlying the training data. Simulations on one-class classification problems demonstrate the usefulness of our approach.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/a724/bb040771307571f3ae1233a115cd62bb52be.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/a724bb040771307571f3ae1233a115cd62bb52be"
     }
   ],

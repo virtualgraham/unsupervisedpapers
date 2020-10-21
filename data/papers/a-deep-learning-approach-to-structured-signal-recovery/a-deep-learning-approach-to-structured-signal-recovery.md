@@ -10,18 +10,18 @@
   "abstract": "In this paper, we develop a new framework for sensing and recovering structured signals. In contrast to compressive sensing (CS) systems that employ linear measurements, sparse representations, and computationally complex convex/greedy algorithms, we introduce a deep learning framework that supports both linear and mildly nonlinear measurements, that learns a structured representation from training data, and that efficiently computes a signal estimate. In particular, we apply a stacked denoising autoencoder (SDA), as an unsupervised feature learner. SDA enables us to capture statistical dependencies between the different elements of certain signals and improve signal recovery performance as compared to the CS approach.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1508.04065.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1508.04065"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/08ca35366a4708ead695497c82edf1401d1bbf27"
     }
   ],

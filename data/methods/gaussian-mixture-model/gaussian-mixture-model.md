@@ -11,18 +11,18 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "scikit-learn",
-      "type": "website",
+      "resource": "scikit-learn",
+      "icon": "website",
       "url": "https://scikit-learn.org/stable/modules/mixture.html"
     },
     {
-      "title": "Wikipeida",
-      "type": "wikipedia",
+      "resource": "Wikipeida",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Mixture_model"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95"
     }
   ],

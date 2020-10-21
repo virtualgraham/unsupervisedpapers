@@ -14,13 +14,13 @@
   "abstract": "We present a novel one-transistor/one-resistor (1T1R) synapse for neuromorphic networks, based on phase change memory (PCM) technology. The synapse is capable of spike-timing dependent plasticity (STDP), where gradual potentiation relies on set transition, namely crystallization, in the PCM, while depression is achieved via reset or amorphization of a chalcogenide active volume. STDP characteristics are demonstrated by experiments under variable initial conditions and number of pulses. Finally, we support the applicability of the 1T1R synapse for learning and recognition of visual patterns by simulations of fully connected neuromorphic networks with 2 or 3 layers with high recognition efficiency. The proposed scheme provides a feasible low-power solution for on-line unsupervised machine learning in smart reconfigurable sensors.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/721c/3b915673e5efe03275ddf8a6c3386060af34.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/721c3b915673e5efe03275ddf8a6c3386060af34"
     }
   ],

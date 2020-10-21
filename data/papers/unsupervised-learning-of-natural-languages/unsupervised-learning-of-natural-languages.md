@@ -11,13 +11,13 @@
   "abstract": "We address the problem, fundamental to linguistics, bioinformatics, and certain other disciplines, of using corpora of raw symbolic sequential data to infer underlying rules that govern their production. Given a corpus of strings (such as text, transcribed speech, chromosome or protein sequence data, sheet music, etc.), our unsupervised algorithm recursively distills from it hierarchically structured patterns. The adios (automatic distillation of structure) algorithm relies on a statistical method for pattern extraction and on structured generalization, two processes that have been implicated in language acquisition. It has been evaluated on artificial context-free grammars with thousands of rules, on natural languages as diverse as English and Chinese, and on protein data correlating sequence with function. This unsupervised algorithm is capable of learning complex syntax, generating grammatical novel sentences, and proving useful in other fields that call for structure discovery from raw data, such as bioinformatics.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://www.ncbi.nlm.nih.gov/pubmed/16087885"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/5afd4292f2b939e6cdff21f687d8acd7ea546c6b"
     }
   ],

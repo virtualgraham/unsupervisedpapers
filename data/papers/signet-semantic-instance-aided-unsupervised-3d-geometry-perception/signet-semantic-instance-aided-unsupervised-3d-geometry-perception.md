@@ -15,18 +15,18 @@
   "abstract": "Unsupervised learning for geometric perception (depth, optical flow, etc.) is of great interest to autonomous systems. Recent works on unsupervised learning have made considerable progress on perceiving geometry; however, they usually ignore the coherence of objects and perform poorly under scenarios with dark and noisy environments. In contrast, supervised learning algorithms, which are robust, require large labeled geometric dataset. This paper introduces SIGNet, a novel framework that provides robust geometry perception without requiring geometrically informative labels. Specifically, SIGNet integrates semantic information to make depth and flow predictions consistent with objects and robust to low lighting conditions. SIGNet is shown to improve upon the state-of-the-art unsupervised learning for depth prediction by 30% (in squared relative error). In particular, SIGNet improves the dynamic object class performance by 39% in depth prediction and 29% in flow prediction. Our code will be made available at https://github.com/mengyuest/SIGNet",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1812.05642.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1812.05642"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/2bf9aa0efed242697efcc8e475eba5c00fc2c5ee"
     }
   ],

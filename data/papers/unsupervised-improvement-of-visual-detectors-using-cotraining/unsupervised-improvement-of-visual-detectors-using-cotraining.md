@@ -10,13 +10,13 @@
   "abstract": "One significant challenge in the construction of visual detection systems is the acquisition of sufficient labeled data. We describe a new technique for training visual detectors which requires only a small quantity of labeled data, and then uses unlabeled data to improve performance over time. Unsupervised improvement is based on the cotraining framework of Blum and Mitchell, in which two disparate classifiers are trained simultaneously. Unlabeled examples which are confidently labeled by one classifier are added, with labels, to the training set of the other classifier. Experiments are presented on the realistic task of automobile detection in roadway surveillance video. In this application, cotraining reduces the false positive rate by a factor of 2 to 11 from the classifier trained with labeled data alone.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1238406"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/602b209fee5a93832a094be3c6e340b25abc8def"
     }
   ],

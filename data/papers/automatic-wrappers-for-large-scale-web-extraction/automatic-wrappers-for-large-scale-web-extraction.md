@@ -10,18 +10,18 @@
   "abstract": "We present a generic framework to make wrapper induction algorithms tolerant to noise in the training data. This enables us to learn wrappers in a completely unsupervised manner from automatically and cheaply obtained noisy training data, e.g., using dictionaries and regular expressions. By removing the site-level supervision that wrapper-based techniques require, we are able to perform information extraction at web-scale, with accuracy unattained with existing unsupervised extraction techniques. Our system is used in production at Yahoo! and powers live applications.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1103.2406.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1103.2406"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/65ec5824f6a997df0322827285ee691510b4527a"
     }
   ],

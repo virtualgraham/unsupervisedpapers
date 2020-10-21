@@ -9,18 +9,18 @@
   "abstract": "Given a single image x from domain A and a set of images from domain B, our task is to generate the analogous of x in B. We argue that this task could be a key AI capability that underlines the ability of cognitive agents to act in the world and present empirical evidence that the existing unsupervised domain translation methods fail on this task. Our method follows a two step process. First, a variational autoencoder for domain B is trained. Then, given the new sample x, we create a variational autoencoder for domain A by adapting the layers that are close to the image in order to directly fit x, and only indirectly adapt the other layers. Our experiments indicate that the new method does as well, when trained on one sample x, as the existing domain transfer methods, when these enjoy a multitude of training samples from domain A. Our code is made publicly available at this https URL",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1806.06029.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1806.06029"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/53542684507ff955dd6048c1abd8dd54c1e7bd2c"
     }
   ],

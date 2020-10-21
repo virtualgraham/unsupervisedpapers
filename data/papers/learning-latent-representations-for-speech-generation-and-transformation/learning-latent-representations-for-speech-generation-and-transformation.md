@@ -10,18 +10,18 @@
   "abstract": "An ability to model a generative process and learn a latent representation for speech in an unsupervised fashion will be crucial to process vast quantities of unlabelled speech data. Recently, deep probabilistic generative models such as Variational Autoencoders (VAEs) have achieved tremendous success in modeling natural images. In this paper, we apply a convolutional VAE to model the generative process of natural speech. We derive latent space arithmetic operations to disentangle learned latent representations. We demonstrate the capability of our model to modify the phonetic content or the speaker identity for speech segments using the derived operations, without the need for parallel supervisory data.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1704.04222.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1704.04222"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/4c20dff792bc447fab730e05f5e997694b67a11e"
     }
   ],

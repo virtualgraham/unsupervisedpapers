@@ -9,13 +9,13 @@
   "abstract": "This paper presents a comparative account of unsupervised and supervised learning models and their pattern classification evaluations as applied to the higher education scenario. Classification plays a vital role in machine based learning algorithms and in the present study, we found that, though the error back-propagation learning algorithm as provided by supervised learning model is very efficient for a number of non-linear real-time problems, KSOM of unsupervised learning model, offers efficient solution and classification in the present study.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://pdfs.semanticscholar.org/54a5/679a668d4942087aae79b31a7a8584553416.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/54a5679a668d4942087aae79b31a7a8584553416"
     }
   ],

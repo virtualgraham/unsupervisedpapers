@@ -10,8 +10,8 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Tokyo Institute of Technology",
-      "type": "pdf",
+      "resource": "Tokyo Institute of Technology",
+      "icon": "pdf",
       "url": "http://yosinski.com/mlss12/media/slides/MLSS-2012-Sugiyama-Density-Ratio-Estimation-in-Machine-Learning.pdf"
     }
   ],

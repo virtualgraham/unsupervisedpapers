@@ -9,13 +9,13 @@
   "abstract": "Presents a similarity-based agglomerative clustering (SBAC) algorithm that works well for data with mixed numeric and nominal features. A similarity measure proposed by D.W. Goodall (1966) for biological taxonomy, that gives greater weight to uncommon feature value matches in similarity computations and makes no assumptions about the underlying distributions of the feature values, is adopted to define the similarity measure between pairs of objects. An agglomerative algorithm is employed to construct a dendrogram, and a simple distinctness heuristic is used to extract a partition of the data. The performance of the SBAC algorithm has been studied on real and artificially-generated data sets. The results demonstrate the effectiveness of this algorithm in unsupervised discovery tasks. Comparisons with other clustering schemes illustrate the superior performance of this approach.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://doi.org/10.1109/TKDE.2002.1019208"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/317d67031e309fdb8df2969667d3c9e5ed7684ba"
     }
   ],

@@ -8,13 +8,13 @@
   "abstract": "This paper deals with the low-level joint processing of color and motion for robust face analysis within a feature-based approach. To gain robustness and contrast under unsupervised viewing conditions, a nonlinear color transform relevant for hue segmentation is derived from a logarithmic model. A hierarchical segmentation scheme is based on Markov random field modeling, that combines hue and motion detection within a spatiotemporal neighborhood. Relevant face regions are segmented without parameter tuning. The accuracy of the label fields enables not only face detection and tracking but also geometrical measurements on facial feature edges, such as lips or eyes. Results are shown both on typical test sequences and on various sequences acquired from micro- or mobile-cameras. The efficiency of the method makes it suitable for real-time applications aiming at audiovisual communication in unsupervised environments.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1262014"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/30c42dbc51637187073fc941dd670996134d7c56"
     }
   ],

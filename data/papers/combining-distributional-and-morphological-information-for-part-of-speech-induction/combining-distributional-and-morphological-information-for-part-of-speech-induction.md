@@ -8,13 +8,13 @@
   "abstract": "In this paper we discuss algorithms for clustering words into classes from unlabelled text using unsupervised algorithms, based on distributional and morphological information. We show how the use of morphological information can improve the performance on rare words, and that this is robust across a wide range of languages.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://aclweb.org/anthology/E/E03/E03-1009.pdf"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/1cd2289bf1ea95ab0b316ba4aee927b6c1406c0f"
     }
   ],

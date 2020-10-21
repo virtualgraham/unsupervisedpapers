@@ -12,18 +12,18 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/K-means_clustering"
     },
     {
-      "title": "K-means clustering: how it works",
-      "type": "youtube",
+      "resource": "K-means clustering: how it works",
+      "icon": "youtube",
       "url": "https://www.youtube.com/watch?v=_aWzGGNrcic"
     },
     {
-      "title": "Papers With Code",
-      "type": "paperswithcode",
+      "resource": "Papers With Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/method/k-means-clustering"
     }
   ]

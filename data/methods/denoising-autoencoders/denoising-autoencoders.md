@@ -10,13 +10,13 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/denoising-autoencoders-explained-dbb82467fc2"
     },
     {
-      "title": "PyImageSearch",
-      "type": "website",
+      "resource": "PyImageSearch",
+      "icon": "website",
       "url": "https://www.pyimagesearch.com/2020/02/24/denoising-autoencoders-with-keras-tensorflow-and-deep-learning/"
     }
   ],

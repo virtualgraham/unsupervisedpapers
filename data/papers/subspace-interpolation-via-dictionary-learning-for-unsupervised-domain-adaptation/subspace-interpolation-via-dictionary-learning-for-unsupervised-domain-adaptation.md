@@ -10,13 +10,13 @@
   "abstract": "Domain adaptation addresses the problem where data instances of a source domain have different distributions from that of a target domain, which occurs frequently in many real life scenarios. This work focuses on unsupervised domain adaptation, where labeled data are only available in the source domain. We propose to interpolate subspaces through dictionary learning to link the source and target domains. These subspaces are able to capture the intrinsic domain shift and form a shared feature representation for cross domain recognition. Further, we introduce a quantitative measure to characterize the shift between two domains, which enables us to select the optimal domain to adapt to the given multiple source domains. We present experiments on face recognition across pose, illumination and blur variations, cross dataset object recognition, and report improved performance over the state of the art.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6618939"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/6983c04754b0960fdb16c74f4fc9fd8bef6f2846"
     }
   ],

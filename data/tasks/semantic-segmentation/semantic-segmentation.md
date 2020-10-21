@@ -6,13 +6,13 @@
   "thumbnail": "semantic-segmentation.jpg",
   "links": [
     {
-      "title": "Papers With Code",
-      "type": "paperswithcode",
+      "resource": "Papers With Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/task/semantic-segmentation"
     },
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Image_segmentation"
     }
   ]

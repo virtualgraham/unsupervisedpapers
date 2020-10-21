@@ -12,18 +12,18 @@
   "abstract": "As spacecraft send back increasing amounts of telemetry data, improved anomaly detection systems are needed to lessen the monitoring burden placed on operations engineers and reduce operational risk. Current spacecraft monitoring systems only target a subset of anomaly types and often require costly expert knowledge to develop and maintain due to challenges involving scale and complexity. We demonstrate the effectiveness of Long Short-Term Memory (LSTMs) networks, a type of Recurrent Neural Network (RNN), in overcoming these issues using expert-labeled telemetry anomaly data from the Soil Moisture Active Passive (SMAP) satellite and the Mars Science Laboratory (MSL) rover, Curiosity. We also propose a complementary unsupervised and nonparametric anomaly thresholding approach developed during a pilot implementation of an anomaly detection system for SMAP, and offer false positive mitigation strategies along with other key improvements and lessons learned during development.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1802.04431.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1802.04431"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/67628543f7ae51979acadfbb8860568b25f263da"
     }
   ],

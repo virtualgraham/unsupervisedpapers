@@ -11,23 +11,24 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Autoencoder"
     },
     {
-      "title": "Papers with Code",
-      "type": "paperswithcode",
+      "resource": "Papers with Code",
+      "icon": "paperswithcode",
       "url": "https://paperswithcode.com/method/autoencoder"
     },
     {
-      "title": "Towards Data Science",
-      "type": "website",
+      "resource": "Towards Data Science",
+      "icon": "website",
       "url": "https://towardsdatascience.com/auto-encoder-what-is-it-and-what-is-it-used-for-part-1-3e5c6f017726"
     },
     {
-      "title": "Stanford UFLDL",
-      "type": "website",
+      "title": "Autoencoders Tutorial",
+      "resource": "Stanford UFLDL",
+      "icon": "website",
       "url": "http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/"
     }
   ],

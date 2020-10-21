@@ -11,18 +11,18 @@
   "introduced_by": null,
   "links": [
     {
-      "title": "Wikipedia",
-      "type": "wikipedia",
+      "resource": "Wikipedia",
+      "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Bag-of-words_model_in_computer_vision"
     },
     {
-      "title": "Towards Data Science",
-      "type": "article",
+      "resource": "Towards Data Science",
+      "icon": "article",
       "url": "https://towardsdatascience.com/bag-of-visual-words-in-a-nutshell-9ceea97ce0fb"
     },
     {
-      "title": "Stanford CS131 Lecture Slides",
-      "type": "pdf",
+      "resource": "Stanford CS131 Lecture Slides",
+      "icon": "pdf",
       "url": "http://vision.stanford.edu/teaching/cs131_fall1718/files/14_BoW_bayes.pdf"
     }
   ]

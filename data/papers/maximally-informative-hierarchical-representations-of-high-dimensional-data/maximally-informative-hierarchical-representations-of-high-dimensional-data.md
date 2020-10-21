@@ -9,18 +9,18 @@
   "abstract": "We consider a set of probabilistic functions of some input variables as a representation of the inputs. We present bounds on how informative a representation is about input data. We extend these bounds to hierarchical representations so that we can quantify the contribution of each layer towards capturing the information in the original data. The special form of these bounds leads to a simple, bottom-up optimization procedure to construct hierarchical representations that are also maximally informative about the data. This optimization has linear computational complexity and constant sample complexity in the number of variables. These results establish a new approach to unsupervised learning of deep representations that is both principled and practical. We demonstrate the usefulness of the approach on both synthetic and real-world data.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "https://arxiv.org/pdf/1410.7404.pdf"
     },
     {
-      "title": "arXiv.org",
-      "type": "arxiv",
+      "resource": "arXiv.org",
+      "icon": "arxiv",
       "url": "https://arxiv.org/abs/1410.7404"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/0c38f69414c2a34dda4478294d0f26af6558e050"
     }
   ],

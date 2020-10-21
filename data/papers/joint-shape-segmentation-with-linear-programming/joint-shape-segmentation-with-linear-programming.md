@@ -10,13 +10,13 @@
   "abstract": "We present an approach to segmenting shapes in a heterogenous shape database. Our approach segments the shapes jointly, utilizing features from multiple shapes to improve the segmentation of each. The approach is entirely unsupervised and is based on an integer quadratic programming formulation of the joint segmentation problem. The program optimizes over possible segmentations of individual shapes as well as over possible correspondences between segments from multiple shapes. The integer quadratic program is solved via a linear programming relaxation, using a block coordinate descent procedure that makes the optimization feasible for large databases. We evaluate the presented approach on the Princeton segmentation benchmark and show that joint shape segmentation significantly outperforms single-shape segmentation techniques.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://dl.acm.org/citation.cfm?id=2024159"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/96d910f52ded9b350a3c1e70ba03b8e332f1319d"
     }
   ],

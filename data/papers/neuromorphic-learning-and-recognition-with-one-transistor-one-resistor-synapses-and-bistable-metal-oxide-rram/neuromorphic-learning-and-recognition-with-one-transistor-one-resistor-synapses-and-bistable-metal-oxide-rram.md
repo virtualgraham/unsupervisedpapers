@@ -15,13 +15,13 @@
   "abstract": "Resistive switching memory (RRAM) has been proposed as an artificial synapse in neuromorphic circuits due to its tunable resistance, low power operation, and scalability. For the development of high-density neuromorphic circuits, it is essential to validate the state-of-the-art bistable RRAM and to introduce small-area building blocks serving as artificial synapses. This paper introduces a new synaptic circuit consisting of a one-transistor/one-resistor structure, where the resistive element is a HfO2 RRAM with bipolar switching. The spike-timing-dependent plasticity is demonstrated in both the deterministic and stochastic regimes of the RRAM. Finally, a fully connected neuromorphic network is simulated showing online unsupervised pattern learning and recognition for various voltages of the POST spike. The results support bistable RRAM for high-performance artificial synapses in neuromorphic circuits.",
   "links": [
     {
-      "title": "PDF",
-      "type": "pdf",
+      "resource": "PDF",
+      "icon": "pdf",
       "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7423754"
     },
     {
-      "title": "Semantic Scholar",
-      "type": "semanticscholar",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/cd087fbefad20eafcbe30b8fabe78bf9543578d8"
     }
   ],
