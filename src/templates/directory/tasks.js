@@ -36,7 +36,7 @@ export default ({ data, pageContext, location }) => {
           marginLeft="auto"
           marginRight="auto"
         >
-          <Heading color="white" size={900}>Tasks</Heading>
+          <Heading color="white" size={900}>Unsupervised Tasks</Heading>
         </Pane>
       )}
     >
@@ -51,18 +51,16 @@ export default ({ data, pageContext, location }) => {
         marginLeft="auto"
         marginRight="auto"
       >
-
-        <Helmet title={`Tasks | ${config.siteTitle}`} />
         <Helmet>
-          <title>{`Tasks | ${config.siteTitle}`}</title>
+          <title>{`Unsupervised Tasks | ${config.siteTitle}`}</title>
           <meta name="description" content="Browse Unsupervised Learning Tasks" />
 
-          <meta name="og:title" content={`Tasks | ${config.siteTitle}`} />
+          <meta name="og:title" content={`Unsupervised Tasks | ${config.siteTitle}`} />
           <meta name="og:description" content="Browse Unsupervised Learning Tasks" />
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
           <meta name="og:image" content={`${config.siteUrl}/tasks.jpg`} />
 
-          <meta name="twitter:title" content={`Tasks | ${config.siteTitle}`} />
+          <meta name="twitter:title" content={`Unsupervised Tasks | ${config.siteTitle}`} />
           <meta name="twitter:description" content="Browse Unsupervised Learning Tasks" />
           <meta name="twitter:image" content={`${config.siteUrl}/tasks.jpg`} />
         </Helmet>

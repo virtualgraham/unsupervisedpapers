@@ -35,7 +35,7 @@ export default  ({ data, pageContext, location }) => {
           marginLeft="auto"
           marginRight="auto"
         >
-          <Heading color="white" size={900}>Methods</Heading>
+          <Heading color="white" size={900}>Unsupervised Methods</Heading>
         </Pane>
       )}
     >
@@ -51,7 +51,7 @@ export default  ({ data, pageContext, location }) => {
         marginRight="auto"
       >
         <Helmet>
-          <title>{`Methods | ${config.siteTitle}`}</title>
+          <title>{`Unsupervised Methods | ${config.siteTitle}`}</title>
           <meta name="description" content="Browse Unsupervised Learning Methods" />
 
           <meta name="og:title" content={`Methods | ${config.siteTitle}`} />
@@ -59,7 +59,7 @@ export default  ({ data, pageContext, location }) => {
           <meta name="og:url" content={`${config.siteUrl}${location.pathname}`} />
           <meta name="og:image" content={`${config.siteUrl}/methods.jpg`} />
 
-          <meta name="twitter:title" content={`Methods | ${config.siteTitle}`} />
+          <meta name="twitter:title" content={`Unsupervised Methods | ${config.siteTitle}`} />
           <meta name="twitter:description" content="Browse Unsupervised Learning Methods" />
           <meta name="twitter:image" content={`${config.siteUrl}/methods.jpg`} />
         </Helmet>
