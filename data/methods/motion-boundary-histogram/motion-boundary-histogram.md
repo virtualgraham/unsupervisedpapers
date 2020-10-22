@@ -8,7 +8,14 @@
   ],
   "components": [],
   "introduced_by": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Human Detection Using Oriented Histograms of Flow and Appearance",
+      "resource": "Semantic Scholar",
+      "icon": "semanticscholar",
+      "url": "https://www.semanticscholar.org/paper/Human-Detection-Using-Oriented-Histograms-of-Flow-Dalal-Triggs/44f3ac3277c2eb6e5599739eb875888c46e21d4c"
+    }
+  ],
   "thumbnail": "motion-boundary-histogram-thumb.jpg",
   "card": "motion-boundary-histogram-card.jpg",
   "also_known_as": [
