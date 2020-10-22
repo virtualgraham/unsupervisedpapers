@@ -11,16 +11,19 @@
   "introduced_by": null,
   "links": [
     {
+      "title": "Autoencoder",
       "resource": "Wikipedia",
       "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Autoencoder"
     },
     {
+      "title": "Autoencoder",
       "resource": "Papers with Code",
       "icon": "paperswithcode",
       "url": "https://paperswithcode.com/method/autoencoder"
     },
     {
+      "title": "Auto-Encoder: What Is It? And What Is It Used For?",
       "resource": "Towards Data Science",
       "icon": "website",
       "url": "https://towardsdatascience.com/auto-encoder-what-is-it-and-what-is-it-used-for-part-1-3e5c6f017726"

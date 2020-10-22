@@ -23,7 +23,6 @@
   ]
 }
 ---
-
 Histogram of Oriented Gradients is a feature descriptor that uses histograms of directions of gradients at localized portions of an image as features. 
 
-Image Source [researchgate.net](https://www.researchgate.net/figure/Histogram-of-Oriented-Gradients-of-the-face_fig4_51586877)
+Image source: [researchgate.net](https://www.researchgate.net/figure/Histogram-of-Oriented-Gradients-of-the-face_fig4_51586877)

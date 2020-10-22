@@ -26,7 +26,7 @@
     "keyword-extraction"
   ],
   "methods": [
-    "graph-of-words"
+    "text-rank"
   ],
   "thumbnail": "a-graph-degeneracy-based-approach-to-keyword-extraction-thumb.jpg",
   "card": "a-graph-degeneracy-based-approach-to-keyword-extraction-card.jpg",
