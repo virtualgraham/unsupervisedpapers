@@ -8,6 +8,9 @@
   ],
   "components": [],
   "introduced_by": null,
+  "also_known_as": [
+    "DNN"
+  ],
   "links": [
     {
       "resource": "Wikipedia",

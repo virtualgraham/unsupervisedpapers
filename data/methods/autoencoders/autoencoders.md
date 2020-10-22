@@ -43,4 +43,4 @@ An **autoencoder** neural network is an unsupervised learning algorithm that app
 The autoencoder tries to learn a function $\textstyle h_{W,b}(x) \approx x$. In other words, it is trying to learn an approximation to the identity function, so as to output $\textstyle \hat{x}$ that is similar to $\textstyle x$. The identity function seems a particularly trivial function to be trying to learn; but by placing constraints on the network, such as by limiting the number of hidden units, we can discover interesting structure about the data.  
 
 Source: [UFLDL Tutorial](http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/)  
-Image source: [Sethi et al., 2018](https://arxiv.org/pdf/1803.07386.pdf)
+Image source: [Residual Codean Autoencoder for Facial Attribute Analysis](https://www.semanticscholar.org/paper/Residual-Codean-Autoencoder-for-Facial-Attribute-Sethi-Singh/0f62e96e7f5ff992dd56d5e80628777ec3a9a347) [[PDF](https://arxiv.org/pdf/1803.07386.pdf)]  

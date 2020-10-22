@@ -17,6 +17,7 @@ export default ({ data, pageContext, location }) => {
     title: data.markdownRemark.frontmatter.title,
     year: data.markdownRemark.frontmatter.title,
     links: data.markdownRemark.frontmatter.links,
+    also_known_as: data.markdownRemark.frontmatter.also_known_as,
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     papers: pageContext.papers,
     tasks: pageContext.tasks,
@@ -94,8 +95,15 @@ export default ({ data, pageContext, location }) => {
           </Pane>
           
 
-          <Heading size={800} marginBottom={25}>{method.title}</Heading>
-
+          <Heading size={800} marginBottom={method.also_known_as && method.also_known_as.length > 0 ? 5 : 25}>{method.title}</Heading>
+          { method.also_known_as && method.also_known_as.length > 0 && (
+            <Pane marginBottom={25}>
+              <Text>Also known as </Text>
+              {method.also_known_as.map((title, index) => (
+                <Text>{(index > 0 ? ', ' : '') + title}</Text>
+              ))}
+            </Pane>
+          )}
           <Pane
             className="entry-columns"
             display="flex"
@@ -210,6 +218,7 @@ export const query = graphql`
         area
         title
         year
+        also_known_as
         links {
           url
           icon

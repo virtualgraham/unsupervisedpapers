@@ -19,4 +19,4 @@
   "card": "speech-recognition-card.jpg"
 }
 ---
-Image source: [Hou et al., 2017](https://arxiv.org/ftp/arxiv/papers/1703/1703.10893.pdf)
+Image Source: [Audio-Visual Speech Enhancement Using Multimodal Deep Convolutional Neural Networks](https://www.semanticscholar.org/paper/Audio-Visual-Speech-Enhancement-Using-Multimodal-Hou-Wang/ddf1461979a5e39321b931cfe5b470999b5e4aab) [[PDF](https://arxiv.org/ftp/arxiv/papers/1703/1703.10893.pdf)]  

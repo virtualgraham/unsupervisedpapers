@@ -23,4 +23,4 @@
   ]
 }
 ---
-Image Source: [Pimentel et al., 2020](https://arxiv.org/pdf/1805.09411.pdf)
+Image Source: [Deep Active Learning for Anomaly Detection](https://www.semanticscholar.org/paper/Deep-Active-Learning-for-Anomaly-Detection-Pimentel-Monteiro/84decafe8d2077a999b165c93162e9044480b9f9) [[PDF](https://arxiv.org/pdf/1805.09411.pdf)]  

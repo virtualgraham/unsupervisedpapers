@@ -20,6 +20,9 @@
       "icon": "wikipedia",
       "url": "https://en.wikipedia.org/wiki/Principal_component_analysis"
     }
+  ],
+  "also_known_as": [
+    "PCA"
   ]
 }
 ---

@@ -19,4 +19,4 @@
   "card": null
 }
 ---
-[Tzeng et al., 2017](https://arxiv.org/pdf/1702.05464.pdf)
+Image Source: [Adversarial Discriminative Domain Adaptation](https://www.semanticscholar.org/paper/Adversarial-Discriminative-Domain-Adaptation-Tzeng-Hoffman/345afa0e85cb2f5cb438ae44027499ff2c392409) [[PDF](https://arxiv.org/pdf/1702.05464.pdf)]  

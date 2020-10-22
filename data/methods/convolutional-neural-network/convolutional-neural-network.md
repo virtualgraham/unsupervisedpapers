@@ -8,6 +8,10 @@
   ],
   "components": [],
   "introduced_by": null,
+  "also_known_as": [
+    "CNN",
+    "ConvNet"
+  ],
   "links": [
     {
       "resource": "Wikipedia",
@@ -31,4 +35,4 @@ CNNs are regularized versions of multilayer perceptrons. Multilayer perceptrons 
 Convolutional networks were inspired by biological processes in that the connectivity pattern between neurons resembles the organization of the animal visual cortex. Individual cortical neurons respond to stimuli only in a restricted region of the visual field known as the receptive field. The receptive fields of different neurons partially overlap such that they cover the entire visual field. 
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Convolutional_neural_network)  
-Image source: [Perez et al., 2019](https://arxiv.org/ftp/arxiv/papers/1908/1908.04392.pdf)
+Image source: [Deep Learning for Detecting Building Defects Using Convolutional Neural Networks](https://www.semanticscholar.org/paper/Deep-Learning-for-Detecting-Building-Defects-Using-Perez-Tah/e3637c09ad323908a7655cc1a8120f02335cd464) [[PDF](https://arxiv.org/ftp/arxiv/papers/1908/1908.04392.pdf)]  

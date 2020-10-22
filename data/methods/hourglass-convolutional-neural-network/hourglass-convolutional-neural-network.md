@@ -45,6 +45,5 @@ The network must have some mechanism to effectively process and consolidate feat
 The hourglass is set up as follows: Convolutional and max pooling layers are used to process features down to a very low resolution. At each max pooling step, the network branches off and applies more convolutions at the original pre-pooled resolution. After reaching the lowest resolution, the network begins the top-down sequence of upsampling and combination of features across scales. To bring together information across two adjacent resolutions, we do nearest neighbor upsampling of the lower resolution followed by an elementwise addition of the two sets of features. The topology of the hourglass is symmetric, so for every layer present on the way down there is a corresponding layer going up.
 
 After reaching the output resolution of the network, two consecutive rounds of 1x1 convolutions are applied to produce the final network predictions. The output of the network is a set of heatmaps where for a given heatmap the network predicts the probability of a joint’s presence at each and every pixel.
-
-Source: [Newell et al., 2016](https://arxiv.org/pdf/1603.06937v2.pdf)  
-Image source: [Newell et al., 2016](https://arxiv.org/pdf/1603.06937v2.pdf)  
+ 
+Source, Image Source: [Stacked Hourglass Networks for Human Pose Estimation](https://www.semanticscholar.org/paper/Stacked-Hourglass-Networks-for-Human-Pose-Newell-Yang/848938e6199bad08f1db6f3239b260cfa901e95f) [[PDF](https://arxiv.org/pdf/1603.06937v2.pdf)]  

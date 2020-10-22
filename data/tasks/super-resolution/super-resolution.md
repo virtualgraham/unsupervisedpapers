@@ -19,4 +19,4 @@
   "card": "super-resolution-card.jpg"
 }
 ---
-Image source: [Wang et al., 2017](https://arxiv.org/ftp/arxiv/papers/1708/1708.07029.pdf)
+Image Source: [Fast single image super-resolution based on sigmoid transformation](https://www.semanticscholar.org/paper/Fast-single-image-super-resolution-based-on-sigmoid-Wang-Lin/d77cf839f7d665b8f4b717b76ab1ffe458c81467) [[PDF](https://arxiv.org/ftp/arxiv/papers/1708/1708.07029.pdf)]  

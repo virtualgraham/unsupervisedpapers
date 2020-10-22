@@ -8,6 +8,10 @@
   ],
   "components": [],
   "introduced_by": null,
+  "also_known_as": [
+    "Soft clustering",
+    "Soft k-means"
+  ],
   "links": [
     {
       "resource": "Wikipeida",

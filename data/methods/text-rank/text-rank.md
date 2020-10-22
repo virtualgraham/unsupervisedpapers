@@ -31,5 +31,4 @@
 ---
 TextRank is a graph-based ranking model for text processing.
 
-Source: [Mihalcea et al., 2004](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf)  
-Image source: [Mihalcea et al., 2004](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf)  
+Source, Image Source: [TextRank: Bringing Order into Texts](https://www.semanticscholar.org/paper/TextRank%3A-Bringing-Order-into-Texts-Mihalcea-Tarau/6c0bd61249e7834b451404fe21647ca5730848c7) [[PDF](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf)]  

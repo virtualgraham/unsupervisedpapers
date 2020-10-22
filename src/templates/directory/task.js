@@ -15,6 +15,7 @@ export default ({ data, pageContext, location }) => {
     area: data.markdownRemark.frontmatter.area,
     title: data.markdownRemark.frontmatter.title,
     links: data.markdownRemark.frontmatter.links,
+    also_known_as: data.markdownRemark.frontmatter.also_known_as,
     thumbnail: data.markdownRemark.frontmatter.thumbnail ? data.markdownRemark.frontmatter.thumbnail.publicURL : config.defaultThumbnail,
     papers: pageContext.papers,
     filtered_papers: pageContext.papers,
@@ -88,7 +89,15 @@ export default ({ data, pageContext, location }) => {
           </Pane>
           
 
-          <Heading size={800} marginBottom={10}>{task.title}</Heading>
+          <Heading size={800} marginBottom={5}>{task.title}</Heading>
+          { task.also_known_as && task.also_known_as.length > 0 && (
+            <Pane marginBottom={5}>
+              <Text>Also known as </Text>
+              {task.also_known_as.map((title, index) => (
+                <Text>{(index > 0 ? ', ' : '') + title}</Text>
+              ))}
+            </Pane>
+          )}
           <Pane marginBottom={25}>
             <Text>{utils.decodeKebobCase(task.area)}</Text> &#8226; <Text>{task.papers.length} Papers</Text>
           </Pane>
@@ -156,6 +165,7 @@ export const query = graphql`
         area
         title
         parent_task
+        also_known_as
         links {
           url
           icon

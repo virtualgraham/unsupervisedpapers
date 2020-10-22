@@ -14,4 +14,4 @@
   "card": "image-segmentation-card.jpg"
 }
 ---
-Image source: [Zhao et al., 2018](https://arxiv.org/pdf/1612.01810.pdf)
+Image Source: [FLIC: Fast linear iterative clustering with active search](https://www.semanticscholar.org/paper/FLIC%3A-Fast-linear-iterative-clustering-with-active-Zhao-Bo/3bf1bf853e360bfe3cec53fd2a2244633a8ea64a) [[PDF](https://arxiv.org/pdf/1612.01810.pdf)]  

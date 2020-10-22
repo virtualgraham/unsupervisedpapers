@@ -31,13 +31,13 @@
   "thumbnail": "graphical-models-thumb.jpg",
   "card": "graphical-models-card.jpg",
   "also_known_as": [
-    "probabilistic graphical model",
-    "pgm",
-    "structured probabilistic model"
+    "Probabilistic graphical model",
+    "PGM",
+    "Structured probabilistic model"
   ]
 }
 ---
 Graphical models, a marriage between probability theory and graph theory, provide a natural tool for dealing with two problems that occur throughout applied mathematics and engineering—uncertainty and complexity. In particular, they play an increasingly important role in the design and analysis of machine learning algorithms. Fundamental to the idea of a graphical model is the notion of modularity: a complex system is built by combining simpler parts. Probability theory serves as the glue whereby the parts are combined, ensuring that the system as a whole is consistent and providing ways to interface models to data. Graph theory provides both an intuitively appealing interface by which humans can model highly interacting sets of variables and a data structure that lends itself naturally to the design of efficient general-purpose algorithms.
 
-Source: [Jordan, 1999](https://mitpress.mit.edu/books/learning-graphical-models)  
+Source: [Learning in Graphical Models](https://mitpress.mit.edu/books/learning-graphical-models)  
 Image source: [Wikipedia](https://en.wikipedia.org/wiki/Graphical_model#/media/File:Graph_model.svg)

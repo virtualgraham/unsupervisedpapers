@@ -29,6 +29,9 @@ export default ({ icon, style }) => {
     } else if (icon === "youtube") {
         src = '/link_icons/youtube.svg'
         alt = "YouTube"
+    } else if (icon === "semanticscholar") {
+        src = '/link_icons/semanticscholar.svg'
+        alt = "YouTube"
     } else {
         src = '/link_icons/www.svg'
         alt = "www"

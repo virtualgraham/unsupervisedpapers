@@ -3,7 +3,9 @@
   "area": "general",
   "title": "Linear Gaussian state space models",
   "year": null,
-  "categories": [],
+  "categories": [
+    "generative-models"
+  ],
   "components": [],
   "introduced_by": null,
   "links": [],
@@ -24,4 +26,4 @@ pγ(a,z|u) =pγ(a|z)pγ(z|u) =∏Tt=1pγt(at|zt)·p(z1)∏Tt=2pγt(zt|zt−1,ut)
 $$$
 where $γ= [γ1,..,γT]$. LGSSMs have very appealing properties: the filtered and smoothed posteriors $p(zt|a1:t,u1:t)$ and $p(zt|a,u)$ can be computed exactly with the classical Kalman filter and smoother algorithms, and provide a natural way to handle missing data.  
 
-Source: [Fraccaro et al., 2017](https://arxiv.org/pdf/1710.05741.pdf)
+Source: [A Disentangled Recognition and Nonlinear Dynamics Model for Unsupervised Learning](https://www.semanticscholar.org/paper/A-Disentangled-Recognition-and-Nonlinear-Dynamics-Fraccaro-Kamronn/0d150431c662d7ddc18afa8648e684db25db7d78) [[PDF](https://arxiv.org/pdf/1710.05741.pdf)]  

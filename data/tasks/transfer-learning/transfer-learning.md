@@ -19,4 +19,4 @@
   "card": "transfer-learning-card.jpg"
 }
 ---
-Image source: [Lemley et al., 2017](http://ceur-ws.org/Vol-1964/NN1.pdf)
+Image Source: [Transfer Learning of Temporal Information for Driver Action Classification](https://www.semanticscholar.org/paper/Transfer-Learning-of-Temporal-Information-for-Lemley-Bazrafkan/5d12bf1bd56dd07c62304336143fb0d783a4a36d) [[PDF](http://ceur-ws.org/Vol-1964/NN1.pdf)]  

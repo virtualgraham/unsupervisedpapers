@@ -33,7 +33,7 @@
     "object-co-localization"
   ],
   "methods": [
-    "measure-of-objectiveness",
+    "measure-of-objectness",
     "scale-invariant-feature-transform",
     "contrast-based-saliency"
   ],

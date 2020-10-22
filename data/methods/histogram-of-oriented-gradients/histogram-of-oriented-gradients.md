@@ -9,6 +9,9 @@
   "components": [],
   "thumbnail": "histogram-of-oriented-gradients.jpg",
   "introduced_by": null,
+  "also_known_as": [
+    "HOG"
+  ],
   "links": [
     {
       "resource": "Learn OpenCV",

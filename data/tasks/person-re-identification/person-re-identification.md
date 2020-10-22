@@ -19,4 +19,4 @@
   "card": "person-re-identification-card.jpg"
 }
 ---
-Image source: [Lavi et al., 2018](https://arxiv.org/pdf/1807.05284.pdf)
+Image Source: [Survey on Deep Learning Techniques for Person Re-Identification Task](https://www.semanticscholar.org/paper/Survey-on-Deep-Learning-Techniques-for-Person-Task-Lavi-Serj/7b6b49adf60d56d1b33b428fdf66aff7426fca6e) [[PDF](https://arxiv.org/pdf/1807.05284.pdf)]  

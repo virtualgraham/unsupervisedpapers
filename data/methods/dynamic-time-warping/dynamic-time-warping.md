@@ -9,6 +9,9 @@
   "components": [],
   "thumbnail": "dynamic-time-warping-thumb.jpg",
   "introduced_by": null,
+  "also_known_as": [
+    "DTW"
+  ],
   "links": [
     {
       "resource": "Wikipedia",

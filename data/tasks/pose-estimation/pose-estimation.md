@@ -14,4 +14,4 @@
   "card": "pose-estimation-card.jpg"
 }
 ---
-Image source: [Cao et al., 2019](https://arxiv.org/pdf/1812.08008.pdf)
+Image Source: [OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.](https://www.semanticscholar.org/paper/OpenPose%3A-Realtime-Multi-Person-2D-Pose-Estimation-Cao-Martinez/30e85b1651b1d2b726e71e2747d09b187bbd045a) [[PDF](https://arxiv.org/pdf/1812.08008.pdf)]  
