@@ -33,9 +33,9 @@
     "object-detection"
   ],
   "methods": [
-    "non-rigid-part-model",
     "gaussian-mixture-model",
-    "support-vector-machine"
+    "support-vector-machine",
+    "part-based-models"
   ],
   "thumbnail": "a-feature-learning-and-object-recognition-framework-for-underwater-fish-images-thumb.jpg",
   "card": "a-feature-learning-and-object-recognition-framework-for-underwater-fish-images-card.jpg",

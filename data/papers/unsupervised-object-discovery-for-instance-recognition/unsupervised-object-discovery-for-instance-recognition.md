@@ -40,7 +40,8 @@
   ],
   "methods": [
     "convolutional-neural-network-layer-activations",
-    "gaussian-mixture-model"
+    "gaussian-mixture-model",
+    "part-based-models"
   ],
   "thumbnail": "unsupervised-object-discovery-for-instance-recognition-thumb.jpg",
   "card": "unsupervised-object-discovery-for-instance-recognition-card.jpg",

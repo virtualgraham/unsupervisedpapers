@@ -44,7 +44,6 @@
     "object-localization"
   ],
   "methods": [
-    "part-based-region-matching",
     "histogram-of-oriented-gradients",
     "randomized-prims-algorithm",
     "hough-transform",

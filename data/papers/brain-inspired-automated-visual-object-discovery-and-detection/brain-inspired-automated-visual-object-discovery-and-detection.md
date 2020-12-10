@@ -50,11 +50,11 @@
     "one-class-classification"
   ],
   "methods": [
-    "spring-network-model",
     "histogram-of-oriented-gradients",
     "k-means-clustering",
     "principal-component-analysis",
-    "markov-random-field"
+    "markov-random-field",
+    "part-based-models"
   ],
   "thumbnail": "brain-inspired-automated-visual-object-discovery-and-detection-thumb.jpg",
   "card": "brain-inspired-automated-visual-object-discovery-and-detection-card.jpg",
