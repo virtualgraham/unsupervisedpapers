@@ -18,13 +18,14 @@ function truncate( str, n ){
   };
 
 function linkListToDict(links) {
-    return links.reduce((a,l) => {
-        if (!a.hasOwnProperty(l.type)) {
-            a[l.type] = []
+    const d = links.reduce((a,l) => {
+        if (!a.hasOwnProperty(l.icon)) {
+            a[l.icon] = []
         }
-        a[l.type].push(l)
+        a[l.icon].push(l)
         return a
     }, {})
+    return d
 }
 
 export default {
