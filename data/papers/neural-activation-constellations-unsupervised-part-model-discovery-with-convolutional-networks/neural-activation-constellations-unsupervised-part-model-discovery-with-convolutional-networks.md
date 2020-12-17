@@ -19,14 +19,39 @@
       "url": "https://arxiv.org/abs/1504.08289"
     },
     {
+      "title": " cvjena / part_constellation_models ",
+      "resource": "GitHub",
+      "description": "",
+      "icon": "github",
+      "url": "https://github.com/cvjena/part_constellation_models"
+    },
+    {
       "resource": "Semantic Scholar",
       "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/e704f7b9f0b7218715888b7b6f23960245588d02"
+    },
+    {
+      "title": "",
+      "resource": "Project Site",
+      "description": "",
+      "icon": "website",
+      "url": "http://www.inf-cv.uni-jena.de/constellation_model_revisited"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "fine-grained-recognition",
+    "image-classification",
+    "object-detection"
+  ],
+  "methods": [
+    "part-based-models",
+    "constellation-model",
+    "convolutional-neural-network-layer-activations",
+    "support-vector-machine"
+  ],
   "thumbnail": "neural-activation-constellations-unsupervised-part-model-discovery-with-convolutional-networks-thumb.jpg",
   "card": "neural-activation-constellations-unsupervised-part-model-discovery-with-convolutional-networks-card.jpg",
   "s2_paper_id": "e704f7b9f0b7218715888b7b6f23960245588d02"

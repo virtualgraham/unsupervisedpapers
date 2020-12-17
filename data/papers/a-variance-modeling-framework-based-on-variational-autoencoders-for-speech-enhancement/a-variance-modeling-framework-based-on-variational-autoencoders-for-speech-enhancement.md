@@ -1,6 +1,6 @@
 ---
 {
-  "title": "A VARIANCE MODELING FRAMEWORK BASED ON VARIATIONAL AUTOENCODERS FOR SPEECH ENHANCEMENT",
+  "title": "A Variance Modeling Framework Based On Variational Autoencoders for Speech Enhancement",
   "date": "2018-09-17",
   "authors": [
     "Simon Leglaive",

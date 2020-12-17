@@ -1,6 +1,6 @@
 ---
 {
-  "title": "A SPECTRAL APPROACH INTEGRATING FUNCTIONAL GENOMIC ANNOTATIONS FOR CODING AND NONCODING VARIANTS",
+  "title": "A Spectral Approach Integrating Functional Genomic Annotations for Coding and Noncoding Variants",
   "date": "2015-12-03",
   "authors": [
     "I. Ionita-Laza",

@@ -22,11 +22,24 @@
       "resource": "Semantic Scholar",
       "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/ff332c21562c87cab5891d495b7d0956f2d9228b"
+    },
+    {
+      "title": "",
+      "resource": "Project Site",
+      "description": "",
+      "icon": "website",
+      "url": "https://worldmodels.github.io/"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "reinforcement-learning"
+  ],
+  "methods": [
+    "variational-autoencoder"
+  ],
   "thumbnail": "world-models-thumb.jpg",
   "card": "world-models-card.jpg",
   "s2_paper_id": "ff332c21562c87cab5891d495b7d0956f2d9228b"

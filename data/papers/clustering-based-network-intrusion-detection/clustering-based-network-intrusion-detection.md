@@ -1,6 +1,6 @@
 ---
 {
-  "title": "CLUSTERING-BASED NETWORK INTRUSION DETECTION",
+  "title": "Clustering-Based Network Intrusion Detection",
   "date": "2007-04-01",
   "authors": [
     "Shi Zhong",

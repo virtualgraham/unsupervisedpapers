@@ -41,10 +41,19 @@
     }
   ],
   "supervision": [
-    "unsupervised"
+    "unsupervised",
+    "self-supervised"
   ],
-  "tasks": [],
-  "methods": [],
+  "tasks": [
+    "object-part-discovery",
+    "object-discovery",
+    "image-segmentation"
+  ],
+  "methods": [
+    "part-based-models",
+    "capsule-neural-network",
+    "optical-flow"
+  ],
   "thumbnail": "unsupervised-part-representation-by-flow-capsules-thumb.jpg",
   "card": "unsupervised-part-representation-by-flow-capsules-card.jpg",
   "s2_paper_id": "01a17af53eb629878ec9757086f344bb042730c9"

@@ -1,6 +1,6 @@
 ---
 {
-  "title": "UNSUPERVISED FILTERING OF COLOR SPECTRA",
+  "title": "Unsupervised Filtering of Color Spectra",
   "date": "1996-07-01",
   "authors": [
     "R. Lenz",

@@ -26,9 +26,16 @@
       "url": "https://www.semanticscholar.org/paper/2435542be8698eca136ea2c8e1812cfe12132e21"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "image-classification",
+    "object-detection"
+  ],
+  "methods": [
+    "convolutional-neural-network-layer-activations"
+  ],
   "thumbnail": "cnn-features-are-also-great-at-unsupervised-classification-thumb.jpg",
   "card": "cnn-features-are-also-great-at-unsupervised-classification-card.jpg",
   "s2_paper_id": "2435542be8698eca136ea2c8e1812cfe12132e21"

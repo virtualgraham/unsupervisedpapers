@@ -1,6 +1,6 @@
 ---
 {
-  "title": "An Automatic  ${\\cal U}$-Distribution and Markov Random Field Segmentation Algorithm for PolSAR Images",
+  "title": "An Automatic  U-Distribution and Markov Random Field Segmentation Algorithm for PolSAR Images",
   "date": "2015-04-01",
   "authors": [
     "A. Doulgeris"
