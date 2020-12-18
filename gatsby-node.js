@@ -613,7 +613,7 @@ async function createDirectoryPages(graphql, actions) {
       date: method.introduced_by.frontmatter.date,
       authors: method.introduced_by.frontmatter.authors,
       abstract: method.introduced_by.frontmatter.abstract,
-      thumbnail: introduced_by.frontmatter.thumbnail ? method.introduced_by.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
+      thumbnail: method.introduced_by.frontmatter.thumbnail ? method.introduced_by.frontmatter.thumbnail.publicURL : siteConfig.defaultThumbnail,
       links: method.introduced_by.frontmatter.links,
     } : null
 
