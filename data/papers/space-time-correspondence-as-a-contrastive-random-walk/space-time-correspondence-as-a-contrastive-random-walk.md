@@ -56,8 +56,16 @@
     "unsupervised",
     "self-supervised"
   ],
-  "tasks": [],
-  "methods": [],
+  "tasks": [
+    "visual-representation-learning",
+    "object-part-discovery",
+    "pose-tracking"
+  ],
+  "methods": [
+    "random-walk",
+    "contrastive-learning",
+    "convolutional-neural-network"
+  ],
   "thumbnail": "space-time-correspondence-as-a-contrastive-random-walk-thumb.jpg",
   "card": "space-time-correspondence-as-a-contrastive-random-walk-card.jpg",
   "s2_paper_id": "c78b00f2abbf7523a860e717f767b0bb8f860143"

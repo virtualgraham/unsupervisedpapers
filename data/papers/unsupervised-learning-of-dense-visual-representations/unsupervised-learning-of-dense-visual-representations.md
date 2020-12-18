@@ -43,8 +43,15 @@
   "supervision": [
     "unsupervised"
   ],
-  "tasks": [],
-  "methods": [],
+  "tasks": [
+    "visual-representation-learning",
+    "semantic-segmentation",
+    "depth-estimation"
+  ],
+  "methods": [
+    "convolutional-neural-network",
+    "feature-pyramid-networks"
+  ],
   "thumbnail": "unsupervised-learning-of-dense-visual-representations-thumb.jpg",
   "card": "unsupervised-learning-of-dense-visual-representations-card.jpg",
   "s2_paper_id": "c27d7b284842696fd6b4e69d36e8a322ec1bcfa9"

@@ -35,8 +35,14 @@
   "supervision": [
     "unsupervised"
   ],
-  "tasks": [],
-  "methods": [],
+  "tasks": [
+    "object-landmark-discovery"
+  ],
+  "methods": [
+    "hourglass-convolutional-neural-network",
+    "super-point",
+    "k-means-clustering"
+  ],
   "thumbnail": "unsupervised-learning-of-object-landmarks-via-self-training-correspondence-thumb.jpg",
   "card": "unsupervised-learning-of-object-landmarks-via-self-training-correspondence-card.jpg",
   "s2_paper_id": "233a6d7b06ca54d9167da0a3f43b05b5681891ec"

@@ -23,11 +23,26 @@
       "resource": "Semantic Scholar",
       "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/79e14a09ff070e06ab9df598ccd885b929164ef9"
+    },
+    {
+      "title": "MishaLaskin / curl",
+      "resource": "GitHub",
+      "description": "",
+      "icon": "github",
+      "url": "https://github.com/MishaLaskin/curl"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "self-supervised"
+  ],
+  "tasks": [
+    "reinforcement-learning",
+    "visual-representation-learning"
+  ],
+  "methods": [
+    "convolutional-neural-network",
+    "momentum-contrast"
+  ],
   "thumbnail": "curl-contrastive-unsupervised-representations-for-reinforcement-learning-thumb.jpg",
   "card": "curl-contrastive-unsupervised-representations-for-reinforcement-learning-card.jpg",
   "s2_paper_id": "79e14a09ff070e06ab9df598ccd885b929164ef9"

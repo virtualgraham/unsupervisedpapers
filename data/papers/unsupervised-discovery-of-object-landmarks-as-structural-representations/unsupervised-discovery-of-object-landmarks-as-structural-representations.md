@@ -23,14 +23,35 @@
       "url": "https://arxiv.org/abs/1804.04412"
     },
     {
+      "title": " YutingZhang / lmdis-rep",
+      "resource": "GitHub",
+      "description": "",
+      "icon": "github",
+      "url": "https://github.com/YutingZhang/lmdis-rep"
+    },
+    {
+      "title": "",
+      "resource": "Project Page",
+      "description": "",
+      "icon": "website",
+      "url": "http://www.ytzhang.net/projects/lmdis-rep/"
+    },
+    {
       "resource": "Semantic Scholar",
       "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/a92c833d4d9d53812a1da342a5f599d4679f0ce1"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "object-landmark-discovery"
+  ],
+  "methods": [
+    "hourglass-convolutional-neural-network",
+    "thin-plate-spline"
+  ],
   "thumbnail": "unsupervised-discovery-of-object-landmarks-as-structural-representations-thumb.jpg",
   "card": "unsupervised-discovery-of-object-landmarks-as-structural-representations-card.jpg",
   "s2_paper_id": "a92c833d4d9d53812a1da342a5f599d4679f0ce1"

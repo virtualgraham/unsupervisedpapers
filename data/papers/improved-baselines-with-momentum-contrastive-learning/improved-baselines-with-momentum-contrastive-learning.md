@@ -26,9 +26,17 @@
       "url": "https://www.semanticscholar.org/paper/a1b8a8df281bbaec148a897927a49ea47ea31515"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "self-supervised",
+    "unsupervised"
+  ],
+  "tasks": [
+    "visual-representation-learning"
+  ],
+  "methods": [
+    "contrastive-learning",
+    "momentum-contrast"
+  ],
   "thumbnail": "improved-baselines-with-momentum-contrastive-learning-thumb.jpg",
   "card": "improved-baselines-with-momentum-contrastive-learning-card.jpg",
   "s2_paper_id": "a1b8a8df281bbaec148a897927a49ea47ea31515"
