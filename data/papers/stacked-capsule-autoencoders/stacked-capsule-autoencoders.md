@@ -21,14 +21,58 @@
       "url": "https://arxiv.org/abs/1906.06818"
     },
     {
+      "title": "Stacked Capsule Autoencoders",
+      "resource": "Papers with Code",
+      "description": "",
+      "icon": "paperswithcode",
+      "url": "https://paperswithcode.com/paper/stacked-capsule-autoencoders"
+    },
+    {
+      "title": "akosiorek / stacked_capsule_autoencoders",
+      "resource": "GitHub",
+      "description": "",
+      "icon": "github",
+      "url": "https://github.com/akosiorek/stacked_capsule_autoencoders"
+    },
+    {
+      "title": "bdsaglam / torch-scae",
+      "resource": "GitHub",
+      "description": "",
+      "icon": "github",
+      "url": "https://github.com/bdsaglam/torch-scae"
+    },
+    {
+      "title": "Stacked Capsule Autoencoders",
+      "resource": "Adam Kosiorek",
+      "description": "",
+      "icon": "website",
+      "url": "http://akosiorek.github.io/ml/2019/06/23/stacked_capsule_autoencoders.html"
+    },
+    {
+      "title": "Stacked Capsule Autoencoders",
+      "resource": "YouTube",
+      "description": "",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/watch?v=Cc1DEY12r5E"
+    },
+    {
       "resource": "Semantic Scholar",
       "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/46c53faeaf2f52215adb165559c5ce056a71146b"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "self-supervised"
+  ],
+  "tasks": [
+    "object-classification"
+  ],
+  "methods": [
+    "autoencoders",
+    "capsule-neural-network",
+    "convolutional-neural-network",
+    "set-transformer"
+  ],
   "thumbnail": "stacked-capsule-autoencoders-thumb.jpg",
   "card": "stacked-capsule-autoencoders-card.jpg",
   "s2_paper_id": "46c53faeaf2f52215adb165559c5ce056a71146b"

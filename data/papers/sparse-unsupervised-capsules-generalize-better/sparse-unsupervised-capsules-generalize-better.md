@@ -20,14 +20,34 @@
       "url": "https://arxiv.org/abs/1804.06094"
     },
     {
+      "title": "Sparse Unsupervised Capsules Generalize Better",
+      "resource": "Papers with Code",
+      "description": "",
+      "icon": "paperswithcode",
+      "url": "https://paperswithcode.com/paper/sparse-unsupervised-capsules-generalize"
+    },
+    {
+      "title": "Cerenaut / sparse-unsupervised-capsules",
+      "resource": "GitHub",
+      "description": "",
+      "icon": "github",
+      "url": "https://github.com/Cerenaut/sparse-unsupervised-capsules"
+    },
+    {
       "resource": "Semantic Scholar",
       "icon": "semanticscholar",
       "url": "https://www.semanticscholar.org/paper/fb9943dc99b00d3870dc2ae02005e8f047d0f1e3"
     }
   ],
-  "supervision": [],
-  "tasks": [],
-  "methods": [],
+  "supervision": [
+    "unsupervised"
+  ],
+  "tasks": [
+    "object-classification"
+  ],
+  "methods": [
+    "capsule-neural-network"
+  ],
   "thumbnail": "sparse-unsupervised-capsules-generalize-better-thumb.jpg",
   "card": "sparse-unsupervised-capsules-generalize-better-card.jpg",
   "s2_paper_id": "fb9943dc99b00d3870dc2ae02005e8f047d0f1e3"

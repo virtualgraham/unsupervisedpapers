@@ -3,7 +3,7 @@
   "area": "computer-vision",
   "title": "Visual Representation Learning",
   "also_known_as": [],
-  "parent_task": null,
+  "parent_task": "representation-learning",
   "links": [
     {
       "title": "Self-Supervised Representation learning",
