@@ -1,14 +1,16 @@
-# Unsupervised Papers
+# Unsupervised Papers  
 
-UnsupervisedPapers.com is an open-source directory of papers on unsupervised machine learning and related topics with links to resources such as code, websites and videos. 
+[Unsupervised Papers](http://unsupervisedpapers.com/) is an open-source directory of unsupervised machine learning papers, tasks and methods with links to articles, websites, videos and code.
+  
+  
+## Contributing  
 
-# Contributing
+Submissions of new entries as well as updates and corrections to existing entries are welcome. Contributions are made through GitHub pull requests. All the data for the directory are contained in the `/data` folder hierarchy. You can simply fork this repository, add or revise the markdown files in the `/data` directory, then submit a pull request. The [Unsupervised Papers Data GUI](https://github.com/virtualgraham/unsupervised-papers-data-gui) is a desktop graphical user interface that is being developed to simplify editing the contents of the data directory.
+  
+  
+## Data Organization  
 
-Submissions of new entries as well as updates and corrections to existing entries are welcome. Contributions are made through GitHub pull requests. All the data for the directory are contained in the `/data` folder hierarchy in markdown and image files. You can simply fork this repository, add or revise the markdown files in the `/data` directory, then submit a pull request.
-
-## Data Organization
-
-Markdown Frontmatter Schema 
+Markdown Frontmatter Schema  
 ```
 ##########
 # papers #

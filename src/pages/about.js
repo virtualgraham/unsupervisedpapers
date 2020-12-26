@@ -50,7 +50,7 @@ export default ({location}) => (
         flexDirection="column"
       >
         <Heading size={700}>What is Unsupervised Papers?</Heading>
-        <Paragraph size={500} marginTop="1em" marginBottom="2em">Unsupervised Papers is an open-source directory of unsupervised machine learning papers with links to resources such as code, websites and videos.</Paragraph>
+        <Paragraph size={500} marginTop="1em" marginBottom="2em">Unsupervised Papers is an open-source directory of unsupervised machine learning papers, tasks and methods with links to articles, websites, videos and code.</Paragraph>
 
         <Heading size={700}>Who is Unsupervised Papers for?</Heading>
         <Paragraph size={500} marginTop="1em" marginBottom="2em">It is intended to serve a few audiences in particular. First the machine learning researcher or practitioner who would like a quick reference to the state of the art in unsupervised methods will find this site useful. Also, this will be an invaluable tool for students and educators to assist with in-depth research into the field. And lastly, it will be a great resource for hackers and ameture artificial intelligence enthusiasts to dip their toe into what promises to be a field with a very exciting future.</Paragraph>
@@ -63,7 +63,7 @@ export default ({location}) => (
         <ul>
           <li><Text size={500}>Are primally focused on unsupervised or self-supervised learning methods or cited as components to these methods.</Text></li>
           <li><Text size={500}>Has a freely available PDF file of the full text</Text></li>
-          <li><Text size={500}>Can be found in arxiv.org or Google Scholar</Text></li>
+          <li><Text size={500}>Is in the <a href="https://www.semanticscholar.org/">Semantic Scholar</a> corpus</Text></li>
         </ul>
         
 
